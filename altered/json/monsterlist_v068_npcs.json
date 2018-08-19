@@ -1,0 +1,52 @@
+[
+    {
+        "id":"dunla",
+        "name":"Dunla",
+        "iconID":"monsters_rogue1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dunla",
+        "phraseID":"dunla_default",
+        "droplistID":"shop_dunla"
+    },
+    {
+        "id":"troublemaker",
+        "name":"Troublemaker",
+        "iconID":"monsters_men:8",
+        "monsterClass":"humanoid",
+        "spawnGroup":"troublemaker",
+        "phraseID":"troublemaker_selector",
+        "droplistID":"shop_troublemaker"
+    },
+    {
+        "id":"umar",
+        "name":"Umar",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"umar",
+        "phraseID":"umar_select_1"
+    },
+    {
+        "id":"ambelie",
+        "name":"Ambelie",
+        "iconID":"monsters_men:6",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ambelie",
+        "phraseID":"ambelie_selector"
+    },
+    {
+        "id":"feygard_patrol_captain",
+        "name":"Feygard patrol captain",
+        "iconID":"monsters_men:3",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ff_captain",
+        "phraseID":"ff_captain_1"
+    },
+    {
+        "id":"feygard_patrol",
+        "name":"Feygard patrol",
+        "iconID":"monsters_rltiles3:14",
+        "monsterClass":"humanoid",
+        "spawnGroup":"ff_guard",
+        "phraseID":"ff_guard_1"
+    }
+]

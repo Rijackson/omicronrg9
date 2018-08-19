@@ -1,0 +1,19 @@
+[
+    {
+        "id":"fanamor",
+        "name":"Fanamor",
+        "iconID":"monsters_men:7",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"fanamor",
+        "phraseID":"fanamor_selector"
+    },
+    {
+        "id":"crossroads_guard",
+        "name":"Guard",
+        "iconID":"monsters_rltiles1:76",
+        "monsterClass":"humanoid",
+        "spawnGroup":"crossroads_guard",
+        "phraseID":"crossroads_guard"
+    }
+]

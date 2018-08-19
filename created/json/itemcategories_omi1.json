@@ -1,0 +1,8 @@
+[
+    {
+        "id":"healing",
+        "name":"Healing utility",
+        "actionType":"use",
+        "size":"none"
+    }
+]

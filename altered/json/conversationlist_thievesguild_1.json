@@ -1,0 +1,31 @@
+[
+    {
+        "id":"thievesguild_troublemaker_1",
+        "message":"Hello. Don't I recognize you from somewhere?",
+        "replies":[
+            {
+                "text":"No, I'm sure we have never met.",
+                "nextPhraseID":"thievesguild_troublemaker_3"
+            },
+            {
+                "text":"What do you do around here?",
+                "nextPhraseID":"thievesguild_troublemaker_2"
+            },
+            {
+                "text":"Can I take a look at what supplies you have available?",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Umar sent me to talk about my first job here.",
+                "nextPhraseID":"troublemaker_guild_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    }
+]

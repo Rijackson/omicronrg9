@@ -1,0 +1,10 @@
+[
+    {
+        "id":"leta",
+        "name":"Leta",
+        "iconID":"monsters_men:2",
+        "monsterClass":"humanoid",
+        "spawnGroup":"leta",
+        "phraseID":"leta1"
+    }
+]

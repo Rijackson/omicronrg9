@@ -1,0 +1,63 @@
+[
+    {
+        "id":"fanamor_6",
+        "message":"This is my hiding spot! Now leave me.",
+        "replies":[
+            {
+                "text":"Umar sent me with the words \"You are no one.No one knows you.No one has seen you.\" Now give me the journal please.",
+                "nextPhraseID":"fanamor_guild_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fanamor",
+        "message":"Yikes! You scared me there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fanamor_1"
+            }
+        ]
+    },
+    {
+        "id":"crossroads_guard",
+        "replies":[
+            {
+                "nextPhraseID":"crossroads_guild03_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"crossroads_guard_r_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"crossroads_guard_1"
+            }
+        ]
+    }
+]
