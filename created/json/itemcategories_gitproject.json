@@ -1,0 +1,9 @@
+[
+    {
+        "id":"gauntlet",
+        "name":"Gauntlet",
+        "actionType":"equip",
+        "size":"light",
+        "inventorySlot":"hand"
+    }
+]
