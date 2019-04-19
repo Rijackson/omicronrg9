@@ -1,8 +1,8 @@
 [
     {
-        "id":"Resting",
+        "id":"guild03_restingAC",
         "iconID":"actorconditions_omi1:0",
-        "name":"guild03_restingAC",
+        "name":"Resting",
         "category":"physical",
         "isPositive":1,
         "roundEffect":{

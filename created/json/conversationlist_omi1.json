@@ -2360,7 +2360,7 @@
         "rewards":[
             {
                 "rewardType":"actorCondition",
-                "rewardID":"Resting",
+                "rewardID":"guild03_restingAC",
                 "value":1
             }
         ]

@@ -211,7 +211,12 @@
     <property name="place" value="East"/>
    </properties>
   </object>
-  <object name="North" type="mapchange" x="160" y="128" width="32" height="32"/>
+  <object name="North" type="mapchange" x="160" y="128" width="32" height="32">
+   <properties>
+    <property name="map" value="crackshot_hideout3"/>
+    <property name="place" value="South"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="deadpatrol_g03_1" type="spawn" x="192" y="576" width="32" height="32">

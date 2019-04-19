@@ -147,7 +147,7 @@
         "hasManualPrice":1,
         "baseMarketCost":5000,
         "category":"neck",
-        "description":"The gemstone that Ambelie gave to me as an exchange for her life.",
+        "description":"The gemstone that Ambelie gave me in exchange for her life.",
         "equipEffect":{
             "increaseMaxHP":5
         }

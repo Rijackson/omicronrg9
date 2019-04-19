@@ -1,7 +1,7 @@
 [
     {
         "id":"healing",
-        "name":"Healing utility",
+        "name":"Healing item",
         "actionType":"use",
         "size":"none"
     }
