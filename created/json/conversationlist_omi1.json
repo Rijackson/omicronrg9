@@ -295,7 +295,12 @@
         "message":"So you're one of us.Take my journal.",
         "replies":[
             {
-                "text":"Thank you."
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"S"
             }
         ],
         "rewards":[
@@ -344,17 +349,6 @@
                 "text":"N",
                 "nextPhraseID":"feygard_scout_1"
             }
-        ]
-    },
-    {
-        "id":"feygard_scout_1",
-        "message":"Halt! I've catched you people!",
-        "switchToNPC":"feygard_scout",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"fanamor_guild_3"
-            }
         ],
         "rewards":[
             {
@@ -366,6 +360,17 @@
                 "rewardType":"spawnAll",
                 "rewardID":"feygard_scout",
                 "mapName":"crossroads"
+            }
+        ]
+    },
+    {
+        "id":"feygard_scout_1",
+        "message":"Halt! I've catched you people!",
+        "switchToNPC":"feygard_scout",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fanamor_guild_3"
             }
         ]
     },
@@ -555,7 +560,6 @@
                 ]
             },
             {
-                "text":"",
                 "nextPhraseID":"fanamor"
             }
         ]
@@ -853,7 +857,8 @@
                 "nextPhraseID":"troublemaker_guild_12a"
             },
             {
-                "text":"Yes...So where is my reward?"
+                "text":"Yes...So where is my reward?",
+                "nextPhraseID":"troublemaker_guild_12a"
             }
         ]
     },

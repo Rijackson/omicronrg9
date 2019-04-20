@@ -4,7 +4,7 @@
         "name":"Feygard scout",
         "iconID":"monsters_omi1:0",
         "maxHP":83,
-        "maxAP":0,
+        "maxAP":10,
         "moveCost":5,
         "unique":1,
         "monsterClass":"humanoid",
@@ -13,7 +13,7 @@
             "min":6,
             "max":11
         },
-        "spawnGroup":"FeygardS",
+        "spawnGroup":"feygard_scout",
         "phraseID":"feygard_scout_3",
         "droplistID":"Feygard_scout",
         "attackCost":5,
