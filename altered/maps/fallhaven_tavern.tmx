@@ -205,9 +205,6 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <properties>
-   <property name="active" value="false"/>
-  </properties>
   <object name="entrance" type="mapchange" x="160" y="320" width="32" height="32">
    <properties>
     <property name="map" value="fallhaven_nw"/>

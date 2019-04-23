@@ -1644,7 +1644,8 @@
                 "nextPhraseID":"troublemaker_guild02_4"
             },
             {
-                "text":"I've entered here without any problem,Why I would have problems crossing the town?"
+                "text":"I've entered here without any problem,Why I would have problems crossing the town?",
+                "nextPhraseID":"troublemaker_guild02_4"
             }
         ]
     },
@@ -4038,6 +4039,13 @@
             {
                 "text":"They will probably kill me if I go back without you.",
                 "nextPhraseID":"ambelie_guild02_17b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves02",
+                "value":21
             }
         ]
     },
