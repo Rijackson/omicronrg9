@@ -291,7 +291,7 @@
                 ]
             },
             {
-                "text":"N",
+                "text":"I have to talk to you about the noblewoman.",
                 "nextPhraseID":"umar_guild02_28",
                 "requires":[
                     {
@@ -315,11 +315,6 @@
                         "requireID":"Thieves02",
                         "value":30,
                         "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves02",
-                        "value":25
                     }
                 ]
             },
@@ -330,7 +325,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves02",
-                        "value":25
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
@@ -365,7 +360,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves02",
-                        "value":25,
+                        "value":15,
                         "negate":true
                     }
                 ]
@@ -388,7 +383,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves02",
-                        "value":25,
+                        "value":15,
                         "negate":true
                     }
                 ]

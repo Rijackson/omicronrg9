@@ -1308,6 +1308,18 @@
                         "value":80
                     }
                 ]
+            },
+            {
+                "text":"(I would like to bribe the captain, but I must have at least 1000 Gold) I will come back later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -1358,6 +1370,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ambelie_guild02_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":24
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ambelie_guild02_10",
                 "requires":[
                     {
@@ -1369,7 +1392,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"ambelie_guil02_16b",
+                "nextPhraseID":"ambelie_guild02_16b",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1462,7 +1485,7 @@
                 "value":20
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"ambelie",
                 "mapName":"foaming_flask"
             },
@@ -1481,13 +1504,6 @@
                 "text":"But I really need to pass!",
                 "nextPhraseID":"Feygard_BG_guild02_2a"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves02",
-                "value":25
-            }
         ]
     },
     {
@@ -1497,9 +1513,6 @@
             {
                 "text":"Ok,thank you anyway.",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"[---Not finished---]"
             }
         ]
     },
@@ -1715,8 +1728,18 @@
     },
     {
         "id":"guild02_hatchlever",
-        "message":"",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guild02_hatchlever_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":50
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"guild02_hatchlever_2a",
@@ -1782,45 +1805,24 @@
     },
     {
         "id":"guild02_hatchlever_3a",
-        "message":"You insert the key inside the lock.You can hear strange noises and creaks when you turn the key.You make an effort,and finally the heavy chain falls on the floor,freeing the mechanism.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"guild02_hatchlever_4"
-            }
-        ],
+        "message":"You insert the key inside the lock.You can hear strange noises and creaks when you turn the key.You make an effort,and finally the heavy chain falls on the floor,freeing the mechanism.\n\nWhen you trigger the lever,the floor starts trembling,and eventually a hole appears in the place,or rather a hatch which leads downstairs.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"Thieves02",
                 "value":50
-            }
-        ]
-    },
-    {
-        "id":"guild02_hatchlever_4",
-        "message":"When you trigger the lever,the floor starts trembling,and eventually a hole appears in the place,or rather a hatch which leads downstairs.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
+            },
             {
                 "rewardType":"activateMapObjectGroup",
-                "rewardID":"hatchway",
+                "rewardID":"Mapevents2",
                 "mapName":"fallhaven_gravedigger"
             }
         ]
     },
     {
         "id":"guild02_door_1",
-        "message":"You force the door till it opens brusquely.",
+        "message":"This cell looks like the right place for a hostage.",
         "replies":[
-            {
-                "text":"Close the door and leave.",
-                "nextPhraseID":"X"
-            },
             {
                 "text":"Put Ambelie inside the room.",
                 "nextPhraseID":"guild02_door_2",
@@ -1836,43 +1838,17 @@
     },
     {
         "id":"guild02_door_2",
-        "message":"You leave Ambelie slept in the bed of the cell.",
-        "replies":[
-            {
-                "text":"Try to wake her up.",
-                "nextPhraseID":"guild02_door_3a"
-            },
-            {
-                "text":"Leave and close the door.",
-                "nextPhraseID":"guild02_door_3b"
-            }
-        ],
+        "message":"You leave Ambelie in the cell and close the door.",
         "rewards":[
             {
                 "rewardType":"spawnAll",
                 "rewardID":"Ambelie",
                 "mapName":"guildbrig2"
-            }
-        ]
-    },
-    {
-        "id":"guild02_door_3b",
-        "message":"You slam the door and look again to Ambelie.She's still unconsicious,or sleeping.\n",
-        "rewards":[
+            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"Thieves02",
                 "value":55
-            }
-        ]
-    },
-    {
-        "id":"guild02_door_3a",
-        "message":"You shake Ambelie daintly,but She seems to be still unconsicious.",
-        "replies":[
-            {
-                "text":"Leave the place and close the door.",
-                "nextPhraseID":"guild02_door_3b"
             }
         ]
     },
@@ -3995,7 +3971,7 @@
         ]
     },
     {
-        "id":"ambelie_guil02_16b",
+        "id":"ambelie_guild02_16b",
         "message":"You! Don't go any further, leave me!",
         "replies":[
             {
@@ -4069,11 +4045,11 @@
         "replies":[
             {
                 "text":"It has been a pleasure, mademosielle.",
-                "nextPhraseID":"R"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Sure, thank you.",
-                "nextPhraseID":"R"
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -4086,6 +4062,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"Thieves02",
                 "value":24
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"Feygard_BG",
+                "mapName":"road1"
             }
         ]
     },

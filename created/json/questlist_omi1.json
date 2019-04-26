@@ -99,10 +99,6 @@
                 "logText":"Ambelie gave me a very valuable neckace.Now I must talk with Umar and persuade him to don't pursue her."
             },
             {
-                "progress":25,
-                "logText":"It seems there has been a murder not so far of the tavern.Road is going to be closed until they catch the criminal.I need to search another way to arrive Fallhaven."
-            },
-            {
                 "progress":30,
                 "logText":"I've brought Ambelie to the basement safely.However, hiding her here can be a rashness.",
                 "rewardExperience":1200

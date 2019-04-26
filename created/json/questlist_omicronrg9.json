@@ -1,0 +1,12 @@
+[
+    {
+        "id":"thieves_hidden",
+        "name":"Thieves Hidden",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Must be never fulfilled"
+            }
+        ]
+    }
+]
