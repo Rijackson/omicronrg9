@@ -30,7 +30,7 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn",
         "spawnGroup":"Feygard_BG",
-        "phraseID":"Feygard_BG_guild02_1"
+        "phraseID":"Feygard_BG_selector"
     },
     {
         "id":"unknown",
