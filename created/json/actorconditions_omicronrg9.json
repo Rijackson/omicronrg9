@@ -1,0 +1,16 @@
+[
+    {
+        "id":"carrying_ambelie",
+        "iconID":"actorconditions_1:14",
+        "name":"Carrying Ambelie",
+        "category":"physical",
+        "abilityEffect":{
+            "increaseAttackDamage":{
+                "min":-1,
+                "max":-1
+            },
+            "increaseMoveCost":2,
+            "increaseAttackCost":2
+        }
+    }
+]
