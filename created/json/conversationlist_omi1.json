@@ -1254,21 +1254,21 @@
     },
     {
         "id":"ambelie_guild02_1",
-        "message":"Why? I don't know you,commoner,why I'm going to trust on a savage kid?",
+        "message":"Why? I don't know you, commoner, why would I be willing to trust a savage looking kid?",
         "replies":[
             {
-                "text":"But I'm not a commoner! I'm a...Feygard spy.This clothes are for infiltrating purposes!",
+                "text":"But I'm not a commoner! I'm a...Feygard spy. These clothes are my disguise!",
                 "nextPhraseID":"ambelie_guild02_2"
             },
             {
-                "text":"I'm stronger than this smug guards.",
+                "text":"I'm stronger than those smug guards.",
                 "nextPhraseID":"ambelie_guild02_2"
             }
         ]
     },
     {
         "id":"ambelie_guild02_2",
-        "message":"Anyway,I prefer to stay in this place for now. Get away from me!",
+        "message":"Anyway, I prefer to stay in this place for now. Get away from me!",
         "replies":[
             {
                 "text":"Hmpf...Goodbye",
