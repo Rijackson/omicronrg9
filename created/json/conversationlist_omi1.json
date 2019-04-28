@@ -1493,6 +1493,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"Feygard_BG",
                 "mapName":"road1"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"carrying_ambelie",
+                "value":999
             }
         ]
     },
@@ -1849,6 +1854,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"Thieves02",
                 "value":55
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"carrying_ambelie",
+                "value":-99
             }
         ]
     },
@@ -1892,8 +1902,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"Thieves02",
-                        "value":60,
+                        "requireID":"Thieves03",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -1911,7 +1921,15 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"ambelie_guild02_7b"
+                "nextPhraseID":"ambelie_guild02_7b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -2274,17 +2292,17 @@
                 "mapName":"fallhaven_nw"
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"fallhaven_citizen1",
                 "mapName":"fallhaven_nw"
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"fallhaven_citizen2",
                 "mapName":"fallhaven_nw"
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"fallhaven_citizen4",
                 "mapName":"fallhaven_nw"
             },
@@ -2297,12 +2315,7 @@
     },
     {
         "id":"guild03_rest1",
-        "message":"(You take off your bag and catch the blanket.This bed is more comfortable than you thought,but that's maybe because you are really exhausted.Finally you blow out the candle in the room and slip in the bed.)",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ],
+        "message":"(You take off your bag and catch the blanket.This bed is more comfortable than you thought,but that's maybe because you are really exhausted.Finally you blow out the candle in the room. You should go to the bed now.) ",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2328,7 +2341,7 @@
     },
     {
         "id":"guild03_rest2",
-        "message":"«Umar spoke me clearly.Sleep,then come back.I should do what he said.»"
+        "message":"«Umar spoke me clearly.Sleep,then come back.I should do what he said and go to bed.»"
     },
     {
         "id":"guild03_rest3",
@@ -2897,12 +2910,7 @@
     },
     {
         "id":"crossroads_guild03_3",
-        "message":"Now go away kid,I'm working!",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"Now go away kid,I'm working!"
     },
     {
         "id":"benbyr_guild03_1",

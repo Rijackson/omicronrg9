@@ -290,28 +290,28 @@
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object name="guild03_restkey1" type="key" x="32" y="128" width="32" height="32">
+  <object name="guild03_restkey1" type="key" x="0" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="guild03_rest0a"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object name="guild03_restkey2" type="key" x="32" y="416" width="32" height="96">
+  <object name="guild03_restkey2" type="key" x="0" y="448" width="32" height="64">
    <properties>
     <property name="phrase" value="guild03_rest0a"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object name="guild03_restkey3" type="key" x="256" y="896" width="32" height="32">
+  <object name="guild03_restkey3" type="key" x="256" y="928" width="32" height="32">
    <properties>
     <property name="phrase" value="guild03_rest0b"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
   <object name="guild03_restkey4" type="key" x="320" y="192" width="96" height="32">
@@ -319,7 +319,7 @@
     <property name="phrase" value="guild03_rest0c"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
   <object name="guild03_restkey5" type="key" x="736" y="288" width="96" height="32">
@@ -327,7 +327,7 @@
     <property name="phrase" value="guild03_rest0c"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
   <object name="guild03_restkey6" type="key" x="128" y="704" width="96" height="32">
@@ -335,7 +335,7 @@
     <property name="phrase" value="guild03_rest0c"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
   <object name="guild03_restkey7" type="key" x="768" y="832" width="96" height="32">
@@ -343,7 +343,7 @@
     <property name="phrase" value="guild03_rest0c"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
   <object name="guild03_restkey8" type="key" x="640" y="576" width="96" height="32">
@@ -351,15 +351,15 @@
     <property name="phrase" value="guild03_rest0c"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object name="guild03_restkey9" type="key" x="896" y="832" width="32" height="64">
+  <object name="guild03_restkey9" type="key" x="928" y="864" width="32" height="32">
    <properties>
     <property name="phrase" value="guild03_rest0b"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
   <object name="guild03_restkey10" type="key" x="416" y="800" width="32" height="64">
@@ -367,15 +367,15 @@
     <property name="phrase" value="guild03_rest0c"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
-  <object name="guild03_restkey11" type="key" x="896" y="416" width="32" height="64">
+  <object name="guild03_restkey11" type="key" x="928" y="416" width="32" height="64">
    <properties>
     <property name="phrase" value="guild03_rest0c"/>
     <property name="requireId" value="Thieves03"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="2"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
  </objectgroup>

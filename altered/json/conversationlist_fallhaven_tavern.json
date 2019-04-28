@@ -1,0 +1,40 @@
+[
+    {
+        "id":"bela_room_1",
+        "message":"A room will cost you only 10 gold.",
+        "replies":[
+            {
+                "text":"[Buy for 10 gold]",
+                "nextPhraseID":"bela_room_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I really need to rest but I don't have 10 gold. I will wash the dishes. [Wash the dishes]",
+                "nextPhraseID":"bela_room_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"bela"
+            }
+        ]
+    }
+]
