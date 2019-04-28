@@ -519,7 +519,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"Fanamorbleeding",
-                        "value":300
+                        "value":120
                     },
                     {
                         "requireType":"questProgress",
@@ -689,7 +689,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"Thieves01",
-                "value":46
+                "value":51
             }
         ]
     },
