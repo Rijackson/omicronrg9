@@ -53,6 +53,13 @@
                 "text":"N",
                 "nextPhraseID":"umar_guild_4a"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves01",
+                "value":5
+            }
         ]
     },
     {
@@ -71,13 +78,6 @@
                 "text":"I need some time to think about it.",
                 "nextPhraseID":"umar_guild_5b"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves01",
-                "value":5
-            }
         ]
     },
     {
@@ -92,11 +92,7 @@
                 "text":"Anything else?",
                 "nextPhraseID":"umar_guild_6b"
             }
-        ]
-    },
-    {
-        "id":"umar_guild_6a",
-        "message":"Fine,I will keep an eye on you.",
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -104,6 +100,10 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"umar_guild_6a",
+        "message":"Fine,I will keep an eye on you."
     },
     {
         "id":"umar_guild_6b",
@@ -220,7 +220,7 @@
     },
     {
         "id":"troublemaker_guild_8a",
-        "message":"Good.We have 3 people in the job.\nThe first one is Fanamor,watching around Crossroads Guardhouse.\nOne of our veteran spies,Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally another spy in Crossglen,Leta.I believe you know her.",
+        "message":"Good.We have 3 people in the job.\nThe first one is a spy in Crossglen,Leta.I believe you know her.\nOne of our veteran spies,Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally we have Fanamor,watching around Crossroads Guardhouse.",
         "replies":[
             {
                 "text":"Anything else?",
@@ -332,7 +332,7 @@
     },
     {
         "id":"fanamor_guild_1",
-        "message":"Finally! I was tired of waiting here killing those beasts...",
+        "message":"Finally! I was getting tired of waiting here killing those beasts...",
         "replies":[
             {
                 "text":"N",
@@ -342,7 +342,7 @@
     },
     {
         "id":"fanamor_guild_2",
-        "message":"Take this.All I've seen is written here...",
+        "message":"Take this. All I've seen is written here...",
         "switchToNPC":"fanamor",
         "replies":[
             {
@@ -365,7 +365,7 @@
     },
     {
         "id":"feygard_scout_1",
-        "message":"Halt! I've catched you people!",
+        "message":"Halt! I've caught you people!",
         "switchToNPC":"feygard_scout",
         "replies":[
             {
@@ -376,8 +376,8 @@
     },
     {
         "id":"fanamor_guild_3",
-        "message":"(In a blink of an eye,She starts attacking the scout)",
-        "switchToNPC":"fanamor",
+        "message":"In a blink of an eye, Fanamor starts attacking the scout.",
+        "switchToNPC":"None",
         "replies":[
             {
                 "text":"N",
@@ -387,7 +387,7 @@
     },
     {
         "id":"feygard_scout_2",
-        "message":"Argh...Damned trash,take this! \n(His sword swings quickly and wounds Fanamor severely)",
+        "message":"Argh...Damned trash, take this! \n(His sword swings quickly, and severely wounds Fanamor)",
         "switchToNPC":"feygard_scout",
         "replies":[
             {
@@ -398,15 +398,15 @@
     },
     {
         "id":"feygard_scout_3",
-        "message":"(Catches the book)\nWhat have we here? A lost kid trying to do business with this scum hah? \nYou are arrested!",
+        "message":"(Grabs the book)\nWhat have we here? A lost kid trying to do business with this scum, hah? \nYou are under arrest!",
         "switchToNPC":"feygard_scout",
         "replies":[
             {
-                "text":"No way,Fight!",
+                "text":"Not without a fight!",
                 "nextPhraseID":"F"
             },
             {
-                "text":"How you dare? Prepare to die,useless soldier.",
+                "text":"How dare you! Prepare to die, useless soldier!",
                 "nextPhraseID":"F"
             },
             {
@@ -424,7 +424,7 @@
     },
     {
         "id":"fanamor_guild_4",
-        "message":"Tsch...I..cannot...\nYou kid,protect the book!\n",
+        "message":"Tsch...I..cannot...\nYou kid, protect the book!\n",
         "switchToNPC":"fanamor",
         "replies":[
             {
@@ -435,27 +435,27 @@
     },
     {
         "id":"leta_guild_1a",
-        "message":"Umar you say? I don't know who is that person!",
+        "message":"Umar you say? I don't know any Umar!",
         "replies":[
             {
-                "text":"(Whispering) You are no one.No one knows you.No one has seen you.",
+                "text":"(Whispering) You are no one. No one knows you. No one has seen you.",
                 "nextPhraseID":"leta_guild_2"
             }
         ]
     },
     {
         "id":"leta_guild_2",
-        "message":"How you...? Whatever,you are one of us.",
+        "message":"How do you...? Whatever, you are one of us.",
         "replies":[
             {
-                "text":"N",
+                "text":"Umar sent me to get your journal.",
                 "nextPhraseID":"leta_guild_3"
             }
         ]
     },
     {
         "id":"leta_guild_3",
-        "message":"Make sure you don't raise suspicion on your future jobs.Bye.kid.",
+        "message":"Here. Make sure you don't raise any suspicion on your future jobs. Bye kid.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -471,10 +471,10 @@
     },
     {
         "id":"leta_guild_1b",
-        "message":"I gave you all I've gathered.Now leave me alone.",
+        "message":"I gave you all the information I have gathered. Now leave me alone.",
         "replies":[
             {
-                "text":"Ok,bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -493,7 +493,23 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"Thieves01",
-                        "value":60
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fanamor_guild_5a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":35
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"feygard_scout",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -503,7 +519,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"Fanamorbleeding",
-                        "value":1800
+                        "value":120
                     },
                     {
                         "requireType":"questProgress",
@@ -519,12 +535,6 @@
                         "requireType":"questProgress",
                         "requireID":"Thieves01",
                         "value":45
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"Fanamorbleeding",
-                        "value":1800,
-                        "negate":true
                     }
                 ]
             },
@@ -566,51 +576,61 @@
     },
     {
         "id":"fanamor_guild_5",
-        "message":"Wow,you...you really got rid of him...",
+        "message":"Wow, you...you really got rid of him...",
         "replies":[
             {
-                "text":"Did you have any doubts?",
+                "text":"Did you doubt me?",
                 "nextPhraseID":"fanamor_guild_6"
             },
             {
-                "text":"Yes,He was strong,as we can expect of Feygard soldiers...",
+                "text":"Yes, even though he was strong, as we can expect of Feygard soldiers...",
                 "nextPhraseID":"fanamor_guild_6"
             }
         ]
     },
     {
+        "id":"fanamor_guild_5a",
+        "message":"Watch out! Behind you!",
+        "replies":[
+            {
+                "text":"What...?"
+            }
+        ]
+    },
+    {
         "id":"fanamor_guild_6",
-        "message":"Argh...I have not much time...I think I'm bleeding out.",
+        "message":"Argh...I have not much time...I am bleeding very badly.",
         "replies":[
             {
                 "text":"I don't think so.",
                 "nextPhraseID":"fanamor_guild_7a"
             },
             {
-                "text":"Anything I can help you with?",
+                "text":"Can I help?",
                 "nextPhraseID":"fanamor_guild_7b"
             }
         ]
     },
     {
         "id":"fanamor_guild_7a",
-        "message":"Yes,I am...Kid,I have no time for jokes!",
+        "message":"Yes, I am. I have no time for jokes!",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"fanamor_guild_7b"
             }
         ]
     },
     {
         "id":"fanamor_guild_7b",
-        "message":"I need a bandage rapidly,or I won't be able to return to the basement.",
+        "message":"I need a bandage quickly, or I will never return to the guild house.",
         "replies":[
             {
-                "text":"Yeah,for sure.",
+                "text":"Yeah, OK.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I will find a bandage for you,don't worry.",
+                "text":"I will find a bandage for you, don't worry.",
                 "nextPhraseID":"X"
             }
         ],
@@ -654,7 +674,7 @@
     },
     {
         "id":"fanamor_guild_9b",
-        "message":"Hurry up! I have not much time..."
+        "message":"Hurry up! I do not have much time..."
     },
     {
         "id":"fanamor_guild_0",
@@ -669,7 +689,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"Thieves01",
-                "value":46
+                "value":51
             }
         ]
     },
@@ -1254,21 +1274,21 @@
     },
     {
         "id":"ambelie_guild02_1",
-        "message":"Why? I don't know you,commoner,why I'm going to trust on a savage kid?",
+        "message":"Why? I don't know you, commoner. Why would I be willing to trust a savage looking kid?",
         "replies":[
             {
-                "text":"But I'm not a commoner! I'm a...Feygard spy.This clothes are for infiltrating purposes!",
+                "text":"But I'm not a commoner! I'm a...Feygard spy. These clothes are my disguise!",
                 "nextPhraseID":"ambelie_guild02_2"
             },
             {
-                "text":"I'm stronger than this smug guards.",
+                "text":"I'm stronger than those smug guards.",
                 "nextPhraseID":"ambelie_guild02_2"
             }
         ]
     },
     {
         "id":"ambelie_guild02_2",
-        "message":"Anyway,I prefer to stay in this place for now. Get away from me!",
+        "message":"Anyway, I prefer to stay in this place for now. Get away from me!",
         "replies":[
             {
                 "text":"Hmpf...Goodbye",
@@ -1424,18 +1444,18 @@
         "switchToNPC":"ambelie",
         "replies":[
             {
-                "text":"[Lie]Sorry,but I have to bring you back home!",
+                "text":"[Lie] Sorry, but I have to take you back home!",
                 "nextPhraseID":"ambelie_guild02_4a"
             },
             {
-                "text":"(Knock out) Time to sleep.",
+                "text":"(Knock her out) Time to sleep!",
                 "nextPhraseID":"ambelie_guild02_4b"
             }
         ]
     },
     {
         "id":"ambelie_guild02_4a",
-        "message":"No! I won't go anywhere with you,commoner! Guards,guards!",
+        "message":"No! I won't go anywhere with you, commoner! Guards, guards!",
         "replies":[
             {
                 "text":"N",
@@ -1445,22 +1465,22 @@
     },
     {
         "id":"ff_captain_guild02_4",
-        "message":"Hahaha! Sorry lady,but your father wants you back home.I also believe this dirty tavern is no place for a woman like you,hahaha!",
+        "message":"Haha! Sorry lady, but your father wants you back home. I also believe this dirty tavern is no place for a woman like you, haha!",
         "switchToNPC":"feygard_patrol_captain",
         "replies":[
             {
-                "text":"Yes,you have to come with me.",
+                "text":"Yes, you have to come with me.",
                 "nextPhraseID":"ambelie_guild02_5"
             }
         ]
     },
     {
         "id":"ambelie_guild02_5",
-        "message":"NO! I've said no! Don't bother me,get away from me!",
+        "message":"NO! I've said no! Don't bother me. Get away from me!",
         "switchToNPC":"ambelie",
         "replies":[
             {
-                "text":"Sorry for this (Knock out her).",
+                "text":"Sorry about this (Knock her out).",
                 "nextPhraseID":"ambelie_guild02_4b"
             },
             {
@@ -1471,7 +1491,7 @@
     },
     {
         "id":"ambelie_guild02_4b",
-        "message":"(You knock her with the handle of your weapon and she falls unconsicious)",
+        "message":"(You tap her on the back of the head with the handle of your weapon, and she falls unconsicious)",
         "replies":[
             {
                 "text":"Fine...",
@@ -1493,17 +1513,12 @@
                 "rewardType":"spawnAll",
                 "rewardID":"Feygard_BG",
                 "mapName":"road1"
-            },
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"carrying_ambelie",
-                "value":999
             }
         ]
     },
     {
         "id":"Feygard_BG_guild02_1",
-        "message":"Halt! The way to Fallhaven is closed as recent information about a dangerous criminal who has been seen not far from here.\nThat criminal has commited a murder.",
+        "message":"Halt! The way to Fallhaven is closed as recent information about a dangerous criminal who has been seen not far from here.\nThat criminal has commited a murdered hours ago.",
         "replies":[
             {
                 "text":"But I really need to pass!",
@@ -1854,11 +1869,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"Thieves02",
                 "value":55
-            },
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"carrying_ambelie",
-                "value":-99
             }
         ]
     },
@@ -1902,8 +1912,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"Thieves03",
-                        "value":1,
+                        "requireID":"Thieves02",
+                        "value":60,
                         "negate":true
                     }
                 ]
@@ -1921,15 +1931,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"ambelie_guild02_7b",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves03",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"ambelie_guild02_7b"
             }
         ]
     },
@@ -1998,21 +2000,21 @@
     },
     {
         "id":"ambelie_guild02_10",
-        "message":"Bread? That's not a worthy food for a noblewoman like me! Oh my,Where am I?",
+        "message":"Bread? That's not a worthy food for a noblewoman like me! Oh my, where am I?",
         "replies":[
             {
-                "text":"If you prefer going without food in this ugly cell for a long while I don't care.",
+                "text":"If you prefer going without food in this ugly cell for a long while then I don't care.",
                 "nextPhraseID":"ambelie_guild02_11"
             },
             {
-                "text":"Do you prefer to eat the floor,bad-mannered girl?",
+                "text":"Do you prefer to eat the floor, bad mannered woman?",
                 "nextPhraseID":"ambelie_guild02_11"
             }
         ]
     },
     {
         "id":"ambelie_guild02_11",
-        "message":"S...sorry,please...Yes I'm hungry...May you give me that? *sniffs*",
+        "message":"S...sorry,please... Yes I'm hungry... Will you give me that? *sniffs*",
         "replies":[
             {
                 "text":"[Give the Bread]",
@@ -2032,11 +2034,11 @@
         "message":"Th..thanks.Now. please tell me,Where am I?",
         "replies":[
             {
-                "text":"Sorry,I cannot reveal you that right now.Bye.",
+                "text":"Sorry, but I cannot reveal that to you right now. Bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"That doesn't matter! If you behave well maybe you will be out of here sooner than later.",
+                "text":"That doesn't matter! If you behave well maybe you will be out of here sooner rather than later.",
                 "nextPhraseID":"ambelie_guild02_13"
             }
         ],
@@ -2292,17 +2294,17 @@
                 "mapName":"fallhaven_nw"
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"fallhaven_citizen1",
                 "mapName":"fallhaven_nw"
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"fallhaven_citizen2",
                 "mapName":"fallhaven_nw"
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"fallhaven_citizen4",
                 "mapName":"fallhaven_nw"
             },
@@ -2315,7 +2317,12 @@
     },
     {
         "id":"guild03_rest1",
-        "message":"(You take off your bag and catch the blanket.This bed is more comfortable than you thought,but that's maybe because you are really exhausted.Finally you blow out the candle in the room. You should go to the bed now.) ",
+        "message":"(You take off your bag and catch the blanket.This bed is more comfortable than you thought,but that's maybe because you are really exhausted.Finally you blow out the candle in the room and slip in the bed.)",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2341,7 +2348,7 @@
     },
     {
         "id":"guild03_rest2",
-        "message":"첱mar spoke me clearly.Sleep,then come back.I should do what he said and go to bed.�"
+        "message":"\ABUmar spoke me clearly.Sleep,then come back.I should do what he said.\BB"
     },
     {
         "id":"guild03_rest3",
@@ -2428,15 +2435,15 @@
     },
     {
         "id":"guild03_rest0a",
-        "message":"첟 should not leave the city now.Father told me once monsters and beasts are more dangerous at night.�"
+        "message":"\ABI should not leave the city now.Father told me once monsters and beasts are more dangerous at night.\BB"
     },
     {
         "id":"guild03_rest0b",
-        "message":"첳hy I'm leading to this direction? Tavern isn't in this way!�"
+        "message":"\ABWhy I'm leading to this direction? Tavern isn't in this way!\BB"
     },
     {
         "id":"guild03_rest0c",
-        "message":"첟t would be better to don't bother people at this hour.�"
+        "message":"\ABIt would be better to don't bother people at this hour.\BB"
     },
     {
         "id":"umar_guild03_1",
@@ -2910,7 +2917,12 @@
     },
     {
         "id":"crossroads_guild03_3",
-        "message":"Now go away kid,I'm working!"
+        "message":"Now go away kid,I'm working!",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"benbyr_guild03_1",
@@ -3211,7 +3223,7 @@
     },
     {
         "id":"guild03_deadpatrol_2_3",
-        "message":"No...He's not...Agggh!\n첞e has stopped breathing...I'm cannot do anything.Better to move on.�",
+        "message":"No...He's not...Agggh!\n\ABHe has stopped breathing...I'm cannot do anything.Better to move on.\BB",
         "replies":[
             {
                 "text":"Shadow,embrace him...",
@@ -3236,11 +3248,11 @@
     },
     {
         "id":"guild03_doorlock_3",
-        "message":"첥o way.There are countless cobwebs.I should go through the door.�"
+        "message":"\ABNo way.There are countless cobwebs.I should go through the door.\BB"
     },
     {
         "id":"guild03_doorlock_1",
-        "message":"첟 think I should check those strange blood marks before going on...�"
+        "message":"\ABI think I should check those strange blood marks before going on...\BB"
     },
     {
         "id":"rebthief_guild03_1",
@@ -3952,14 +3964,14 @@
     },
     {
         "id":"ambelie_guild02_4c",
-        "message":"Wha...What are you reffering to?",
+        "message":"Wha...What are you referring to?",
         "replies":[
             {
-                "text":"I'm sorry.Time to sleep! (Knock out her)",
+                "text":"Sorry. Time to sleep! (Knock her out)",
                 "nextPhraseID":"ambelie_guild02_4b"
             },
             {
-                "text":"I'm here to distrain you and then ask for a ransom. ",
+                "text":"I'm here to detain you, and then ask for a ransom. ",
                 "nextPhraseID":"ambelie_guild02_15"
             }
         ]
@@ -3969,7 +3981,7 @@
         "message":"No way! Guards!",
         "replies":[
             {
-                "text":"...Yes, no way. (Knock out her)",
+                "text":"...Yes, no way. (Knock her out)",
                 "nextPhraseID":"ambelie_guild02_4b"
             },
             {
@@ -3980,7 +3992,7 @@
     },
     {
         "id":"ambelie_guild02_16b",
-        "message":"You! Don't go any further, leave me!",
+        "message":"You! Don't go any further. Leave me!",
         "replies":[
             {
                 "text":"I'm not going to hurt you.",
@@ -3993,7 +4005,7 @@
         "message":"I couldn't care less about you! Just ask the guards.",
         "replies":[
             {
-                "text":"Those untrained men aren't able to defend themselves.Don't make me laugh.",
+                "text":"Those untrained men aren't able to defend themselves. Don't make me laugh.",
                 "nextPhraseID":"ambelie_guild02_18"
             },
             {
@@ -4035,10 +4047,10 @@
     },
     {
         "id":"ambelie_guild02_18",
-        "message":"Stop, tell me then what I can do!",
+        "message":"Stop. Then tell me what I can do!",
         "replies":[
             {
-                "text":"Give me something worthy, and you won't see me again.",
+                "text":"Give me something of value, and you won't see me again.",
                 "nextPhraseID":"ambelie_guild02_19"
             },
             {
@@ -4052,7 +4064,7 @@
         "message":"Take this and leave me, please.",
         "replies":[
             {
-                "text":"It has been a pleasure, mademosielle.",
+                "text":"It has been a pleasure, my lady.",
                 "nextPhraseID":"X"
             },
             {

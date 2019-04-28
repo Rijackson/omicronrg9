@@ -1,33 +1,33 @@
 [
     {
         "id":"Thieves01",
-        "name":"Thief Apprentice",
+        "name":"Thief apprentice",
         "showInLog":1,
         "stages":[
             {
                 "progress":5,
-                "logText":"After giving him the key of Luthor and talking with Umar about Andor I felt the desire of ask him about Thieves' Guild itself.\nI want to join them to see what kind of jobs they do."
+                "logText":"After giving him the key of Luthor and talking with Umar about Andor, I needed to ask him about Thieves' Guild itself.\nI want to join them to see what kind of jobs they do."
             },
             {
                 "progress":10,
-                "logText":"Umar told me to talk with Troublemaker about my first task for the Guild."
+                "logText":"Umar told me to talk with Troublemaker regarding my first task for the Guild."
             },
             {
                 "progress":15,
-                "logText":"Troublemaker told me to bring three journals from spies of the guild.I have to talk with Leta in my village,then with Dunla,in Vilegard's tavern, and finally with Fanamor somewhere around Crossroads Guardhouse."
+                "logText":"Troublemaker told me to bring him three journals from spies of the guild. I have to talk with Leta in my village, then with Dunla in Vilegard's tavern, and finally with Fanamor somewhere around Crossroads guardhouse."
             },
             {
                 "progress":20,
-                "logText":"I have to remember to tell them the password \"You are no one.No one knows you.No one has seen you.\""
+                "logText":"I have to remember to tell them the password \"You are no one. No one knows you. No one has seen you.\""
             },
             {
                 "progress":25,
-                "logText":"Leta gave me her journal and adviced me to don't raise suspicion.",
+                "logText":"Leta gave me her journal and advised me to not raise suspicion.",
                 "rewardExperience":250
             },
             {
                 "progress":30,
-                "logText":"I got Dunla's journal without any problem.Time to move on and get the last Journal.",
+                "logText":"I got Dunla's journal without any problem. I have set out to get the last journal.",
                 "rewardExperience":650
             },
             {
@@ -36,30 +36,30 @@
             },
             {
                 "progress":40,
-                "logText":"Fanamor has been gravely wounded,and the Feygard Scout catches the journal.",
+                "logText":"Fanamor has been gravely wounded, and the Feygard Scout grabed the journal.",
                 "rewardExperience":150
             },
             {
                 "progress":45,
-                "logText":"I talked again with Fanamor.She's losing blood quickly,so I have to bring her a bandage.I need to find a trusting priest.",
+                "logText":"After I had killed the Feygard scout I talked again with Fanamor. She's losing blood quickly, so I have to bring her a bandage. I need to find a trustworthy priest.",
                 "rewardExperience":750
             },
             {
                 "progress":50,
-                "logText":"Thoronir gave me a bandage.I have to return with Fanamor as soon as possible."
+                "logText":"Thoronir gave me a bandage. I have to return to Fanamor as soon as possible."
             },
             {
                 "progress":51,
-                "logText":"Unfortunately,I was not able of saving Fanamor's life.However,I still have that journal."
+                "logText":"Unfortunately, I was not able to save Fanamor's life. However, I did get her journal."
             },
             {
                 "progress":55,
-                "logText":"Fanamor is alive and will make her own way to return.",
+                "logText":"Fanamor is alive and will find her own way to return.",
                 "rewardExperience":1000
             },
             {
                 "progress":60,
-                "logText":"I've returned to Troublemaker and gave him the journals.He told me about talking with Umar.",
+                "logText":"I returned to Troublemaker and gave him the journals. He told me to talk with Umar.",
                 "rewardExperience":1750,
                 "finishesQuest":1
             }
@@ -72,81 +72,81 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"After ending my first task,I'm considered a member of Thieves' Guild.Now to do highly risk task,Umar sent me to kidnap a noble woman from Feygard without be discovered.She has been seen in the Foaming Flask tavern."
+                "logText":"After completing my first task I'm considered a member of Thieves' Guild. Now I have to perform a very risky task. Umar sent me to kidnap a noble woman from Feygard, without being discovered. She was recently seen in the Foaming Flask tavern."
             },
             {
                 "progress":6,
-                "logText":"Umar gave me an advice.My strength is not always the solution; this time I must \"use my tongue\" to don't raise suspicion in the tavern."
+                "logText":"Umar gave me some advice. My strength is not always the solution. I must \"use my tongue\" to avoid raising suspicion in the tavern."
             },
             {
                 "progress":10,
-                "logText":"Ambelie Laumwill doesn't want to come with me peacefully.I cannot make a scene or guards will alert other patrols.Maybe talking with them would solve the situation."
+                "logText":"Ambelie Laumwill doesn't want to come with me peacefully. I cannot make a scene, or the guards will alert other patrols. Maybe talking with them would solve the situation."
             },
             {
                 "progress":15,
-                "logText":"I've \"used my tongue\" with the main Feygard soldier in the Foaming Flask tavern.He gave me permission to \"escort back\" Ambelie."
+                "logText":"I have \"used my tongue\" with the main Feygard soldier in the Foaming Flask tavern. He gave me permission to \"escort back\" Ambelie."
             },
             {
                 "progress":20,
-                "logText":"I knocked out Ambelie.Now is time to come back to the Guild."
+                "logText":"I knocked out Ambelie. I will take her back to the Guild."
             },
             {
                 "progress":21,
-                "logText":"I've decided not to capture Ambelie.Now I must think on another solution."
+                "logText":"I have decided not to kidnap Ambelie. I must think of another solution."
             },
             {
                 "progress":24,
-                "logText":"Ambelie gave me a very valuable neckace.Now I must talk with Umar and persuade him to don't pursue her."
+                "logText":"Ambelie gave me a very valuable neckace. I must talk with Umar and persuade him to no longer pursue her."
             },
             {
                 "progress":30,
-                "logText":"I've brought Ambelie to the basement safely.However, hiding her here can be a rashness.",
+                "logText":"I safely brought Ambelie to the basement. However, keeping her here could be dangerous.",
                 "rewardExperience":1200
             },
             {
                 "progress":35,
-                "logText":"Umar believes there's a secure room for those types of job."
+                "logText":"Umar believes there is a secure room for these types of \"visitors\". I should talk to Troublemaker."
             },
             {
                 "progress":40,
-                "logText":"Now I've to talk Troublemaker about some place Umar believes It's okay to keep the hostage safe."
+                "logText":"I have talked to Troublemaker about the place Umar believes it's okay to safely keep the hostage."
             },
             {
                 "progress":45,
-                "logText":"Troublemaker has given me the key of the Guild brig.I should bring Ambelie there until She wakes up.",
+                "logText":"Troublemaker has given me the key to the Guild brig. I should take Ambelie there and leave her to wake up.",
                 "rewardExperience":1000
             },
             {
                 "progress":50,
-                "logText":"I've introduced the key and switched the lever.A hatchway has opened in the room."
+                "logText":"I've inserted the key and moved the lever. A hatchway has opened in the room."
             },
             {
                 "progress":55,
-                "logText":"I've left Ambelie in that ugly,dark and cold place...Now I should go back."
+                "logText":"I left Ambelie in that ugly, dark, and cold place...I should go back."
             },
             {
                 "progress":60,
-                "logText":"Troublemaker gave me some bread for Ambelie.The guild doesn't want her to starve to the death,indeed they want her to be confortable enough.I must go there again."
+                "logText":"Troublemaker gave me some bread for Ambelie. The guild doesn't want her to starve to death. Indeed, they want her to be as confortable as possible. I must go to the brig again."
             },
             {
                 "progress":65,
-                "logText":"I've given the bread to Ambelie.Now I have to report Troublemaker about the job.",
+                "logText":"I gave the bread to Ambelie. I should report Troublemaker that I completed the job.",
                 "rewardExperience":400
             },
             {
                 "progress":70,
-                "logText":"The job seems to be done.Finally I just have to talk with Umar again...However,I'm not feeling well with this.Kidnappings are definitely not my kind of job.",
+                "logText":"The job finally seems to be finished. I just have to talk with Umar again. However, I do not feel good about this. Kidnappings are definitely not my kind of job.",
                 "rewardExperience":0
             },
             {
                 "progress":75,
-                "logText":"I've done this task successfully.Umar told me they have sent couriers to Feygard,so the ransom It's almost guaranteed.",
+                "logText":"I completed this task successfully. Umar told me they have sent couriers to Feygard, and the ransom is almost guaranteed. He paid me for my work.",
                 "rewardExperience":4500,
                 "finishesQuest":1
             },
             {
                 "progress":76,
-                "logText":"Umar took the necklace as a compensation for my errors.Everything is fine again.",
+                "logText":"Umar took the necklace as compensation for my errors. Everything is fine again.",
                 "rewardExperience":2250,
                 "finishesQuest":1
             }
