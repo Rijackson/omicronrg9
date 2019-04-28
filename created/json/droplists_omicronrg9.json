@@ -135,7 +135,12 @@
         "id":"g04_package1",
         "items":[
             {
-                "itemID":"g04_package"
+                "itemID":"g04_package",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },

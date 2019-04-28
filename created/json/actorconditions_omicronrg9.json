@@ -29,6 +29,7 @@
         "id":"g03_combo",
         "iconID":"actorconditions_1:108",
         "name":"Combo",
+        "category":"physical",
         "isPositive":1,
         "isStacking":1,
         "fullRoundEffect":{
