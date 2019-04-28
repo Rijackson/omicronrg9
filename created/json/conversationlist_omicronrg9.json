@@ -593,7 +593,8 @@
         "message":"Watch out! Behind you!",
         "replies":[
             {
-                "text":"What...?"
+                "text":"What...?",
+                "nextPhraseID":"X"
             }
         ]
     },
