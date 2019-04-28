@@ -53,6 +53,13 @@
                 "text":"N",
                 "nextPhraseID":"umar_guild_4a"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves01",
+                "value":5
+            }
         ]
     },
     {
@@ -71,13 +78,6 @@
                 "text":"I need some time to think about it.",
                 "nextPhraseID":"umar_guild_5b"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves01",
-                "value":5
-            }
         ]
     },
     {
@@ -92,11 +92,7 @@
                 "text":"Anything else?",
                 "nextPhraseID":"umar_guild_6b"
             }
-        ]
-    },
-    {
-        "id":"umar_guild_6a",
-        "message":"Fine,I will keep an eye on you.",
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -104,6 +100,10 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"umar_guild_6a",
+        "message":"Fine,I will keep an eye on you."
     },
     {
         "id":"umar_guild_6b",
@@ -220,7 +220,7 @@
     },
     {
         "id":"troublemaker_guild_8a",
-        "message":"Good.We have 3 people in the job.\nThe first one is Fanamor,watching around Crossroads Guardhouse.\nOne of our veteran spies,Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally another spy in Crossglen,Leta.I believe you know her.",
+        "message":"Good.We have 3 people in the job.\nThe first one is a spy in Crossglen,Leta.I believe you know her.\nOne of our veteran spies,Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally we have Fanamor,watching around Crossroads Guardhouse.",
         "replies":[
             {
                 "text":"Anything else?",
@@ -376,8 +376,8 @@
     },
     {
         "id":"fanamor_guild_3",
-        "message":"(In the blink of an eye, Fanamor starts attacking the scout)",
-        "switchToNPC":"fanamor",
+        "message":"In a blink of an eye, Fanamor starts attacking the scout.",
+        "switchToNPC":"None",
         "replies":[
             {
                 "text":"N",
@@ -493,7 +493,23 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"Thieves01",
-                        "value":60
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"fanamor_guild_5a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":35
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"feygard_scout",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -503,7 +519,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"Fanamorbleeding",
-                        "value":1800
+                        "value":300
                     },
                     {
                         "requireType":"questProgress",
@@ -519,12 +535,6 @@
                         "requireType":"questProgress",
                         "requireID":"Thieves01",
                         "value":45
-                    },
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"Fanamorbleeding",
-                        "value":1800,
-                        "negate":true
                     }
                 ]
             },
@@ -579,6 +589,15 @@
         ]
     },
     {
+        "id":"fanamor_guild_5a",
+        "message":"Watch out! Behind you!",
+        "replies":[
+            {
+                "text":"What...?"
+            }
+        ]
+    },
+    {
         "id":"fanamor_guild_6",
         "message":"Argh...I have not much time...I am bleeding very badly.",
         "replies":[
@@ -597,6 +616,7 @@
         "message":"Yes, I am. I have no time for jokes!",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"fanamor_guild_7b"
             }
         ]
@@ -2328,7 +2348,7 @@
     },
     {
         "id":"guild03_rest2",
-        "message":"«Umar spoke me clearly.Sleep,then come back.I should do what he said.»"
+        "message":"\ABUmar spoke me clearly.Sleep,then come back.I should do what he said.\BB"
     },
     {
         "id":"guild03_rest3",
@@ -2415,15 +2435,15 @@
     },
     {
         "id":"guild03_rest0a",
-        "message":"«I should not leave the city now.Father told me once monsters and beasts are more dangerous at night.»"
+        "message":"\ABI should not leave the city now.Father told me once monsters and beasts are more dangerous at night.\BB"
     },
     {
         "id":"guild03_rest0b",
-        "message":"«Why I'm leading to this direction? Tavern isn't in this way!»"
+        "message":"\ABWhy I'm leading to this direction? Tavern isn't in this way!\BB"
     },
     {
         "id":"guild03_rest0c",
-        "message":"«It would be better to don't bother people at this hour.»"
+        "message":"\ABIt would be better to don't bother people at this hour.\BB"
     },
     {
         "id":"umar_guild03_1",
@@ -3203,7 +3223,7 @@
     },
     {
         "id":"guild03_deadpatrol_2_3",
-        "message":"No...He's not...Agggh!\n«He has stopped breathing...I'm cannot do anything.Better to move on.»",
+        "message":"No...He's not...Agggh!\n\ABHe has stopped breathing...I'm cannot do anything.Better to move on.\BB",
         "replies":[
             {
                 "text":"Shadow,embrace him...",
@@ -3228,11 +3248,11 @@
     },
     {
         "id":"guild03_doorlock_3",
-        "message":"«No way.There are countless cobwebs.I should go through the door.»"
+        "message":"\ABNo way.There are countless cobwebs.I should go through the door.\BB"
     },
     {
         "id":"guild03_doorlock_1",
-        "message":"«I think I should check those strange blood marks before going on...»"
+        "message":"\ABI think I should check those strange blood marks before going on...\BB"
     },
     {
         "id":"rebthief_guild03_1",

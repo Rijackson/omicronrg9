@@ -22,15 +22,9 @@
                         "negate":false
                     },
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"Thieves01",
                         "value":5,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"Thieves01",
-                        "value":60,
                         "negate":true
                     }
                 ]

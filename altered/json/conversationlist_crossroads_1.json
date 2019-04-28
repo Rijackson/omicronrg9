@@ -4,7 +4,7 @@
         "message":"This is my hiding spot! Now leave me.",
         "replies":[
             {
-                "text":"Umar sent me with the words \"You are no one. No one knows you. No one has seen you\". Please give me your journal.",
+                "text":"Umar sent me with the words \"You are no one.No one knows you.No one has seen you.\" Now give me the journal please.",
                 "nextPhraseID":"fanamor_guild_1",
                 "requires":[
                     {
