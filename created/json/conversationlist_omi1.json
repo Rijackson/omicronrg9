@@ -1518,7 +1518,7 @@
                 "rewardType":"actorCondition",
                 "rewardID":"carrying_ambelie",
                 "value":999
-             }
+            }
         ]
     },
     {
@@ -1879,7 +1879,7 @@
                 "rewardType":"actorCondition",
                 "rewardID":"carrying_ambelie",
                 "value":-99
-             }
+            }
         ]
     },
     {
@@ -1949,6 +1949,7 @@
                         "value":1,
                         "negate":true
                     }
+				]
             }
         ]
     },
