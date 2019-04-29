@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="19" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="13">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="19" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="13">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,35 +182,40 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="19">
   <data encoding="base64" compression="zlib">
-   eJztk0EKgDAMBKU3/w9+wXj2pPYHVd9kiymG7SrFc4WBJVm3KTTiuk4iq4JaiEbEsEV2RUBPRCOL6R+Rub9JtfyN2k91q7Mv6+DKPnoWnVnco5mPnZXyvZkzqE7/Bah7uA+b6yRzZr58LOsvLatl1WThm3yjZocEdoPBfKMr9/1vlt01y6DYPWQ99NXwda7lAg7fAlQ=
+   eJztlEsKgDAMREt33h+8gnHtys8N/ByhZ7GBBNIhlaJbhYeTdjrpJqUYAmUWATU5uuZj1swhkNFDZnQ0Mss53j8zUxdCkjX+86fneU91iqWP2WPpVcjUs9wZNfpsL605fzP33B+09XlZzAV1DfR5WW/5s/6sliycjRotM0QwGx6eb4hl/pcs+4b1Amrt1eJrAfvWuAHNCQQK
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYKAdWMWEKbaZDZW/RwCiDkRjA9uZIHgVE4INA4fZUNWdgZoFokF8ZyS1y4DsJqgdK7C4Cx3cEYCouwPVs5QIPSD7xIhQhwxuCiLMj2OCuBPGx8U+j8THBR4Q4Y5SIcLqmgQRdDOOOMKmHhsIlGRgCJZE0CBwE4t6bOrQQRJQPFkSQWMDrUII+UQc6kD2g9xcDlRbIYQqFyLOwBAmjuo3mHpS/AgCKUBz0sQJqyPFj9cFiVMHAzOQ4noNPwNDDz9hddhAMxMkb7QiqZuDxSx0dU1I6QfEhsU9tnICHUgyoaorQ4qrw2IMDIJMmGZNBbKnM2GynZHMMmWFyA0E+CJKnDoAMt9GIw==
+   eJxjYKAN2CPAwLCKCUIjg81sxKmDgXtAuTNQNSAaxIeBw2y41W0H0s5Iau8D2U1A8TtAvIIJQuMD6OruMuFXDwIg+8SIUIcMbgoizI9jgrgTxsfFPo/ExwUeEOGOUiHi1MFAM4EwIwQCJRkYgiURNAjA/E9IHTpIAoonSyJobKBVCCGfiEMdzP5yoNoKIVS5EHEGhjBx7OpxAVxuTwGakyZOWB0pfrwuSJw6GJiBFNdr+BkYevgJq8MGmpkgeaMVSd0cLGahq2tCSj8gNiwsVxGRBiWZUNWVIcXVYTEGBkEmTLOmAtnTmTDZzkhmmbJC5AYCfBElTh0AwSZJEQ==
   </data>
  </layer>
- <layer id="3" name="Objects_replace" width="19" height="19">
+ <layer id="3" name="Objects_replace" width="19" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIKRCUJZB9oFhAEAP0cAWw==
   </data>
  </layer>
  <layer id="4" name="Above" width="19" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYKA+uCyGYB8WQ+XP58euDhf/EppZyPz1/KhyyOASGh8m38wEoVuB9EUxTHkYG5c6dLV7mCDuBGFnJky7kdmXxTD9iO5uGD+YiQEvQA8LbGahy+MC2NTBzGoSRKVxAXzqYGZNEkSlcQF86mBmLRJEpXEBfOoI+fEFGp9SPx5HEqO3H6kBaGkWer7ABbCpm46WV4h1Jz51oHy9h0AepBcAAMeQPcI=
+   eJxjYKA+uCyGYB8WQ+XP50eVw6UOZg66mktI/PV4zLqEZhZMrJkJUz02/bjUoYvtYYK4E4SdsehBZl/G4kds7gC5MxhqFrI/LhHhR2SALo8LYFMHM6tJEJXGBfCpg5k1SRCVxgXwqYOZtUgQlcYF8Kkj5McXaHxK/XgcSYzefqQGoKVZ6PkCF8CmbjoTfrOJdcNgBQAlx0Ax
   </data>
  </layer>
- <layer id="5" name="Above_replace" width="19" height="19">
+ <layer id="14" name="Above2" width="19" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvOCw2OMxqZaKuulEwCkbBKKAFAABwQwLB
+  </data>
+ </layer>
+ <layer id="5" name="Above_replace" width="19" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAviGCnnlkZVDRrFIyCUTAKBiMAABS2AM8=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="19" height="19">
   <data encoding="base64" compression="zlib">
-   eJzlk9EJACAIRJ2i/Vdww+gv5E7P6i9BSNB3JurDzD/1ZdWbxVlOxVL4J6zdYoyM1Sm1iqE+Y29Ii+VVrEyfsdCMmSbSU/tSZ9H9o8pSOCyv2t2Mw3aX3eNL1sltd7i3rrImBF2nIg==
+   eJzbKMbAsHGEYhAgxMbFx6eGkFnEmE+OWcgAnY8N4NJHjF5iADFmEWsXNj8T0o8ebvjEiQ0LcsOL2LAg1Y+41JGbJrCpI5R28ZmDK+3iyo/UNIucvE2KuZRiYs0CAFn+oOo=
   </data>
  </layer>
- <layer id="7" name="Walkable_replace" width="19" height="19">
+ <layer id="7" name="Walkable_replace" width="19" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMFgBAAWkAAE=
   </data>
@@ -241,7 +246,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Replace">
+ <objectgroup id="11" name="Replace" visible="0">
   <object id="5" name="Thieves03:29" type="replace" x="512" y="512" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>
