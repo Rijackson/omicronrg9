@@ -1950,7 +1950,7 @@
                         "value":1,
                         "negate":true
                     }
-				]
+                ]
             }
         ]
     },
@@ -3692,9 +3692,7 @@
                 "mapName":"road1"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"Feygard_BG",
-                "mapName":"road1"
+                "rewardType":"removeSpawnArea"
             }
         ]
     },
@@ -4193,5 +4191,5 @@
     {
         "id":"guild02_hatchlever_5",
         "message":"You already triggered the lever that opened a hatch which leads downstairs."
-    }	
+    }
 ]
