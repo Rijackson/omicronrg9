@@ -2362,7 +2362,7 @@
     },
     {
         "id":"guild03_rest2",
-        "message":"\ABUmar spoke me clearly.Sleep,then come back.I should do what he said and go to bed.\BB"
+        "message":"Umar spoke me clearly.Sleep,then come back.I should do what he said and go to bed."
     },
     {
         "id":"guild03_rest3",
@@ -2449,15 +2449,15 @@
     },
     {
         "id":"guild03_rest0a",
-        "message":"\ABI should not leave the city now.Father told me once monsters and beasts are more dangerous at night.\BB"
+        "message":"I should not leave the city now.Father told me once monsters and beasts are more dangerous at night."
     },
     {
         "id":"guild03_rest0b",
-        "message":"\ABWhy I'm leading to this direction? Tavern isn't in this way!\BB"
+        "message":"Why I'm leading to this direction? Tavern isn't in this way!"
     },
     {
         "id":"guild03_rest0c",
-        "message":"\ABIt would be better to don't bother people at this hour.\BB"
+        "message":"It would be better to don't bother people at this hour."
     },
     {
         "id":"umar_guild03_1",
@@ -3232,7 +3232,7 @@
     },
     {
         "id":"guild03_deadpatrol_2_3",
-        "message":"No...He's not...Agggh!\n\ABHe has stopped breathing...I'm cannot do anything.Better to move on.\BB",
+        "message":"No...He's not...Agggh!\nHe has stopped breathing...I'm cannot do anything.Better to move on.",
         "replies":[
             {
                 "text":"Shadow,embrace him...",
@@ -3257,11 +3257,11 @@
     },
     {
         "id":"guild03_doorlock_3",
-        "message":"\ABNo way.There are countless cobwebs.I should go through the door.\BB"
+        "message":"No way.There are countless cobwebs.I should go through the door."
     },
     {
         "id":"guild03_doorlock_1",
-        "message":"\ABI think I should check those strange blood marks before going on...\BB"
+        "message":"I think I should check those strange blood marks before going on..."
     },
     {
         "id":"rebthief_guild03_1",
