@@ -3072,7 +3072,6 @@
     },
     {
         "id":"guild03_blood_1_select",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"guild03_blood_1a",
@@ -3091,7 +3090,7 @@
         ]
     },
     {
-        "id":"guild03_blood_1b",
+        "id":"guild03_blood_1a",
         "message":"(You look at the floor.The blood isn't coagulated yet.It seems there has been a fight between two or more people recently)",
         "rewards":[
             {
@@ -3102,7 +3101,7 @@
         ]
     },
     {
-        "id":"guild03_blood_1a",
+        "id":"guild03_blood_1b",
         "message":"(The same blood stains.They are coagulating more and more.Soon they will be just another mark in the floor)"
     },
     {
@@ -3125,7 +3124,7 @@
         ]
     },
     {
-        "id":"guild03_blood_2b",
+        "id":"guild03_blood_2a",
         "message":"(More blood.There's no doubt,there has been a fight here.)",
         "rewards":[
             {
@@ -3136,7 +3135,7 @@
         ]
     },
     {
-        "id":"guild03_blood_2a",
+        "id":"guild03_blood_2b",
         "message":"(Looking again the same blood marks won't give you anything but wasting time.)"
     },
     {
@@ -3148,7 +3147,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves03",
-                        "value":24
+                        "value":24,
+                        "negate":true
                     }
                 ]
             },
@@ -3158,22 +3158,22 @@
         ]
     },
     {
-        "id":"guild03_blood_3a",
+        "id":"guild03_blood_3b",
         "message":"(No one is going to clean off the blood.)"
     },
     {
-        "id":"guild03_blood_3b",
+        "id":"guild03_blood_3a",
         "message":"ARGH!! *sword clashing*",
         "switchToNPC":"unknown",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"guild03_blood_3b_2"
+                "nextPhraseID":"guild03_blood_3a_2"
             }
         ]
     },
     {
-        "id":"guild03_blood_3b_2",
+        "id":"guild03_blood_3a_2",
         "message":"Sergeant! Sergeant!!\n...*laughter*",
         "replies":[
             {
@@ -3422,6 +3422,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"Thieves03",
                 "value":31
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"g03_sergeant",
+                "mapName":"crackshot_hideout3"
             }
         ]
     },
@@ -3692,7 +3697,9 @@
                 "mapName":"road1"
             },
             {
-                "rewardType":"removeSpawnArea"
+                "rewardType":"removeSpawnArea",
+                "rewardID":"Feygard_BG",
+                "mapName":"road1"
             }
         ]
     },

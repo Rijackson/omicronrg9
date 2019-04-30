@@ -51,6 +51,8 @@
         "id":"g03_deadpatrol_2",
         "name":"Dying Patrol",
         "iconID":"monsters_rltiles3:14",
+        "unique":1,
+        "monsterClass":"humanoid",
         "spawnGroup":"g03_deadpatrol_2",
         "phraseID":"guild03_deadpatrol_2_1"
     },
