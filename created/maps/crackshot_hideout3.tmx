@@ -200,43 +200,43 @@
    eJxjYKA+uCyGYB8WQ+XP50eVw6UOZg66mktI/PV4zLqEZhZMrJkJUz02/bjUoYvtYYK4E4SdsehBZl/G4kds7gC5MxhqFrI/LhHhR2SALo8LYFMHM6tJEJXGBfCpg5k1SRCVxgXwqYOZtUgQlcYF8Kkj5McXaHxK/XgcSYzefqQGoKVZ6PkCF8CmbjoTfrOJdcNgBQAlx0Ax
   </data>
  </layer>
- <layer id="14" name="Above2" width="19" height="19">
+ <layer id="5" name="Above2" width="19" height="19">
   <data encoding="base64" compression="zlib">
    eJxjYKAvOCw2OMxqZaKuulEwCkbBKKAFAABwQwLB
   </data>
  </layer>
- <layer id="5" name="Above_replace" width="19" height="19" visible="0">
+ <layer id="6" name="Above_replace" width="19" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAviGCnnlkZVDRrFIyCUTAKBiMAABS2AM8=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="19" height="19">
+ <layer id="7" name="Walkable" width="19" height="19">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHGEYhAgxMbFx6eGkFnEmE+OWcgAnY8N4NJHjF5iADFmEWsXNj8T0o8ebvjEiQ0LcsOL2LAg1Y+41JGbJrCpI5R28ZmDK+3iyo/UNIucvE2KuZRiYs0CAFn+oOo=
   </data>
  </layer>
- <layer id="7" name="Walkable_replace" width="19" height="19" visible="0">
+ <layer id="8" name="Walkable_replace" width="19" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMFgBAAWkAAE=
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents" visible="0">
+ <objectgroup id="9" name="Mapevents" visible="0">
   <object id="1" name="South" type="mapchange" x="288" y="576" width="32" height="32">
    <properties>
     <property name="map" value="crackshot_hideout2"/>
     <property name="place" value="North"/>
    </properties>
   </object>
+  <object id="3" name="g04_package1" type="container" x="512" y="512" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="9" name="Spawn" visible="0">
+ <objectgroup id="10" name="Spawn" visible="0">
   <object id="2" name="g03_sergeant" type="spawn" x="192" y="480" width="32" height="32">
    <properties>
     <property name="spawngroup" value="g03_sergeant"/>
    </properties>
   </object>
-  <object id="3" name="g04_package1" type="container" x="512" y="512" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="10" name="Keys" visible="0">
+ <objectgroup id="11" name="Keys" visible="0">
   <object id="4" name="Object" type="key" x="288" y="32" width="32" height="96">
    <properties>
     <property name="phrase" value="guild03_hideout3_lock"/>
@@ -246,7 +246,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Replace" visible="0">
+ <objectgroup id="12" name="Replace" visible="0">
   <object id="5" name="Thieves03:29" type="replace" x="512" y="512" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>
@@ -262,7 +262,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="12" name="Enemies" visible="0">
+ <objectgroup id="13" name="Enemies" visible="0">
   <object id="7" name="g03_hideout3_reb1" type="spawn" x="32" y="192" width="160" height="128">
    <properties>
     <property name="quantity" value="2"/>
@@ -292,7 +292,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="13" name="Keys2" visible="0">
+ <objectgroup id="14" name="Keys2" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>

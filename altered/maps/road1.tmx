@@ -199,7 +199,7 @@
    eJzFVVsKwkAMXIXS/guC4D28mJ7QG+jXSlvQk9ilBsJ2s500Aeenj3RnMpNAQ5gxnIIK/fT9eCjXElcv8CE671bXyxbsOtt5bV6Ip0+7zA7RuTYh3BrM076TZ+OF+3H5TpsXx/M8X8lnwqOgQUj+LHr/hLX3/DzCZ9HkuxSn+1fl2crPYeWtgXPnOh6eOJek4wELp2YnKJNSNkheazpRqCPc+f6gvrbMWeOjxu25Y8Tjvbc071zHwoVyIGdKPfJe40rNG5bsL7//uuT7C6IoWX0=
   </data>
  </layer>
- <layer name="Above_replace" width="25" height="25">
+ <layer name="Above_replace" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AU4AMtAqN2EAtuSdLejlEwCkbBKBgFEAAAB5cCsA==
   </data>
@@ -209,9 +209,19 @@
    eJzdlNENACEIQ53C/VdgQx1AoJRqLteED3OhT6qnzTFsVyabmvoKp8tC9Ze8XpzHiRWxT99YZX7ZmmWqPCr5M3c46kfy78wazXM7wxtSnw/LUUjxn1cZXl6eF8Lp3C+0x3u7UHXmYLxQBjtPlaHab8TIepA9KqrivwCLg9Kq
   </data>
  </layer>
- <layer name="Walkable_replace" width="25" height="25">
+ <layer name="Walkable_replace" width="25" height="25" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AU4AMbxUbtGEx2jIJRMApGwSiAAADRkgMd
+  </data>
+ </layer>
+ <layer name="Above_replace2" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+  </data>
+ </layer>
+ <layer name="Walkable_replace2" width="25" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -277,19 +287,19 @@
  </objectgroup>
  <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace">
-  <object name="Thieves02:20" type="replace" x="32" y="256" width="32" height="128">
+  <object name="thieves_hidden:20" type="replace" x="32" y="256" width="32" height="128">
    <properties>
     <property name="Above" value="Above_replace"/>
     <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
-  <object name="Thieves02:24" type="replace" x="32" y="256" width="32" height="128">
+  <object name="thieves_hidden:30" type="replace" x="32" y="256" width="32" height="128">
    <properties>
-    <property name="Above" value="Above_replace"/>
-    <property name="Walkable" value="Walkable_replace"/>
-    <property name="requireId" value="Thieves02"/>
+    <property name="Above" value="Above_replace2"/>
+    <property name="Walkable" value="Walkable_replace2"/>
+    <property name="requireId" value="thieves_hidden"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="24"/>
+    <property name="requireValue" value="30"/>
    </properties>
   </object>
  </objectgroup>

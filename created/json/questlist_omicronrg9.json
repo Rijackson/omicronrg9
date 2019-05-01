@@ -263,6 +263,14 @@
             {
                 "progress":10,
                 "logText":"Must be never fulfilled"
+            },
+            {
+                "progress":20,
+                "logText":"Block road1"
+            },
+            {
+                "progress":30,
+                "logText":"Remove block road1"
             }
         ]
     }

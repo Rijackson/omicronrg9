@@ -1519,6 +1519,11 @@
                 "rewardType":"actorCondition",
                 "rewardID":"carrying_ambelie",
                 "value":999
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":20
             }
         ]
     },
@@ -2763,6 +2768,13 @@
                 "text":"Ok.",
                 "nextPhraseID":"umar_guild03_19c"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":10
+            }
         ]
     },
     {
@@ -2777,6 +2789,13 @@
                 "text":"Argh,Duleian road is wide! ",
                 "nextPhraseID":"umar_guild03_19b"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":10
+            }
         ]
     },
     {
@@ -2790,13 +2809,6 @@
             {
                 "text":"Thank you.See you again.",
                 "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves03",
-                "value":10
             }
         ]
     },
@@ -3142,7 +3154,7 @@
         "id":"guild03_blood_3_select",
         "replies":[
             {
-                "nextPhraseID":"guild03_blood_3a",
+                "nextPhraseID":"guild03_sword_clashing",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -3151,30 +3163,13 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"guild03_blood_3b"
             }
         ]
     },
     {
-        "id":"guild03_blood_3b",
-        "message":"(No one is going to clean off the blood.)"
-    },
-    {
-        "id":"guild03_blood_3a",
-        "message":"ARGH!! *sword clashing*",
+        "id":"guild03_sword_clashing",
+        "message":"ARGH!! *sword clashing*\n\nSergeant! Sergeant!!\n...*laughter*",
         "switchToNPC":"unknown",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"guild03_blood_3a_2"
-            }
-        ]
-    },
-    {
-        "id":"guild03_blood_3a_2",
-        "message":"Sergeant! Sergeant!!\n...*laughter*",
         "replies":[
             {
                 "text":"I should check that.",
@@ -3692,14 +3687,19 @@
                 "mapName":"crackshot_hideout3"
             },
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Replace",
-                "mapName":"road1"
+                "rewardType":"removeQuestProgress",
+                "rewardID":"thieves_hidden",
+                "value":20
             },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"Feygard_BG",
                 "mapName":"road1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":30
             }
         ]
     },
@@ -4101,6 +4101,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"Feygard_BG",
                 "mapName":"road1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":20
             }
         ]
     },
