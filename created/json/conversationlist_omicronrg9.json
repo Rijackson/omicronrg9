@@ -3199,9 +3199,14 @@
         ],
         "rewards":[
             {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"g03_deadpatrol_1",
+                "mapName":"crackshot_hideout2"
+            },
+            {
                 "rewardType":"questProgress",
-                "rewardID":"Thieves03",
-                "value":25
+                "rewardID":"thieves_hidden",
+                "value":40
             }
         ]
     },
@@ -3221,13 +3226,32 @@
         "replies":[
             {
                 "text":"What guy?",
-                "nextPhraseID":"guild03_deadpatrol_2_3"
+                "nextPhraseID":"guild03_deadpatrol_2_was_second",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thieves_hidden",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"What guy?",
+                "nextPhraseID":"guild03_deadpatrol_2_was_first",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thieves_hidden",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"guild03_deadpatrol_2_3",
-        "message":"No...He's not...Agggh!\nHe has stopped breathing...I'm cannot do anything.Better to move on.",
+        "message":"No...He's not...Agggh!\n[He has stopped breathing...I'm cannot do anything.Better to move on.]",
         "replies":[
             {
                 "text":"Shadow,embrace him...",
@@ -3240,9 +3264,14 @@
         ],
         "rewards":[
             {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"g03_deadpatrol_2",
+                "mapName":"crackshot_hideout2"
+            },
+            {
                 "rewardType":"questProgress",
-                "rewardID":"Thieves03",
-                "value":26
+                "rewardID":"thieves_hidden",
+                "value":50
             }
         ]
     },
@@ -4203,5 +4232,84 @@
     {
         "id":"guild02_hatchlever_5",
         "message":"You already triggered the lever that opened a hatch which leads downstairs."
+    },
+    {
+        "id":"guild03_deadpatrol1_select",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_deadpatrol1_was_first",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thieves_hidden",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guild03_deadpatrol1_was_second"
+            }
+        ]
+    },
+    {
+        "id":"guild03_deadpatrol1_was_first",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_deadpatrol_1_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"guild03_deadpatrol1_was_second",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_deadpatrol_1_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":28
+            }
+        ]
+    },
+    {
+        "id":"guild03_deadpatrol_2_was_first",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_deadpatrol_2_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":27
+            }
+        ]
+    },
+    {
+        "id":"guild03_deadpatrol_2_was_second",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_deadpatrol_2_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":26
+            }
+        ]
     }
 ]

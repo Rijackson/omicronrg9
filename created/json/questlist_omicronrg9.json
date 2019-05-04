@@ -216,7 +216,15 @@
             },
             {
                 "progress":26,
-                "logText":"While I'm going through the corridor the air becomes thicker.The blood smell is stronger and you find another dying soldier.He tells you something about his sergeant and other guy."
+                "logText":"While I'm going through the corridor the air becomes thicker.The blood smell is stronger and I find another dying soldier.He tells me something about his sergeant and other guy."
+            },
+            {
+                "progress":27,
+                "logText":"While I'm going through the corridor the air becomes thicker.The blood smell is stronger and I find a dying soldier.He tells me something about his sergeant and other guy."
+            },
+            {
+                "progress":28,
+                "logText":"I find another dying soldier. That's a massacre.The feygard patrol reached the place,but they seem to have been killed.However,I must continue."
             },
             {
                 "progress":29,
@@ -271,6 +279,14 @@
             {
                 "progress":30,
                 "logText":"Remove block road1"
+            },
+            {
+                "progress":40,
+                "logText":"Found patrol 1"
+            },
+            {
+                "progress":50,
+                "logText":"Found patrol 2"
             }
         ]
     }
