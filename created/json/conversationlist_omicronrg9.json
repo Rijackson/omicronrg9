@@ -491,7 +491,7 @@
                 "nextPhraseID":"fanamor_guild_10",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"Thieves01",
                         "value":55
                     }
@@ -950,11 +950,6 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":900
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"fanamor",
-                "mapName":"fallhaven_derelict2"
             }
         ]
     },
