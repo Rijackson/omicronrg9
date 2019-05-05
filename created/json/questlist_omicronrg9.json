@@ -299,6 +299,10 @@
             {
                 "progress":70,
                 "logText":"thieves3 - Open door (can currently not be fulfilled, beause the blessed key of luthor can't be obtained in the game)"
+            },
+            {
+                "progress":80,
+                "logText":"Talked about thieves to Thoronir"
             }
         ]
     }

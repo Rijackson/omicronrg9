@@ -600,7 +600,7 @@
     },
     {
         "id":"fanamor_guild_6",
-        "message":"Argh...I have not much time...I am bleeding very badly.",
+        "message":"Argh... The Feygard Scout hit me badly. I have not much time... I am bleeding very heavily.",
         "replies":[
             {
                 "text":"I don't think so.",
@@ -683,7 +683,7 @@
         "replies":[
             {
                 "text":"[Bury the corpse.]",
-                "nextPhraseID":"R"
+                "nextPhraseID":"fanamor_guild_0a"
             }
         ],
         "rewards":[
@@ -695,12 +695,27 @@
         ]
     },
     {
+        "id":"fanamor_guild_0a",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"fanamor",
+                "mapName":"crossroads"
+            }
+        ]
+    },
+    {
         "id":"thoronir_guild_1",
         "message":"What's the matter,my child?",
         "replies":[
             {
                 "text":"Ehm...My father has cut himself with an axe,and we don't have any bandages!",
-                "nextPhraseID":"thoronir_guild_2"
+                "nextPhraseID":"thoronir_guild_2a"
             },
             {
                 "text":"Fanamor,one member of Thieves' Guild,is severely wounded.I beg you a bandage for her!",
@@ -710,6 +725,21 @@
     },
     {
         "id":"thoronir_guild_2",
+        "replies":[
+            {
+                "nextPhraseID":"thoronir_guild_2a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"thoronir_guild_2a",
         "message":"Let me see...",
         "replies":[
             {
@@ -1104,7 +1134,73 @@
     },
     {
         "id":"umar_guild02_5",
-        "message":"However,before that.I need you to do another...retirement task.",
+        "replies":[
+            {
+                "nextPhraseID":"umar_guild02_5a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thieves_hidden",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"umar_guild02_5z"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_5a",
+        "message":"But first I have to clarify something: You need to be more careful not to give information to outsiders about the Thieves Guild.",
+        "replies":[
+            {
+                "text":"Did I?",
+                "nextPhraseID":"umar_guild02_5b"
+            },
+            {
+                "text":"You're right. It will not happen again.",
+                "nextPhraseID":"umar_guild02_5z"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_5b",
+        "message":"You mentioned Fanamor's membership to Thoronir, yes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild02_5c"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_5c",
+        "message":"Fortunately, Thoronir will keep quiet, as he certainly does not want to give up our donations.",
+        "replies":[
+            {
+                "text":"Oh.",
+                "nextPhraseID":"umar_guild02_5d"
+            },
+            {
+                "text":"You're right. It will not happen again.",
+                "nextPhraseID":"umar_guild02_5z"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_5d",
+        "message":"You still have many things to learn, young apprentice.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild02_5z"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_5z",
+        "message":"Well, before I can give you a more demanding job, I need you to do another... retirement task.",
         "replies":[
             {
                 "text":"Anything for the glory o...Oops,I mean ok.",
@@ -1132,7 +1228,7 @@
     },
     {
         "id":"umar_guild02_6b",
-        "message":"Just tell me if you want to do the job.Bye",
+        "message":"Just tell me when you want to do the job. Bye",
         "replies":[
             {
                 "text":"Bye.",
@@ -1207,7 +1303,7 @@
     },
     {
         "id":"umar_guild02_11b",
-        "message":"Scouts have seen her in the Foaming flask tavern.Guards are a problem,we do not want to be discovered,so act quietly.It doesn't matter you can get rid of the guards.",
+        "message":"Scouts have seen the lady in the Foaming flask tavern. Guards are a problem, we do not want to be discovered, so act quietly. It doesn't matter how you can get rid of the guards.",
         "replies":[
             {
                 "text":"Yes,yes.I've understood.",
@@ -1216,6 +1312,16 @@
             {
                 "text":"Seems difficult,but whatever.I'll do it.",
                 "nextPhraseID":"umar_guild02_12"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_12",
+        "message":"Good luck. Return to me when you're done.",
+        "replies":[
+            {
+                "text":"Wait, wait! How I'm supposed to...",
+                "nextPhraseID":"umar_guild02_13"
             }
         ]
     },
@@ -1256,17 +1362,7 @@
     },
     {
         "id":"umar_guild02_15",
-        "message":"No,I've said all you need to know.Now leave me please,I've work to do now."
-    },
-    {
-        "id":"umar_guild02_12",
-        "message":"Good luck.Return to me when you're done.",
-        "replies":[
-            {
-                "text":"Wait,wait! How I'm supposed to...",
-                "nextPhraseID":"umar_guild02_13"
-            }
-        ]
+        "message":"No, I've said all you need to know. Now leave me please, I've work to do now."
     },
     {
         "id":"ambelie_guild02_1",

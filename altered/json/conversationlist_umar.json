@@ -349,8 +349,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves02",
-                        "value":6,
-                        "negate":false
+                        "value":6
                     },
                     {
                         "requireType":"questProgress",
@@ -362,7 +361,7 @@
             },
             {
                 "text":"Anything more about my new...task?",
-                "nextPhraseID":"umar_guild02_13",
+                "nextPhraseID":"umar_guild02_11b",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
