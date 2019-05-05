@@ -70,6 +70,7 @@
             "max":8
         },
         "spawnGroup":"g03_thief_1",
+        "faction":"rebthief_guild03_1",
         "phraseID":"rebthief_guild03_1",
         "droplistID":"drop_g03_rebthief_1",
         "attackCost":5,
@@ -103,6 +104,7 @@
             "max":9
         },
         "spawnGroup":"guild03_rebthief_2",
+        "faction":"rebthief2_g03_1",
         "phraseID":"rebthief2_g03_1",
         "droplistID":"drop_g03_rebthief_2",
         "attackCost":5,
@@ -168,7 +170,8 @@
             "max":11
         },
         "spawnGroup":"g03_crackshot",
-        "phraseID":"guild03_crackshot_select",
+        "faction":"crackshot",
+        "phraseID":"guild03_crackshot_1",
         "droplistID":"drop_g03_crackshot",
         "attackCost":5,
         "attackChance":110,
@@ -196,5 +199,13 @@
                 }
             ]
         }
+    },
+    {
+        "id":"g03_crackshot_dying",
+        "name":"Dying crackshot",
+        "iconID":"monsters_ld1:80",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"crackshot_dying"
     }
 ]

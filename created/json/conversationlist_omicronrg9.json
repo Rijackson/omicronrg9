@@ -3290,6 +3290,13 @@
                 "text":"People you've killed will be avenged.",
                 "nextPhraseID":"F"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"rebthief_guild03_1",
+                "value":-10
+            }
         ]
     },
     {
@@ -3312,12 +3319,23 @@
         "message":"Wait! That's not actually important.\nLeave this dangerous place,right now!",
         "replies":[
             {
+                "text":"You are right. It will be better to leave.",
+                "nextPhraseID":"X"
+            },
+            {
                 "text":"Hah! No way,I won't give up.",
                 "nextPhraseID":"FeygardSerg_guild03_3"
             },
             {
                 "text":"I'm here because...I'm here to help you!",
                 "nextPhraseID":"FeygardSerg_guild03_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":30
             }
         ]
     },
@@ -3400,6 +3418,10 @@
         "message":"Don't you understand? You must leave this place before you can't.\n\nHe's playing with us!!",
         "replies":[
             {
+                "text":"You are right. I will leave.",
+                "nextPhraseID":"X"
+            },
+            {
                 "text":"Take this supplies and leave,I'll avenge your mates.",
                 "nextPhraseID":"FeygardSerg_guild03_10",
                 "requires":[
@@ -3419,7 +3441,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"Thieves03",
-                "value":30
+                "value":31
             }
         ]
     },
@@ -3440,7 +3462,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"Thieves03",
-                "value":31
+                "value":32
             },
             {
                 "rewardType":"removeSpawnArea",
@@ -3482,7 +3504,34 @@
         "id":"FeygardSerg_guild03_select",
         "replies":[
             {
-                "nextPhraseID":"FeygardSerg_guild03_9b"
+                "nextPhraseID":"FeygardSerg_guild03_dead",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"g03_crackshot",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"FeygardSerg_guild03_9b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":31
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"FeygardSerg_guild03_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":30
+                    }
+                ]
             },
             {
                 "nextPhraseID":"FeygardSerg_guild03_1"
@@ -3530,9 +3579,9 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves03",
-                "value":29
+                "rewardType":"alignmentSet",
+                "rewardID":"rebthief2_g03_1",
+                "value":-10
             }
         ]
     },
@@ -3566,39 +3615,9 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves03",
-                "value":35
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Keys2",
-                "mapName":"crackshot_hideout3"
-            }
-        ]
-    },
-    {
-        "id":"guild03_crackshot_select",
-        "replies":[
-            {
-                "nextPhraseID":"guild03_crackshot_0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves03",
-                        "value":35
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"guild03_crackshot_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Thieves03",
-                        "value":31
-                    }
-                ]
+                "rewardType":"alignmentSet",
+                "rewardID":"crackshot",
+                "value":-10
             }
         ]
     },
@@ -3637,42 +3656,44 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves03",
-                "value":35
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Keys2",
-                "mapName":"crackshot_hideout3"
+                "rewardType":"alignmentSet",
+                "rewardID":"crackshot",
+                "value":-10
             }
         ]
     },
     {
         "id":"guild03_hideout3_lock",
-        "message":"This lock seems to match with the key of Luthor, but a mysterious force doesn't let you to unlock the door.",
-        "rewards":[
+        "message":"The lock seems to match with the key of Luthor.",
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves03",
-                "value":36
-            }
-        ]
-    },
-    {
-        "id":"guild03_crackshot_0",
-        "rewards":[
+                "text":"Insert the key of Luthor into the lock.",
+                "nextPhraseID":"guild03_hideout3_lock2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"g03_luthor",
+                        "value":1
+                    }
+                ]
+            },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Keys2",
-                "mapName":"crackshot_hideout3"
+                "text":"Insert the blessed key of Luthor into the lock.",
+                "nextPhraseID":"guild03_hideout3_unlock",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"g03_luthor2",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
     {
         "id":"guild03_hideout3_exit_1",
         "message":"W..Wait...",
-        "switchToNPC":"g03_crackshot",
+        "switchToNPC":"g03_crackshot_dying",
         "replies":[
             {
                 "text":"What?!",
@@ -3682,7 +3703,7 @@
     },
     {
         "id":"guild03_hideout3_exit_2",
-        "message":"(Crackshot is agonizing.He looks to you despairingly)\nIt is curs...sed.",
+        "message":"(The dying Crackshot is agonizing.He looks to you despairingly)\nIt is curs...sed.",
         "replies":[
             {
                 "text":"What are you talking about?",
@@ -4304,6 +4325,138 @@
                 "rewardType":"questProgress",
                 "rewardID":"Thieves03",
                 "value":26
+            }
+        ]
+    },
+    {
+        "id":"FeygardSerg_guild03_dead",
+        "message":"You.. Argh.. \n[The sergeant takes one final breath and then dies. You should have come earlier. Now you will never get to know what he wanted to tell you. ",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"g03_sergeant",
+                "mapName":"crackshot_hideout3"
+            }
+        ]
+    },
+    {
+        "id":"guild03_hideout3_open_chest",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"guild03_hideout3_unlock",
+        "message":"The door opens.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"guild03_hideout3_lock2",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_hideout3_lock3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guild03_hideout3_lock4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":36,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"guild03_hideout3_lockmessage"
+            }
+        ]
+    },
+    {
+        "id":"guild03_hideout3_lockmessage",
+        "message":"A mysterious force doesn't let you to unlock the door."
+    },
+    {
+        "id":"guild03_hideout3_lock3",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_hideout3_lockmessage"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":36
+            }
+        ]
+    },
+    {
+        "id":"guild03_hideout3_lock4",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_hideout3_lockmessage"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":41
+            }
+        ]
+    },
+    {
+        "id":"guild03_check_crackshot_death",
+        "replies":[
+            {
+                "nextPhraseID":"guild03_crackshot_is_dead",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"g03_crackshot",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"guild03_crackshot_is_dead",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":35
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Keys2",
+                "mapName":"crackshot_hideout3"
             }
         ]
     }

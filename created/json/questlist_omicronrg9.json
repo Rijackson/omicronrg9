@@ -227,30 +227,34 @@
                 "logText":"I find another dying soldier. That's a massacre.The feygard patrol reached the place,but they seem to have been killed.However,I must continue."
             },
             {
-                "progress":29,
-                "logText":"I've found a crate during the mission,but I need to get rid of the guard first in order to open it."
-            },
-            {
                 "progress":30,
-                "logText":"I've talked with the patrol sergeant.He told me his history about what happened before.He's tired and wounded,so I'll avenge his fellows."
+                "logText":"I've found the patrol sergeant. He adviced me to leave this dangerous place."
             },
             {
                 "progress":31,
+                "logText":"The patrol sergeant told me his history about what happened before.He's tired and wounded,so I'll avenge his fellows."
+            },
+            {
+                "progress":32,
                 "logText":"The patrol sergeant has left to call backup.Now I'm alone again.Time to defeat Crackshot.",
                 "rewardExperience":1125
             },
             {
                 "progress":35,
-                "logText":"I've started fighthing with Crackshot."
+                "logText":"I killed Crackshot and he had the key of Luthor with him. I have to go back and report Umar."
             },
             {
                 "progress":36,
-                "logText":"I've tried to open the door behind Crackshot, but somehow I cannot introduce the key into the lock.Anyway,mission accomplished.I must report Umar."
+                "logText":"I've tried to open the door behind Crackshot, but somehow I cannot introduce the key into the lock."
             },
             {
                 "progress":40,
-                "logText":"Crackshot said something about the key.If he hasn't lied, It could be cursed.",
+                "logText":"The dying Crackshot said something about the key.If he hasn't lied, It could be cursed.",
                 "rewardExperience":1000
+            },
+            {
+                "progress":41,
+                "logText":"I've tried to open the door behind Crackshot, but somehow I cannot introduce the key into the lock."
             },
             {
                 "progress":45,
@@ -282,11 +286,19 @@
             },
             {
                 "progress":40,
-                "logText":"Found patrol 1"
+                "logText":"thieves3 - Found patrol 1"
             },
             {
                 "progress":50,
-                "logText":"Found patrol 2"
+                "logText":"thieves3 - Found patrol 2"
+            },
+            {
+                "progress":60,
+                "logText":"thieves3 - Open chest"
+            },
+            {
+                "progress":70,
+                "logText":"thieves3 - Open door (can currently not be fulfilled, beause the blessed key of luthor can't be obtained in the game)"
             }
         ]
     }
