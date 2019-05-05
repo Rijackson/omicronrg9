@@ -4330,7 +4330,7 @@
     },
     {
         "id":"FeygardSerg_guild03_dead",
-        "message":"You.. Argh.. \n[The sergeant takes one final breath and then dies. You should have come earlier. Now you will never get to know what he wanted to tell you. ",
+        "message":"You.. Argh.. \n[The sergeant takes one final breath and then dies. You should have come earlier. Now you will never get to know what he wanted to tell you.]",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
