@@ -159,7 +159,7 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"Time to rest and prepare myself to begin with the next job.I should go to the tavern."
+                "logText":"Time to rest and prepare myself to start the next job. I should go to the tavern."
             },
             {
                 "progress":2,
@@ -167,102 +167,102 @@
             },
             {
                 "progress":3,
-                "logText":"I'm now fully rested,so I should go back to Umar."
+                "logText":"I am now fully rested, so I should go back to Umar."
             },
             {
                 "progress":4,
-                "logText":"Umar told me about a group of traitors led by a Guild's veteran.It seems he stole the Key of Luthor."
+                "logText":"Umar told me about a group of traitors led by a veteran of the Guild. It seems he stole the Key of Luthor."
             },
             {
                 "progress":5,
-                "logText":"Umar told me the story about the one who is known by \"Crack shot\".He's probably the responsible of the murder in the Duleian road."
+                "logText":"Umar told me a story about one who is known as \"Crackshot\". He is probably the responsible for a murder on the Duleian road."
             },
             {
                 "progress":10,
-                "logText":"Crackshot and his henchmen are probably hiding somewhere in the Duleian road.I must ask people there whether they have seen'em.",
+                "logText":"Crackshot and his henchmen are probably hiding somewhere near the Duleian road. I must ask people there whether they have seen them.",
                 "rewardExperience":0
             },
             {
                 "progress":11,
-                "logText":"Benbyr,a suspicious man outside Crossroads Guardhouse,seems to don't know what I'm talking about."
+                "logText":"It seems that Benbyr, a suspicious man outside Crossroads Guardhouse, doesn't know what I'm talking about."
             },
             {
                 "progress":15,
-                "logText":"Crossroads guards told me that Feygard has sent more soldiers to the south, trying to find the criminals' hideout."
+                "logText":"A Crossroads guard told me that Feygard has sent more soldiers to the south, to try and find the criminals' hideout."
             },
             {
                 "progress":20,
-                "logText":"The barricade guard speaks too loud,but he said all I wanted to know.I need to be faster than the patrols and reach the hideout.\nThe hideout is near a place full of larval burrowers."
+                "logText":"The barricade guard has a big mouth, and told me all I needed to know. The hideout is near a place full of larval burrowers. I need to move faster than the patrols to reach the hideout before them."
             },
             {
                 "progress":21,
-                "logText":"I've found a small hole which apparently leads to a cave.Probably Crackshot and his henchmen are hiding there."
+                "logText":"I found a small hole which seems to lead to a cave. Crackshot and his henchmen are probably hiding there."
             },
             {
                 "progress":22,
-                "logText":"I've reached the hideout and saw some recent blood stains...Maybe people were fighting there."
+                "logText":"I reached the hideout and saw some recent blood stains. Maybe there was a fight there."
             },
             {
                 "progress":23,
-                "logText":"The blood trace goes further..."
+                "logText":"The blood trail goes further..."
             },
             {
                 "progress":24,
-                "logText":"I've heard screams and sword clashes near here...I should take a look."
+                "logText":"I heard screams and sword clashes nearby. I should take a look."
             },
             {
                 "progress":25,
-                "logText":"That's a massacre.The feygard patrol reached the place,but they seem to have been killed.However,I must continue."
+                "logText":"There was a massacre. The Feygard patrol reached this place, but they seem to have all been killed. I must continue."
             },
             {
                 "progress":26,
-                "logText":"While I'm going through the corridor the air becomes thicker.The blood smell is stronger and I find another dying soldier.He tells me something about his sergeant and other guy."
+                "logText":"As I progressed down the corridor the air became thicker.The blood smell was stronger, and I found another dying soldier. He said something about his sergeant and some other guy."
             },
             {
                 "progress":27,
-                "logText":"While I'm going through the corridor the air becomes thicker.The blood smell is stronger and I find a dying soldier.He tells me something about his sergeant and other guy."
+                "logText":"As I progressed down the corridor the air became thicker.The blood smell was stronger, and I found another dying soldier. He said something about his sergeant and some other guy."
             },
             {
                 "progress":28,
-                "logText":"I find another dying soldier. That's a massacre.The feygard patrol reached the place,but they seem to have been killed.However,I must continue."
+                "logText":"I found another dying soldier. There was a massacre. The Feygard patrol reached this place, but they seem to have all been killed. I must continue."
             },
             {
                 "progress":30,
-                "logText":"I've found the patrol sergeant. He adviced me to leave this dangerous place."
+                "logText":"I've found the patrol sergeant. He advised me to leave this dangerous place."
             },
             {
                 "progress":31,
-                "logText":"The patrol sergeant told me his history about what happened before.He's tired and wounded,so I'll avenge his fellows."
+                "logText":"The patrol sergeant told me about what happened before. He's tired and wounded, so I willl avenge his fellows. "
             },
             {
                 "progress":32,
-                "logText":"The patrol sergeant has left to call backup.Now I'm alone again.Time to defeat Crackshot.",
+                "logText":"The patrol sergeant has left to call for backup. Now I'm alone again. Time to defeat Crackshot.",
                 "rewardExperience":1125
             },
             {
                 "progress":35,
-                "logText":"I killed Crackshot and he had the key of Luthor with him. I have to go back and report Umar."
+                "logText":"I killed Crackshot and he had the key of Luthor with him. I have to go back and report to Umar."
             },
             {
                 "progress":36,
-                "logText":"I've tried to open the door behind Crackshot, but somehow I cannot introduce the key into the lock."
+                "logText":"I tried to open the door behind Crackshot, but for some reason I cannot get the key into the lock."
             },
             {
                 "progress":40,
-                "logText":"The dying Crackshot said something about the key.If he hasn't lied, It could be cursed.",
+                "logText":"The dying Crackshot said something about the key. If he told the truth, it could be cursed.",
                 "rewardExperience":1000
             },
             {
                 "progress":41,
-                "logText":"I've tried to open the door behind Crackshot, but somehow I cannot introduce the key into the lock."
+                "logText":"I tried to open the door behind Crackshot, but for some reason I cannot get the key into the lock."
             },
             {
                 "progress":45,
-                "logText":"I've reported Umar about the situation and given him the key.He does not seem to want to tell me more about the key...Yet."
+                "logText":"I reported about the situation to Umar, and gave him the key. He does not seem to want to tell me more about the key...Yet."
             },
             {
                 "progress":50,
-                "logText":"Finally, this job is done.Now I should take a rest and regain strength.",
+                "logText":"Finally, this job is done. Now I should take a rest and regain my strength.",
                 "rewardExperience":7500,
                 "finishesQuest":1
             }

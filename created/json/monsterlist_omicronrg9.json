@@ -157,7 +157,7 @@
     },
     {
         "id":"g03_crackshot",
-        "name":"Abducted crackshot",
+        "name":"Abducted Crackshot",
         "iconID":"monsters_ld1:80",
         "maxHP":133,
         "maxAP":10,
@@ -202,7 +202,7 @@
     },
     {
         "id":"g03_crackshot_dying",
-        "name":"Dying crackshot",
+        "name":"Dying Crackshot",
         "iconID":"monsters_ld1:80",
         "unique":1,
         "monsterClass":"humanoid",
