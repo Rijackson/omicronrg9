@@ -59,5 +59,15 @@
                 "nextPhraseID":"crossroads_guard_1"
             }
         ]
+    },
+    {
+        "id":"crossroads_guard_1",
+        "message":"Aren't you a bit young to be traveling around here all by yourself?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"crossroads_guard_2"
+            }
+        ]
     }
 ]

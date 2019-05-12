@@ -265,7 +265,7 @@
         "message":"What? I don't know what are you talking about.",
         "replies":[
             {
-                "text":"You are no one.No one knows you.No one has seen you.",
+                "text":"You are no one. No one knows you. No one has seen you.",
                 "nextPhraseID":"dunla_guild_2a",
                 "requires":[
                     {
@@ -277,7 +277,7 @@
                 ]
             },
             {
-                "text":"You are no one.No one knows you.No one has seen you.",
+                "text":"You are no one. No one knows you. No one has seen you.",
                 "nextPhraseID":"dunla_guild_2b",
                 "requires":[
                     {
@@ -292,7 +292,7 @@
     },
     {
         "id":"dunla_guild_2a",
-        "message":"So you're one of us.Take my journal.",
+        "message":"So, you are one of us. Here, take my journal.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -318,7 +318,7 @@
     },
     {
         "id":"dunla_guild_2b",
-        "message":"Sorry,I haven't more information for you.",
+        "message":"Sorry, I don't have any more information for you.",
         "replies":[
             {
                 "text":"Do you have anything to trade?",
@@ -332,7 +332,7 @@
     },
     {
         "id":"fanamor_guild_1",
-        "message":"Finally! I was getting tired of waiting here killing those beasts...",
+        "message":"Finally! I was getting tired of waiting here killing these beasts...",
         "replies":[
             {
                 "text":"N",
@@ -365,7 +365,7 @@
     },
     {
         "id":"feygard_scout_1",
-        "message":"Halt! I've caught you people!",
+        "message":"Halt! You have bee caught!",
         "switchToNPC":"feygard_scout",
         "replies":[
             {
@@ -376,7 +376,7 @@
     },
     {
         "id":"fanamor_guild_3",
-        "message":"In a blink of an eye, Fanamor starts attacking the scout.",
+        "message":"In the blink of an eye, Fanamor starts attacking the scout.",
         "switchToNPC":"None",
         "replies":[
             {
@@ -679,7 +679,7 @@
     },
     {
         "id":"fanamor_guild_0",
-        "message":"(You glance away as you see the corpse of Fanamor.Probably anklebiters have something to do with that horrible event.)",
+        "message":"(You look away when you see the corpse of Fanamor. Anklebiters probably had something to do with this horrible event.)",
         "replies":[
             {
                 "text":"[Bury the corpse.]",
@@ -776,14 +776,14 @@
     },
     {
         "id":"fanamor_guild_9a",
-        "message":"(You help Fanamor to put on the bandage on the wound)\n\n...I think I will be... able to move in a few minutes.See you in the basement,thank you kid.",
+        "message":"(You help Fanamor put the bandage on the wound)\n\n...I think I will be able...to move in a few minutes. See you at the Guild. Thank you kid.",
         "replies":[
             {
-                "text":"I'm glad to hear that.Bye.",
+                "text":"I'm glad to hear that. Bye.",
                 "nextPhraseID":"R"
             },
             {
-                "text":"Nothing for me,thanks.",
+                "text":"Nothing for me.",
                 "nextPhraseID":"R"
             }
         ],
@@ -1046,14 +1046,14 @@
     },
     {
         "id":"fanamor_guild_10",
-        "message":"Hey,mate! Thank you for all you've done for me before.",
+        "message":"Hello, friend! Thank you for all you've done for me.",
         "replies":[
             {
-                "text":"Nothing,bye.",
+                "text":"It was nothing. Bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"It's my job.Nice to see you survived those Anklebiters...",
+                "text":"It's my job. Nice to see you survived those Anklebiters...",
                 "nextPhraseID":"X"
             }
         ]
@@ -3010,14 +3010,14 @@
         "message":"Aren't you a bit young to be travelling around here all by yourself?",
         "replies":[
             {
-                "text":"Sorry,have you heard anything about a murder?",
+                "text":"Sorry, have you heard anything about a murder?",
                 "nextPhraseID":"crossroads_guild03_2"
             }
         ]
     },
     {
         "id":"crossroads_guild03_2",
-        "message":"Yeah,Feygard authorities have sent more patrols to the south.Appearently there are a group of criminals hiding in the forest",
+        "message":"Yeah, Feygard authorities have sent more patrols to the south. Appearently there is a group of criminals hiding in the forest",
         "replies":[
             {
                 "text":"N",
@@ -3034,7 +3034,7 @@
     },
     {
         "id":"crossroads_guild03_3",
-        "message":"Now go away kid,I'm working!"
+        "message":"Now go away kid, I'm working!"
     },
     {
         "id":"benbyr_guild03_1",
