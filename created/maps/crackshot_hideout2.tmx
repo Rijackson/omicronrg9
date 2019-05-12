@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="9" height="27" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="9" height="27" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,27 +183,27 @@
  <tileset firstgid="7577" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="9" height="27">
+ <layer id="1" name="Ground" width="9" height="27">
   <data encoding="base64" compression="zlib">
    eJy1kz0KgDAMhUM37w+9QuvsYvUI6hU8ixQSDCE/dXB4Q/M+TB6JNQHUH7Qx9fcpvB1rpGUCWNGfsXZhXYqY2/A5Y/nEVIcpItMIo/X8+p3+1rKXwM9sBs2P5hxhGtupxRy4P5kpym3N1MTdaMyB/by7oX7eTYwwOcgU7Vr+K55Hyunta+kBjzesRQ==
   </data>
  </layer>
- <layer name="Objects" width="9" height="27">
+ <layer id="2" name="Objects" width="9" height="27">
   <data encoding="base64" compression="zlib">
    eJxjYKAc7GLCL78bKB+MQ40MO4Q+C5S/h0UNSEyHHULfB2JlYYSchSBEbDErqh51JDUegtjtnYpk12ExBoaFaGYcxqJvOgF/IoNSIQaGmzjs3o1kzmmguo2CmPJn0eyyEMSUv4+kZiqaenR5bAAk3yqE4C/Hor6HH78ZMLetIaAOFMbIau7iiG9kAAqXtVjMLRXCFENPX6exqLkLVXMPR9iA4hwWzuFQjA7Qw5la8iC/EtJLCAAAMfEovA==
   </data>
  </layer>
- <layer name="Above" width="9" height="27">
+ <layer id="3" name="Above" width="9" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPuCxGWOywGCb7MJqaS1jUXEJToyyM3UxcYDoTYTWkAGx+RQeE3AUyA58amDy633HJT8XiR3z6iXUnLjW9/Kh8bGE8lx9TjBphR6waQn4fagAAIPQa9Q==
+   eJxjYKAPOCxGWAyZD2Ojq7mERc0lNDXKwvjtRQfTmQirIQVcJsJOQu4CmYFPDUwe3e+45Kdi8SM+/cS6E5eaXn5UPrYwnsuPKUaNsCNWDSG/DzUAALWlGtU=
   </data>
  </layer>
- <layer name="Walkable" width="9" height="27" visible="0">
+ <layer id="4" name="Walkable" width="9" height="27" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHGQYxDAxkZXgwzwyZFjBqlqiHUvsX7CFzaUyBNSQ4x/SXUrsWoodRchNfjswgVIdSsp7qQ0nwAAoMSARA==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="West" type="mapchange" x="0" y="704" width="32" height="128">
    <properties>
     <property name="map" value="crackshot_hideout1"/>
@@ -217,7 +217,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="3" name="g03_deadpatrol_1" type="spawn" x="192" y="576" width="32" height="32">
    <properties>
     <property name="spawngroup" value="g03_deadpatrol_1"/>
@@ -235,7 +235,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0">
+ <objectgroup id="7" name="Keys" visible="0">
   <object id="6" name="Webslock" type="key" x="256" y="128" width="32" height="64">
    <properties>
     <property name="phrase" value="guild03_doorlock_3"/>
@@ -261,5 +261,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace" visible="0"/>
+ <objectgroup id="8" name="Replace" visible="0"/>
 </map>
