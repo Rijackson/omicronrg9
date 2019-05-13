@@ -134,7 +134,7 @@
     },
     {
         "id":"troublemaker_guild_1",
-        "message":"Argh,another annoying apprentice...I mean,sorry.I know you were the one who brought us the key.",
+        "message":"Argh, another annoying apprentice... I mean, sorry. I know you were the one who brought us the key.",
         "replies":[
             {
                 "text":"N",
@@ -144,7 +144,7 @@
     },
     {
         "id":"troublemaker_guild_2",
-        "message":"Ok,now listen up! ",
+        "message":"Ok, now listen up! ",
         "replies":[
             {
                 "text":"N",
@@ -154,7 +154,7 @@
     },
     {
         "id":"troublemaker_guild_3",
-        "message":"As you can suppose,we're not welcome in many places.In fact,we're being chased by Fallhaven patrols.That's why we are here.This place is safe.",
+        "message":"As I expect you are aware, we're not welcome in many places. In fact, we're being pursued by Fallhaven patrols. That's why we are here. This place is safe.",
         "replies":[
             {
                 "text":"N",
@@ -164,7 +164,7 @@
     },
     {
         "id":"troublemaker_guild_4",
-        "message":"But you know,we need supplies to survive and also mantain Guild's influence.Actually we are not common robbers.",
+        "message":"But we need supplies to survive, and also to maintain the Guild's influence. We are not just common robbers.",
         "replies":[
             {
                 "text":"What do you mean?",
@@ -178,21 +178,21 @@
     },
     {
         "id":"troublemaker_guild_5",
-        "message":"We don't just steal gold or goods.We steal information.Secrets,shipment reports,strategic locations..\nDo you know what I mean?",
+        "message":"We don't just steal gold or goods. We steal information. Secrets, shipment reports, strategic locations..\nDo you know what I mean?",
         "replies":[
             {
                 "text":"Get to the point please.",
                 "nextPhraseID":"troublemaker_guild_6"
             },
             {
-                "text":"Yes,I understand.",
+                "text":"Yes, I understand.",
                 "nextPhraseID":"troublemaker_guild_6"
             }
         ]
     },
     {
         "id":"troublemaker_guild_6",
-        "message":"We have spies and scouts in certain key locations, gathering information.These locations are places frequented by people from Feygard and also from Nor City.",
+        "message":"We have spies and scouts in certain key locations, gathering information. These locations are places frequented by people from Feygard and also from Nor City.",
         "replies":[
             {
                 "text":"N",
@@ -202,32 +202,32 @@
     },
     {
         "id":"troublemaker_guild_7",
-        "message":"So you will be intermediary this time,taking our spies' journal and bringing them to me.",
+        "message":"So you will be the intermediary this time, collecting our spies' journals and bringing them to me.",
         "replies":[
             {
-                "text":"Sounds easy,I'll do it.",
+                "text":"Sounds easy, I'll do it.",
                 "nextPhraseID":"troublemaker_guild_8a"
             },
             {
-                "text":"That's not my favourite kind of job...But whatever,I will bring them.",
+                "text":"That's not my favourite kind of job...but I will bring them.",
                 "nextPhraseID":"troublemaker_guild_8a"
             },
             {
-                "text":"No,I'm too strong to be just a mere broker.",
+                "text":"No, I'm too strong to be just a mere broker.",
                 "nextPhraseID":"troublemaker_guild_8b"
             }
         ]
     },
     {
         "id":"troublemaker_guild_8a",
-        "message":"Good.We have 3 people in the job.\nThe first one is a spy in Crossglen,Leta.I believe you know her.\nOne of our veteran spies,Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally we have Fanamor,watching around Crossroads Guardhouse.",
+        "message":"Good. We have 3 people on the job.\nThe first one is a spy in Crossglen, Leta. I believe you know her.\nOne of our veteran spies, Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally we have Fanamor, watching what is happening around Crossroads Guardhouse.",
         "replies":[
             {
                 "text":"Anything else?",
                 "nextPhraseID":"troublemaker_guild_9"
             },
             {
-                "text":"Ok,bye.",
+                "text":"Ok, bye.",
                 "nextPhraseID":"troublemaker_guild_9"
             }
         ],
@@ -241,14 +241,14 @@
     },
     {
         "id":"troublemaker_guild_8b",
-        "message":"Hmpf,go killing beetles with your strength."
+        "message":"Hmpf. Go kill some beetles with your strength!"
     },
     {
         "id":"troublemaker_guild_9",
-        "message":"Ah! I almost forgot,you have to say the password if you want them to give you the journal.\nThe password is \"You are no one.No one knows you.No one has seen you.\" Good luck.",
+        "message":"Ah! I almost forgot. You have to say the password if you want them to give you the journal.\nThe password is \"You are no one. No one knows you. No one has seen you.\" Good luck.",
         "replies":[
             {
-                "text":"I will keep that in mind.Bye.",
+                "text":"I will keep that in mind. Bye.",
                 "nextPhraseID":"X"
             }
         ],
