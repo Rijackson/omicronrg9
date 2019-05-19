@@ -361,12 +361,29 @@
             },
             {
                 "text":"Anything more about my new...task?",
-                "nextPhraseID":"umar_guild02_11b",
+                "nextPhraseID":"umar_guild02_10",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"Thieves02",
-                        "value":5
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Anything more about my new...task?",
+                "nextPhraseID":"umar_guild02_13",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Thieves02",
+                        "value":4
                     },
                     {
                         "requireType":"questProgress",
@@ -394,7 +411,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Thieves02",
-                        "value":5,
+                        "value":2,
                         "negate":true
                     }
                 ]

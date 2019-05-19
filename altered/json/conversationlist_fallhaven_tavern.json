@@ -19,7 +19,7 @@
                 "nextPhraseID":"bela_room_2",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":10,
                         "negate":true

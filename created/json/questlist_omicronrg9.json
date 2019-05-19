@@ -71,8 +71,12 @@
         "showInLog":1,
         "stages":[
             {
-                "progress":5,
-                "logText":"After completing my first task I'm considered a member of Thieves' Guild. Now I have to perform a very risky task. Umar sent me to kidnap a noble woman from Feygard, without being discovered. She was recently seen in the Foaming Flask tavern."
+                "progress":2,
+                "logText":"After completing my first task I'm considered a member of Thieves' Guild. Now I have to perform a very risky task. Umar sent me to kidnap a noble woman from Feygard, without being discovered."
+            },
+            {
+                "progress":4,
+                "logText":"She was recently seen in the Foaming Flask tavern."
             },
             {
                 "progress":6,
@@ -96,7 +100,7 @@
             },
             {
                 "progress":24,
-                "logText":"Ambelie gave me a very valuable neckace. I must talk with Umar and persuade him to no longer pursue her."
+                "logText":"Ambelie gave me a very valuable necklace. I must talk with Umar and persuade him to no longer pursue her."
             },
             {
                 "progress":30,
@@ -126,7 +130,7 @@
             },
             {
                 "progress":60,
-                "logText":"Troublemaker gave me some bread for Ambelie. The guild doesn't want her to starve to death. Indeed, they want her to be as confortable as possible. I must go to the brig again."
+                "logText":"Troublemaker gave me some bread for Ambelie. The guild doesn't want her to starve to death. Indeed, they want her to be as comfortable as possible. I must go to the brig again."
             },
             {
                 "progress":65,

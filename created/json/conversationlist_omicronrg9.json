@@ -1022,7 +1022,24 @@
                 ]
             },
             {
-                "text":"I have to...(You look Ambelie) find a better place for her.",
+                "text":"I still have to bring our guest to her quarters.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have to...(you look at Ambelie) find a better place for her.",
                 "nextPhraseID":"troublemaker_guild02_1",
                 "requires":[
                     {
@@ -1207,6 +1224,10 @@
                 "nextPhraseID":"umar_guild02_6a"
             },
             {
+                "text":"Sigh. If you insist...",
+                "nextPhraseID":"umar_guild02_6a"
+            },
+            {
                 "text":"Hmmm,sounds boring,I decline.",
                 "nextPhraseID":"umar_guild02_6b"
             }
@@ -1216,6 +1237,10 @@
         "id":"umar_guild02_6a",
         "message":"Excellent.I warn you that this is not an ordinary retirement.It's more like a...kidnapping.",
         "replies":[
+            {
+                "text":"Now that sounds more interesting.",
+                "nextPhraseID":"umar_guild_7"
+            },
             {
                 "text":"Can you get to the point please?",
                 "nextPhraseID":"umar_guild_7"
@@ -1272,14 +1297,14 @@
     },
     {
         "id":"umar_guild02_10",
-        "message":"Simple,I want you to bring her here,so we can ask for a substantial ransom to his generous father.",
+        "message":"I want you to bring the noble woman here,so we can ask for a substantial ransom to his generous father.",
         "replies":[
             {
                 "text":"Consider it done.",
                 "nextPhraseID":"umar_guild02_11a"
             },
             {
-                "text":"Where I can find that woman?",
+                "text":"Where can I find that woman?",
                 "nextPhraseID":"umar_guild02_11b"
             }
         ],
@@ -1287,13 +1312,13 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"Thieves02",
-                "value":5
+                "value":2
             }
         ]
     },
     {
         "id":"umar_guild02_11a",
-        "message":"Great...Ah, I forget to tell you where is she.",
+        "message":"Great... Before you go, I should tell you where she is.",
         "replies":[
             {
                 "text":"N",
@@ -1313,6 +1338,13 @@
                 "text":"Seems difficult,but whatever.I'll do it.",
                 "nextPhraseID":"umar_guild02_12"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves02",
+                "value":4
+            }
         ]
     },
     {
@@ -1321,6 +1353,10 @@
         "replies":[
             {
                 "text":"Wait, wait! How I'm supposed to...",
+                "nextPhraseID":"umar_guild02_13"
+            },
+            {
+                "text":"I will bring her, even if I have to eliminate Feygard's entire army!",
                 "nextPhraseID":"umar_guild02_13"
             }
         ]
@@ -1337,11 +1373,18 @@
                 "text":"I'll do it,thanks.",
                 "nextPhraseID":"umar_guild02_14"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves02",
+                "value":6
+            }
         ]
     },
     {
         "id":"umar_guild02_14",
-        "message":"Remember if you've discovered,you are no one.No one knows you.And of course,no one has seen you.You're now a member,so don't fail.",
+        "message":"Remember if you were discovered,you are no one.No one knows you.And of course,no one has seen you.You're now a member,so don't fail.",
         "replies":[
             {
                 "text":"Do you still think I'm a novice right? You're going to see you're wrong!",
@@ -1350,13 +1393,6 @@
             {
                 "text":"Understood.Bye.",
                 "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"Thieves02",
-                "value":6
             }
         ]
     },
@@ -1426,7 +1462,7 @@
                 "nextPhraseID":"X",
                 "requires":[
                     {
-                        "requireType":"inventoryRemove",
+                        "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":1000,
                         "negate":true
@@ -1820,7 +1856,7 @@
     },
     {
         "id":"troublemaker_guild02_6",
-        "message":"Oh! I forgot it,take this key.Make sure you introduce it correctly to open the hatchway.",
+        "message":"Oh! I forgot it,take this key.Make sure you put it in correctly to open the hatchway.",
         "replies":[
             {
                 "text":"You forget many things right?",
@@ -1896,7 +1932,7 @@
     },
     {
         "id":"guild02_hatchlever_3b",
-        "message":"You hit the chain.Now,you got is a mark in your weapon and frustration,as the chain is still intact.",
+        "message":"You hit the chain.But everything you got is a mark in your weapon and frustration,as the chain is still intact.",
         "replies":[
             {
                 "text":"Hit again.",
@@ -1913,7 +1949,7 @@
         "message":"Probably this is the place Troublemaker has mentioned before.You see a crowbar with a locked chain that surrounds the whole mechanism and block it from moving.The key seems to fit into the lock.",
         "replies":[
             {
-                "text":"Introduce the key inside the lock.",
+                "text":"Put the key into the lock.",
                 "nextPhraseID":"guild02_hatchlever_3a",
                 "requires":[
                     {
@@ -1981,7 +2017,7 @@
     },
     {
         "id":"troublemaker_guild02_8",
-        "message":"Ah,yes...That captive.Take this food and make sure She's enough confortable.We don't want her starving right?\n(Troublemaker gives you some bread)",
+        "message":"Ah,yes...That captive.Take this food and make sure she has it comfortable enough.We don't want her starving right?\n(Troublemaker gives you some bread)",
         "replies":[
             {
                 "text":"Argh,ok.What a tedious job!",
@@ -2167,24 +2203,34 @@
     },
     {
         "id":"ambelie_guild02_13",
-        "message":"...Fine *sniffs*.",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"...Fine *sniffs*."
     },
     {
         "id":"ambelie_guild02_14",
-        "message":"(You look again through the bars.Ambelie is still there,alive and consicious with that bread you've given before.)"
+        "message":"(You look again through the bars.Ambelie is still there,alive and gnawing on the bread you've given her before.)"
     },
     {
         "id":"troublemaker_guild02_9",
         "message":"Excellent...Now me and my fellows will be taking care of her.",
         "replies":[
             {
-                "text":"N",
+                "text":"Very well. And I will talk to Umar again. Bye.",
+                "nextPhraseID":"troublemaker_guild02_9_1"
+            },
+            {
+                "text":"But...",
                 "nextPhraseID":"troublemaker_guild02_10"
+            }
+        ]
+    },
+    {
+        "id":"troublemaker_guild02_9_1",
+        "message":"Do that.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves02",
+                "value":70
             }
         ]
     },
