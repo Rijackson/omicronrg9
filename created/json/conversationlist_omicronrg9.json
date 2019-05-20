@@ -144,7 +144,7 @@
     },
     {
         "id":"troublemaker_guild_2",
-        "message":"Ok, now listen up! ",
+        "message":"OK, now listen up! ",
         "replies":[
             {
                 "text":"N",
@@ -178,7 +178,7 @@
     },
     {
         "id":"troublemaker_guild_5",
-        "message":"We don't just steal gold or goods. We steal information. Secrets, shipment reports, strategic locations..\nDo you know what I mean?",
+        "message":"We don't just steal gold or goods. We steal information. Secrets, shipment reports, strategic locations.\nDo you know what I mean?",
         "replies":[
             {
                 "text":"Get to the point please.",
@@ -227,7 +227,7 @@
                 "nextPhraseID":"troublemaker_guild_9"
             },
             {
-                "text":"Ok, bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"troublemaker_guild_9"
             }
         ],
@@ -838,7 +838,7 @@
         "message":"How is the mission going?",
         "replies":[
             {
-                "text":"I've brought all journals without problems.",
+                "text":"I've brought all the journals.",
                 "nextPhraseID":"troublemaker_guild_11a",
                 "requires":[
                     {
@@ -864,7 +864,7 @@
                 ]
             },
             {
-                "text":"I have the data,but one of your spies,Fanamor,has been killed by a Feygard scout.",
+                "text":"I have the journals, but one of your spies, Fanamor, was killed by a Feygard scout.",
                 "nextPhraseID":"troublemaker_guild_11b",
                 "requires":[
                     {
@@ -890,18 +890,18 @@
                 ]
             },
             {
-                "text":"Almost done,sir.",
+                "text":"Almost done.",
                 "nextPhraseID":"troublemaker_guild_11c"
             },
             {
-                "text":"Well,but can I take a look into your supplies again?",
+                "text":"Well, but can I take a look at your supplies again?",
                 "nextPhraseID":"S"
             }
         ]
     },
     {
         "id":"troublemaker_guild_11a",
-        "message":"Well done kid! Now consider yourself enough skilled for this guild.",
+        "message":"Well done kid! You can now consider yourself skilled enough to be a part of this guild.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -915,7 +915,7 @@
     },
     {
         "id":"troublemaker_guild_11b",
-        "message":"Well,that implies to be one of us.There's always risk.",
+        "message":"Well, that is the price of being one of us. There's always risk.",
         "replies":[
             {
                 "text":"N",
@@ -928,7 +928,7 @@
         "message":"Return to me when you are done.",
         "replies":[
             {
-                "text":"Sure,I will.",
+                "text":"OK, I will.",
                 "nextPhraseID":"X"
             },
             {
@@ -939,7 +939,7 @@
     },
     {
         "id":"troublemaker_guild_12b",
-        "message":"You have to take information from our spies.\nThe first one is Fanamor,watching around Crossroads Guardhouse.\nOne of our veteran spies,Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally another spy in Crossglen,Leta.I believe you know her.",
+        "message":"You have to retrieve information from our spies.\nThe first one is Fanamor, watching around Crossroads Guardhouse.\nOne of our veteran spies, Dunla, is disguised as a vendor in Vilegard Tavern.\nAnd finally another spy in Crossglen, Leta. I believe you know her.",
         "replies":[
             {
                 "text":"N",
@@ -949,24 +949,24 @@
     },
     {
         "id":"troublemaker_guild_13b",
-        "message":"And don't forget the password: You are no one.No one knows you.No one has seen you.",
+        "message":"And don't forget the password: You are no one. No one knows you. No one has seen you.",
         "replies":[
             {
-                "text":"Understood,bye.",
+                "text":"Understood, bye.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"troublemaker_guild_12a",
-        "message":"Anyway,you should talk with Umar.Maybe he has another task...More in your line of work,you know.",
+        "message":"Anyway, you should talk with Umar. Maybe he has another task... one that's more in your line of work, you know.",
         "replies":[
             {
-                "text":"Sure,I will talk to him.",
+                "text":"Sure, I will talk to him.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"At least,some gold. Bye bye!",
+                "text":"At least I got some gold. Bye!",
                 "nextPhraseID":"X"
             }
         ],
@@ -985,10 +985,10 @@
     },
     {
         "id":"troublemaker_guild_13a",
-        "message":"Hi again,kid.What do you want?",
+        "message":"Hi again, kid. What do you want?",
         "replies":[
             {
-                "text":"Ok...It's done.She's alright,and probably eating some bread now.",
+                "text":"OK...It's done. She's alright, and probably eating some bread now.",
                 "nextPhraseID":"troublemaker_guild02_9",
                 "requires":[
                     {
@@ -1005,7 +1005,7 @@
                 ]
             },
             {
-                "text":"I've dealt of the lady.Thank you.",
+                "text":"I've dealt with the lady.",
                 "nextPhraseID":"troublemaker_guild02_8",
                 "requires":[
                     {
@@ -1022,7 +1022,7 @@
                 ]
             },
             {
-                "text":"I still have to bring our guest to her quarters.",
+                "text":"I still have to take our guest to her quarters.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1056,7 +1056,7 @@
                 ]
             },
             {
-                "text":"Can I take a look at Guild's current supplies?",
+                "text":"Can I take a look at the Guild's current supplies?",
                 "nextPhraseID":"S"
             }
         ]
@@ -2017,10 +2017,10 @@
     },
     {
         "id":"troublemaker_guild02_8",
-        "message":"Ah,yes...That captive.Take this food and make sure she has it comfortable enough.We don't want her starving right?\n(Troublemaker gives you some bread)",
+        "message":"Ah,yes...That captive.Take this food and make sure she is comfortable enough. We don't want her starving right?\n(Troublemaker gives you some bread)",
         "replies":[
             {
-                "text":"Argh,ok.What a tedious job!",
+                "text":"Argh. OK. What a tedious job!",
                 "nextPhraseID":"X"
             },
             {
@@ -2211,10 +2211,10 @@
     },
     {
         "id":"troublemaker_guild02_9",
-        "message":"Excellent...Now me and my fellows will be taking care of her.",
+        "message":"Excellent. From now on me and my fellows will take care of her.",
         "replies":[
             {
-                "text":"Very well. And I will talk to Umar again. Bye.",
+                "text":"Very well. I will go and talk to Umar again. Bye.",
                 "nextPhraseID":"troublemaker_guild02_9_1"
             },
             {
@@ -2236,14 +2236,14 @@
     },
     {
         "id":"troublemaker_guild02_10",
-        "message":"Hey,what are you waiting for? Leave me with my stuff and talk with Umar or something!",
+        "message":"Hey, what are you waiting for? Leave me and go talk with Umar or something!",
         "replies":[
             {
-                "text":"You don't need to be rude! I leave.",
+                "text":"You don't need to be rude! I will leave.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I'll talk with him.Bye.",
+                "text":"I'll talk to him. Bye.",
                 "nextPhraseID":"X"
             }
         ],
