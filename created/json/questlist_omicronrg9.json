@@ -179,7 +179,7 @@
             },
             {
                 "progress":5,
-                "logText":"Umar told me a story about one who is known as \"Crackshot\". He is probably the responsible for a murder on the Duleian road."
+                "logText":"Umar went on to say that this team leader  was known as \"Crackshot\". He is probably also the responsible for a murder on the Duleian road."
             },
             {
                 "progress":10,
@@ -307,6 +307,10 @@
             {
                 "progress":80,
                 "logText":"Talked about thieves to Thoronir"
+            },
+            {
+                "progress":90,
+                "logText":"Sergeant died."
             }
         ]
     }

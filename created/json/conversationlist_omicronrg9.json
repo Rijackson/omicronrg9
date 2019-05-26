@@ -2847,7 +2847,7 @@
     },
     {
         "id":"umar_guild03_15b",
-        "message":"Maybe it's not the best moment, but we must tear him...Think about it.Probably there're many lives at risk...",
+        "message":"Maybe it's not the best moment. We must bring him down...Think about it.Probably there're many lives at risk...",
         "replies":[
             {
                 "text":"I will, I promise you.Bye.",
@@ -2881,7 +2881,7 @@
     },
     {
         "id":"umar_guild03_17b",
-        "message":"However,there's still a problem.We're not completely sure about Crack shot  new hideout's location.",
+        "message":"However,there's still a problem.We're not completely sure about the location of Crackshot's new hideout.",
         "replies":[
             {
                 "text":"What? How I will find him then!?",
@@ -2902,7 +2902,7 @@
                 "nextPhraseID":"umar_guild03_19a"
             },
             {
-                "text":"Ok.",
+                "text":"OK.",
                 "nextPhraseID":"umar_guild03_19c"
             }
         ],
@@ -2916,7 +2916,7 @@
     },
     {
         "id":"umar_guild03_18b",
-        "message":"Maybe,but work will be faster if you question people near Duleian road,last place We think he has been...",
+        "message":"Maybe,but work will be faster if you question people near Duleian road post. The Duleian road is the place where we think he was last.",
         "replies":[
             {
                 "text":"Ok,I will ask people there.",
@@ -2968,7 +2968,7 @@
                 "nextPhraseID":"umar_guild03_19d"
             },
             {
-                "text":"Neither with my shadow.",
+                "text":"I won't even trust my shadow.",
                 "nextPhraseID":"umar_guild03_19d"
             }
         ]
@@ -3043,7 +3043,7 @@
     },
     {
         "id":"umar_guild03_24b",
-        "message":"Are you talking serious?!\nBah,I'll repeat you...",
+        "message":"Are you talking serious?!\nBah, I'll repeat it for you...",
         "replies":[
             {
                 "text":"N",
@@ -3892,10 +3892,10 @@
     },
     {
         "id":"umar_guild03_25",
-        "message":"Excellent. Has he got the key with him?",
+        "message":"Excellent. Did he have the key with him?",
         "replies":[
             {
-                "text":"Yes...Why this key is so important for us?",
+                "text":"Yes... [give key]\nWhy is this key so important for us?",
                 "nextPhraseID":"umar_guild03_26a",
                 "requires":[
                     {
@@ -3906,7 +3906,7 @@
                 ]
             },
             {
-                "text":"Maybe It's time to give me some information.",
+                "text":"Yes... [Give key]\nMaybe It's time to give me some information.",
                 "nextPhraseID":"umar_guild03_26b",
                 "requires":[
                     {
@@ -3915,8 +3915,53 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"(Lie) No, I didn't find it.",
+                "nextPhraseID":"umar_guild03_25_1"
+            },
+            {
+                "text":"He had the key, but I don't have it with me.",
+                "nextPhraseID":"umar_guild03_25_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"g03_luthor",
+                        "value":1,
+						"negate":true
+                    }
+                ]
             }
         ]
+    },
+    {
+        "id":"umar_guild03_25_1",
+        "message":"Don't try to fool me. I am Umar. I know you have it.",
+        "replies":[
+            {
+                "text":"Oh. Yes, I remember now that I found the key. Here, take it.",
+                "nextPhraseID":"umar_guild03_27a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"g03_luthor",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Even if I had the key, I won't give it to you.",
+                "nextPhraseID":"umar_guild03_25_1a"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild03_25_1a",
+        "message":"Come back when you are sane again."
+    },
+    {
+        "id":"umar_guild03_25_2",
+        "message":"Then what you are waiting for? Go and get it!"
     },
     {
         "id":"umar_guild03_26a",
@@ -3962,6 +4007,31 @@
     },
     {
         "id":"umar_guild03_27a",
+        "replies":[
+            {
+                "nextPhraseID":"umar_guild03_27a_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thieves_hidden",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"umar_guild03_27a_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":32
+                    }
+                ]
+            }
+		]
+    },
+    {
+        "id":"umar_guild03_27a_1",
         "message":"Anyway,you've done your work.My spies reported to me you had saved someone's life.",
         "replies":[
             {
@@ -3979,6 +4049,24 @@
         ]
     },
     {
+        "id":"umar_guild03_27a_2",
+        "message":"Anyway,you've done your work.My spies reported to me you had saved someone's life.",
+        "replies":[
+            {
+                "text":"If your spies help me, tasks would be easier.",
+                "nextPhraseID":"umar_guild03_28a"
+            },
+            {
+                "text":"I tried to, unfortunately he didn't survive. But it was nobody important.",
+                "nextPhraseID":"umar_guild03_28c"
+            },
+            {
+                "text":"No, he died at last. He was a Feygard officer...A Sergeant I think.",
+                "nextPhraseID":"umar_guild03_28c"
+            }
+        ]
+    },
+    {
         "id":"umar_guild03_27b",
         "message":"Trust me,it will.",
         "replies":[
@@ -3990,7 +4078,7 @@
     },
     {
         "id":"umar_guild03_27c",
-        "message":"I've told you.Patience, my friend.Any thief is dead without patience.",
+        "message":"I've told you to have patience, my friend. Any thief is dead without patience.",
         "replies":[
             {
                 "text":"What do you mean?",
@@ -4126,21 +4214,18 @@
     },
     {
         "id":"umar_guild04_0",
-        "message":"",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"umar_guild04_1a",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"andor",
-                        "value":72
+                        "value":99972
                     }
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"umar_guild04_1b"
             }
         ]
@@ -4478,6 +4563,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"g03_sergeant",
                 "mapName":"crackshot_hideout3"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thieves_hidden",
+                "value":90
             }
         ]
     },
