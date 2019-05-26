@@ -2899,7 +2899,7 @@
         "replies":[
             {
                 "text":"Whatever...I'll find him.",
-                "nextPhraseID":"umar_guild03_19a"
+                "nextPhraseID":"umar_guild03_19c"
             },
             {
                 "text":"OK.",
@@ -2955,7 +2955,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"umar_guild03_19a"
+                "nextPhraseID":"umar_guild03_19c"
             }
         ]
     },
@@ -3005,7 +3005,7 @@
     },
     {
         "id":"umar_guild03_22",
-        "message":"Then you will only have to deal with him his henchmen and bring back the Key of Luthor to us.",
+        "message":"Then you will have to deal with him and his henchmen, and at last bring back the Key of Luthor to us.",
         "replies":[
             {
                 "text":"N",
@@ -3940,7 +3940,7 @@
         "replies":[
             {
                 "text":"Oh. Yes, I remember now that I found the key. Here, take it.",
-                "nextPhraseID":"umar_guild03_27a",
+                "nextPhraseID":"umar_guild03_25_3",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -3952,6 +3952,23 @@
             {
                 "text":"Even if I had the key, I won't give it to you.",
                 "nextPhraseID":"umar_guild03_25_1a"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild03_25_3",
+        "message":"Why did it took so long? And do not look at me so curiously. I will not tell you anything about the key now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_guild03_27a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Thieves03",
+                "value":45
             }
         ]
     },
@@ -4027,6 +4044,9 @@
                         "value":32
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"umar_guild03_29"
             }
 		]
     },
