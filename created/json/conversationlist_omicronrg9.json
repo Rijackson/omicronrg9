@@ -1,25 +1,25 @@
 [
     {
         "id":"umar_guild_1",
-        "message":"I see...So you want to get involved on our Guild?",
+        "message":"I see...So you want to get involved in our Guild?",
         "replies":[
             {
-                "text":"Yes,you seem fair people.",
+                "text":"Yes, you seem like reasonable people.",
                 "nextPhraseID":"umar_guild_2a"
             },
             {
-                "text":"Whatever,It's just curiosity.",
+                "text":"Whatever. It's just curiosity.",
                 "nextPhraseID":"umar_guild_2a"
             },
             {
-                "text":"No,really not.I'm not interested in being a smug thief.",
+                "text":"No, not really. I'm not interested in being a smug thief.",
                 "nextPhraseID":"umar_guild_2b"
             }
         ]
     },
     {
         "id":"umar_guild_2a",
-        "message":"Well,you've shown us you are trustworthy bringing that key.I'm sorry,but doing just a task does not prove us you're able to be one of our members...",
+        "message":"Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligable to be a member of our guild.",
         "replies":[
             {
                 "text":"But I really want to join your guild!",
@@ -30,14 +30,14 @@
                 "nextPhraseID":"umar_guild_3"
             },
             {
-                "text":"Never mind,bye.",
+                "text":"Never mind, bye.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"umar_guild_2b",
-        "message":"I'm sorry for hearing that.Good luck.",
+        "message":"I'm sorry to hear that. Good luck.",
         "replies":[
             {
                 "text":"Bye.",
@@ -47,7 +47,7 @@
     },
     {
         "id":"umar_guild_3",
-        "message":"Ok,ok.You will get a chance.I warn you from now on, you cannot go back with your choice.",
+        "message":"OK, OK. You will get a chance. But I warn you that from now on, you cannot go back on your choice.",
         "replies":[
             {
                 "text":"N",
@@ -71,7 +71,7 @@
                 "nextPhraseID":"umar_guild_5a"
             },
             {
-                "text":"I will take your opportunity.",
+                "text":"I will take the opportunity.",
                 "nextPhraseID":"umar_guild_5a"
             },
             {
@@ -82,7 +82,7 @@
     },
     {
         "id":"umar_guild_5a",
-        "message":"Very well.Let's see if you're good enough.Talk with Troublemaker,He will tell you what you have to do.",
+        "message":"Very well. Let's see if you're good enough to join our guild. Talk with Troublemaker. He will tell you what you have to do.",
         "replies":[
             {
                 "text":"All right! I'll go see him.",
@@ -103,14 +103,14 @@
     },
     {
         "id":"umar_guild_6a",
-        "message":"Fine,I will keep an eye on you."
+        "message":"Fine. I will keep an eye on you."
     },
     {
         "id":"umar_guild_6b",
-        "message":"Not for now.Make sure anyone sees you doing suspicious things.Good luck.",
+        "message":"Not for now. Make sure nobody sees you doing suspicious things. Good luck.",
         "replies":[
             {
-                "text":"I will keep that in mind...Bye",
+                "text":"I will be careful. Bye.",
                 "nextPhraseID":"X"
             }
         ],
@@ -1091,25 +1091,25 @@
     },
     {
         "id":"umar_guild02_1",
-        "message":"Excellent,young friend.Consider yourself a member of our Guild.",
+        "message":"Excellent, young friend. Consider yourself a member of our Guild.",
         "replies":[
             {
                 "text":"Meh,that's nothing special.Bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Ok,nice to see you again.",
+                "text":"OK, nice to see you again.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Hah,what an honor! It has been so,so difficult...",
+                "text":"Hah, what an honor! It has been so, so difficult...",
                 "nextPhraseID":"umar_guild02_2"
             }
         ]
     },
     {
         "id":"umar_guild02_2",
-        "message":"I detect certain sarcasm in your words.",
+        "message":"I detect a certain sarcasm in your words.",
         "replies":[
             {
                 "text":"No,no...Never mind,see you later.",
