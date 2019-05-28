@@ -117,9 +117,10 @@
                 "max":8
             },
             "increaseMaxHP":0,
+            "increaseAttackCost":5,
             "increaseAttackChance":19,
             "increaseCriticalSkill":10,
-            "increaseBlockChance":5,
+            "increaseBlockChance":0,
             "increaseDamageResistance":0,
             "setCriticalMultiplier":2.0
         }
@@ -170,5 +171,5 @@
             "increaseAttackChance":9,
             "increaseBlockChance":11
         }
-    }	
+    }
 ]
