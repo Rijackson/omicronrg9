@@ -1433,7 +1433,7 @@
     },
     {
         "id":"ff_captain_guild02_1",
-        "message":"What? I haven't been informed of that. Since you seem like a inexperienced kid, I don't believe you.",
+        "message":"What? I haven't been informed of that. Since you seem like an inexperienced kid, I don't believe you.",
         "replies":[
             {
                 "text":"Ergh...Mr Laumwill is grateful for your protection. However...Ah! He has given this reward of 1000gp for your efforts.",
@@ -3906,7 +3906,7 @@
                 ]
             },
             {
-                "text":"Yes... [Give key]\nMaybe It's time to give me some information.",
+                "text":"Sure, here, take it.\nAnd maybe it's time to give me some information.",
                 "nextPhraseID":"umar_guild03_26b",
                 "requires":[
                     {
@@ -4146,7 +4146,7 @@
     },
     {
         "id":"umar_guild03_29",
-        "message":"Hm! I almost forgot it.Here's your reward for the good work.",
+        "message":"Hm! And now to business. Here's your reward for the good work:",
         "replies":[
             {
                 "text":"N",
@@ -4156,7 +4156,7 @@
     },
     {
         "id":"umar_guild03_30",
-        "message":"Here it is. Now you deserve a good rest, my friend. You have earned the trust of the Thieves Guild. ",
+        "message":"Take 4000 solid gold coins, and some bottles of my favourite mead.\nNow you deserve a good rest, my friend. You have earned the trust of the Thieves Guild.",
         "replies":[
             {
                 "text":"I'll be back soon.",
@@ -4206,7 +4206,7 @@
     },
     {
         "id":"umar_guild03_31a",
-        "message":"This would be useful for you: the way from here to the southeast has been finally opened as Crackshot's corpse was discovered.",
+        "message":"And last but not least, I have some useful information for you: the way from here to the southeast has been finally opened as Crackshot's corpse was discovered.",
         "replies":[
             {
                 "text":"At least I'm not going to take that detour.",
