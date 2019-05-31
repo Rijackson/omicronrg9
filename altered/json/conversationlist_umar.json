@@ -12,7 +12,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Yes,I want to know more about Thieves' Guild.",
+                "text":"Yes, I want to know more about the Thieves' Guild.",
                 "nextPhraseID":"umar_guild_1",
                 "requires":[
                     {
@@ -423,6 +423,20 @@
             {
                 "text":"Nice to meet you. Goodbye.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"umar_7",
+        "message":"We try to be above their bickering and differences. They may fight as much as they want, but the Thieves' Guild will outlive them all.",
+        "replies":[
+            {
+                "text":"What fight?",
+                "nextPhraseID":"umar_conflict_1"
+            },
+            {
+                "text":"Tell me more about what Andor asked for.",
+                "nextPhraseID":"umar_andor_1"
             }
         ]
     }

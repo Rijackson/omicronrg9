@@ -1094,7 +1094,7 @@
         "message":"Excellent, young friend. Consider yourself a member of our Guild.",
         "replies":[
             {
-                "text":"Meh,that's nothing special.Bye.",
+                "text":"Meh, that was nothing special. Bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -1112,11 +1112,11 @@
         "message":"I detect a certain sarcasm in your words.",
         "replies":[
             {
-                "text":"No,no...Never mind,see you later.",
+                "text":"No, no...Never mind, see you later.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"That's maybe because I try to be sarcastic...",
+                "text":"That's maybe because I am trying to be sarcastic...",
                 "nextPhraseID":"umar_guild02_3"
             }
         ]
@@ -1126,25 +1126,25 @@
         "message":"What do you mean?",
         "replies":[
             {
-                "text":"Simply give me a high-risk job,please.",
+                "text":"Just give me a high-risk job, please.",
                 "nextPhraseID":"umar_guild02_4"
             },
             {
-                "text":"I mean my last job was a piece of cake.I need something more exciting!",
+                "text":"I mean my last job was a piece of cake. I need something more exciting!",
                 "nextPhraseID":"umar_guild02_4"
             }
         ]
     },
     {
         "id":"umar_guild02_4",
-        "message":"If you want me to give you a better task,I don't have reasons to negate your petition.",
+        "message":"If you want me to give you a more difficult task, then I am happy to do so.",
         "replies":[
             {
-                "text":"Well,so?",
+                "text":"Well, so?",
                 "nextPhraseID":"umar_guild02_5"
             },
             {
-                "text":"Ok,in that case,tell me.",
+                "text":"OK, in that case tell me what it is.",
                 "nextPhraseID":"umar_guild02_5"
             }
         ]
@@ -1169,7 +1169,7 @@
     },
     {
         "id":"umar_guild02_5a",
-        "message":"But first I have to clarify something: You need to be more careful not to give information to outsiders about the Thieves Guild.",
+        "message":"But first I have to clarify something. You need to be more careful not to give information to outsiders about the Thieves Guild.",
         "replies":[
             {
                 "text":"Did I?",
@@ -1183,7 +1183,7 @@
     },
     {
         "id":"umar_guild02_5b",
-        "message":"You mentioned Fanamor's membership to Thoronir, yes.",
+        "message":"Yes, you mentioned Fanamor's membership to Thoronir.",
         "replies":[
             {
                 "text":"N",
@@ -1217,10 +1217,10 @@
     },
     {
         "id":"umar_guild02_5z",
-        "message":"Well, before I can give you a more demanding job, I need you to do another... retirement task.",
+        "message":"Well, before I can give you a very demanding job, I need you to do another... retrieval task.",
         "replies":[
             {
-                "text":"Anything for the glory o...Oops,I mean ok.",
+                "text":"Anything for the glory o...Oops, I mean OK",
                 "nextPhraseID":"umar_guild02_6a"
             },
             {
@@ -1228,14 +1228,14 @@
                 "nextPhraseID":"umar_guild02_6a"
             },
             {
-                "text":"Hmmm,sounds boring,I decline.",
+                "text":"Hmm, sounds boring. I decline.",
                 "nextPhraseID":"umar_guild02_6b"
             }
         ]
     },
     {
         "id":"umar_guild02_6a",
-        "message":"Excellent.I warn you that this is not an ordinary retirement.It's more like a...kidnapping.",
+        "message":"Excellent. I warn you that this is not an ordinary retrieval. It's more like a...kidnapping.",
         "replies":[
             {
                 "text":"Now that sounds more interesting.",
@@ -1246,7 +1246,7 @@
                 "nextPhraseID":"umar_guild_7"
             },
             {
-                "text":"Sounds too shady for me...I think I prefer to not doing this task for now.",
+                "text":"Sounds too shady for me. I think I prefer to not do that task for now.",
                 "nextPhraseID":"umar_guild02_6b"
             }
         ]
@@ -1263,7 +1263,7 @@
     },
     {
         "id":"umar_guild_7",
-        "message":"Ok,listen carefully.\nWe have heard a noble woman has decided to travel outside Feygard.",
+        "message":"OK, listen carefully.\nWe have heard a noble woman has decided to travel outside Feygard.",
         "replies":[
             {
                 "text":"N",
@@ -1273,7 +1273,7 @@
     },
     {
         "id":"umar_guild02_8",
-        "message":"Nothing odd with that.The case is we've discovered that woman is the daughter of Hertzsen Laumwill,patriarch of the Laumwill family.\n\n(You look around,trying to remember someone,but nothing comes to you)",
+        "message":"Nothing unusual about that. But in this case we've discovered that the woman is the daughter of Hertzsen Laumwill, patriarch of the Laumwill family.\n\n(You look around, trying to remember someone ,but nothing comes to you)",
         "replies":[
             {
                 "text":"N",
@@ -1283,28 +1283,28 @@
     },
     {
         "id":"umar_guild02_9",
-        "message":"To make you understand, one of the richest Feygard families,very close to Lord Geomyr.",
+        "message":"To help you understand, they are one of the richest Feygard families, very close to Lord Geomyr.",
         "replies":[
             {
-                "text":"Ok,and what I have to do?",
+                "text":"OK, so what I have to do?",
                 "nextPhraseID":"umar_guild02_10"
             },
             {
-                "text":"I...understand.So what's my task?",
+                "text":"I...understand. So what's my task?",
                 "nextPhraseID":"umar_guild02_10"
             }
         ]
     },
     {
         "id":"umar_guild02_10",
-        "message":"I want you to bring the noble woman here,so we can ask for a substantial ransom to his generous father.",
+        "message":"I want you to bring the noble woman here, so that we can ask for a substantial ransom from her generous father.",
         "replies":[
             {
                 "text":"Consider it done.",
                 "nextPhraseID":"umar_guild02_11a"
             },
             {
-                "text":"Where can I find that woman?",
+                "text":"Where can I find this woman?",
                 "nextPhraseID":"umar_guild02_11b"
             }
         ],
@@ -1328,14 +1328,14 @@
     },
     {
         "id":"umar_guild02_11b",
-        "message":"Scouts have seen the lady in the Foaming flask tavern. Guards are a problem, we do not want to be discovered, so act quietly. It doesn't matter how you can get rid of the guards.",
+        "message":"Scouts have seen the lady in the Foaming flask tavern. We do not want to be discovered, so act quietly. Guards are a problem though. It's up to you how you choose to solve the guards problem.",
         "replies":[
             {
-                "text":"Yes,yes.I've understood.",
+                "text":"Yes. I understand.",
                 "nextPhraseID":"umar_guild02_12"
             },
             {
-                "text":"Seems difficult,but whatever.I'll do it.",
+                "text":"Seems difficult, but whatever. I'll do it.",
                 "nextPhraseID":"umar_guild02_12"
             }
         ],
@@ -1352,7 +1352,7 @@
         "message":"Good luck. Return to me when you're done.",
         "replies":[
             {
-                "text":"Wait, wait! How I'm supposed to...",
+                "text":"Wait, wait! How am I supposed to...",
                 "nextPhraseID":"umar_guild02_13"
             },
             {
@@ -1363,14 +1363,14 @@
     },
     {
         "id":"umar_guild02_13",
-        "message":"Use your tongue,young man.Sometimes it is more important than your sword skills.",
+        "message":"Use your tongue, young man. Sometimes it is more important than your sword skills.",
         "replies":[
             {
-                "text":"Hah! I don't think so.But anyway,thank you for the advice.",
+                "text":"Hah! I don't think so. But anyway, thank you for the advice.",
                 "nextPhraseID":"umar_guild02_14"
             },
             {
-                "text":"I'll do it,thanks.",
+                "text":"I'll do that, thanks for the advice.",
                 "nextPhraseID":"umar_guild02_14"
             }
         ],
@@ -1384,21 +1384,21 @@
     },
     {
         "id":"umar_guild02_14",
-        "message":"Remember if you were discovered,you are no one.No one knows you.And of course,no one has seen you.You're now a member,so don't fail.",
+        "message":"Remember that if you are discovered, you are no one. No one knows you. And of course, no one has seen you. You are now a member of the guild, so don't fail.",
         "replies":[
             {
-                "text":"Do you still think I'm a novice right? You're going to see you're wrong!",
+                "text":"You still think I'm a novice, right? You're going to see that you're wrong!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Understood.Bye.",
+                "text":"Understood. Bye.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"umar_guild02_15",
-        "message":"No, I've said all you need to know. Now leave me please, I've work to do now."
+        "message":"No, I've told you all you need to know. Now leave me please, I've work to do."
     },
     {
         "id":"ambelie_guild02_1",
