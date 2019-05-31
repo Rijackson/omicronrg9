@@ -1676,10 +1676,10 @@
     },
     {
         "id":"umar_guild02_16",
-        "message":"(You put Ambelie,who still unconsicious, in a chair next to you)\n\nOh! How you arrived so fast? I've been reported of a barricade blocking the way from Duleian road to Fallhaven.",
+        "message":"(You put Ambelie, who still unconsicious, in a chair next to you)\n\nOh! How you arrived so fast? I've been reported of a barricade blocking the way from Duleian road to Fallhaven.",
         "replies":[
             {
-                "text":"Barricades,guards...Nothing for me.",
+                "text":"Barricades, guards... Nothing for me.",
                 "nextPhraseID":"umar_guild02_17"
             },
             {
@@ -1697,10 +1697,10 @@
     },
     {
         "id":"umar_guild02_17",
-        "message":"Ok,well done.Now we will have to find a better place for our guest...Keeping this lady here could be dangerous for us.",
+        "message":"OK, well done. Now we will have to find a better place for our guest. Keeping this lady here could be dangerous for us.",
         "replies":[
             {
-                "text":"I'm sure,but that's not my problem anymore,right?",
+                "text":"I'm sure that's the case, but that's not my problem anymore. Right?",
                 "nextPhraseID":"umar_guild02_18a"
             },
             {
@@ -1714,14 +1714,14 @@
         "message":"Yes it is.",
         "replies":[
             {
-                "text":"Well,I have no choice. What should we do?",
+                "text":"Well, I have no choice. What should I do?",
                 "nextPhraseID":"umar_guild02_19"
             }
         ]
     },
     {
         "id":"umar_guild02_18b",
-        "message":"Hm,let me think about it...",
+        "message":"Hmm, let me think about it...",
         "replies":[
             {
                 "text":"N",
@@ -1731,14 +1731,14 @@
     },
     {
         "id":"umar_guild02_19",
-        "message":"We are supposed to have one room for..receiving visitors.However,I don't know if It's finished.",
+        "message":"We are supposed to have one room for receiving \"visitors\". However, I don't know if It's finished.",
         "replies":[
             {
-                "text":"Great,more transport boring tasks,right?",
+                "text":"Great, more boring \"moving\" tasks, right?",
                 "nextPhraseID":"umar_guild02_20"
             },
             {
-                "text":"Well,then?",
+                "text":"And so?",
                 "nextPhraseID":"umar_guild02_20"
             }
         ],
@@ -1752,11 +1752,11 @@
     },
     {
         "id":"umar_guild02_20",
-        "message":"Hm,I believe Troublemaker knows the actual state of that place.Ask him and leave our guest there if It's possible.",
+        "message":"Hmm, I believe Troublemaker knows the actual state of that place. Ask him, and if it's possible leave our guest there.",
         "switchToNPC":"umar",
         "replies":[
             {
-                "text":"Sure,I will. (You lift Ambelie up and carry her on your shoulders)",
+                "text":"OK, I will. (You lift Ambelie up and carry her on your shoulders)",
                 "nextPhraseID":"X"
             },
             {
@@ -2257,10 +2257,10 @@
     },
     {
         "id":"umar_guild02_21",
-        "message":"Simple,talk with Troublemaker about this job,as He probably knows of some safer place for keeping her.Then return to me.",
+        "message":"Simple. Talk with Troublemaker about this job, as He probably knows of some safe place to keep her.Then return to me.",
         "replies":[
             {
-                "text":"Ok,thank you.",
+                "text":"Ok, thanks.",
                 "nextPhraseID":"X"
             },
             {

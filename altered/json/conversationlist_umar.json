@@ -59,7 +59,7 @@
         "message":"Hello again, my friend.",
         "replies":[
             {
-                "text":"Have you any tasks for me?",
+                "text":"Do you have any tasks for me?",
                 "nextPhraseID":"umar_guild04_0",
                 "requires":[
                     {
@@ -195,7 +195,7 @@
                 ]
             },
             {
-                "text":"We are supposed to talk about something,right?",
+                "text":"We are supposed to talk about something, right?",
                 "nextPhraseID":"umar_guild02_26",
                 "requires":[
                     {
@@ -229,7 +229,7 @@
                 ]
             },
             {
-                "text":"What I'm suppossed to do again?",
+                "text":"What am I suppossed to do again?",
                 "nextPhraseID":"umar_guild02_21",
                 "requires":[
                     {
@@ -246,7 +246,7 @@
                 ]
             },
             {
-                "text":"What are we supposed to do with the noblewoman?",
+                "text":"What am I supposed to do with the noblewoman?",
                 "nextPhraseID":"umar_guild02_20",
                 "requires":[
                     {
@@ -263,7 +263,7 @@
                 ]
             },
             {
-                "text":"What are we supposed to do with the noblewoman?",
+                "text":"What am I supposed to do with the noblewoman?",
                 "nextPhraseID":"umar_guild02_19",
                 "requires":[
                     {
@@ -400,7 +400,7 @@
                 ]
             },
             {
-                "text":"Troublemaker sent me. I have done the job.",
+                "text":"Troublemaker sent me. I have finished the job.",
                 "nextPhraseID":"umar_guild02_1",
                 "requires":[
                     {
