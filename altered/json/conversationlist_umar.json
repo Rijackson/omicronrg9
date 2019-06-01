@@ -195,7 +195,7 @@
                 ]
             },
             {
-                "text":"We are supposed to talk about something, right?",
+                "text":"We were supposed to talk about something, right?",
                 "nextPhraseID":"umar_guild02_26",
                 "requires":[
                     {
@@ -212,7 +212,7 @@
                 ]
             },
             {
-                "text":"I've finally done the job.",
+                "text":"I've finally finished the job.",
                 "nextPhraseID":"umar_guild02_22",
                 "requires":[
                     {

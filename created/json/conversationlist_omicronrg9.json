@@ -1676,7 +1676,7 @@
     },
     {
         "id":"umar_guild02_16",
-        "message":"(You put Ambelie, who still unconsicious, in a chair next to you)\n\nOh! How you arrived so fast? I've been reported of a barricade blocking the way from Duleian road to Fallhaven.",
+        "message":"(You put Ambelie, who is still unconsicious, in a chair next to you)\n\nOh! How how did you get here so fast? I've heard reports of a barricade blocking the way from the Duleian road to Fallhaven.",
         "replies":[
             {
                 "text":"Barricades, guards... Nothing for me.",
@@ -2257,10 +2257,10 @@
     },
     {
         "id":"umar_guild02_21",
-        "message":"Simple. Talk with Troublemaker about this job, as He probably knows of some safe place to keep her.Then return to me.",
+        "message":"Simple. Talk with Troublemaker about this job. He probably knows of some safe place to keep her. Then return to me.",
         "replies":[
             {
-                "text":"Ok, thanks.",
+                "text":"OK, thanks.",
                 "nextPhraseID":"X"
             },
             {
@@ -2271,21 +2271,21 @@
     },
     {
         "id":"umar_guild02_22",
-        "message":"Fine...Although you look odd. What's happening?",
+        "message":"Fine...Although you look odd. What'sthe matter?",
         "replies":[
             {
-                "text":"It's okay...Just that's not my kind of work.",
+                "text":"It's OK...it's just that is not my kind of work.",
                 "nextPhraseID":"umar_guild02_23a"
             },
             {
-                "text":"Urgh...I just need better tasks! Are you still thinking I'm not ready yet?!",
+                "text":"Urgh...I just need better tasks! Do you still think I'm not yet ready?",
                 "nextPhraseID":"umar_guild02_23b"
             }
         ]
     },
     {
         "id":"umar_guild02_23a",
-        "message":"Sometimes people must do things that they don't like.Maybe you're still young but, do you understand that?",
+        "message":"Sometimes people must do things that they don't like. Maybe you're still too young to understand that?",
         "replies":[
             {
                 "text":"Not at all.",
@@ -2299,7 +2299,7 @@
     },
     {
         "id":"umar_guild02_23b",
-        "message":"No,nothing of the kind! I was...Well,let's talk.",
+        "message":"No, nothing of the kind! I was...Well, let's talk.",
         "replies":[
             {
                 "text":"N",
@@ -2309,21 +2309,21 @@
     },
     {
         "id":"umar_guild02_24a",
-        "message":"Well...Anyway I promise you to don't give you those kind of jobs in a while.",
+        "message":"Well...Anyway, I promise we won't give you those kind of jobs for a while.",
         "replies":[
             {
                 "text":"Fine.",
                 "nextPhraseID":"umar_guild02_24b"
             },
             {
-                "text":"That are good news for me.",
+                "text":"That is good news for me.",
                 "nextPhraseID":"umar_guild02_24b"
             }
         ]
     },
     {
         "id":"umar_guild02_24b",
-        "message":"Great,so let's talk then.",
+        "message":"Great, so let's talk then.",
         "replies":[
             {
                 "text":"N",
@@ -2333,7 +2333,7 @@
     },
     {
         "id":"umar_guild02_25",
-        "message":"First of all,take this gold for your well done job.We have already sent people to ask for the ransom.",
+        "message":"First of all, take this gold for a job well done. We have already sent people to ask for the ransom.",
         "replies":[
             {
                 "text":"N",
@@ -2360,7 +2360,7 @@
     },
     {
         "id":"umar_guild02_26",
-        "message":"(Umar looks to you a little worried)\n\nReally, this is not your line of work huh?\nI ask you to rest for a while before talking more.You seem tired.",
+        "message":"(Umar looks a little worried)\n\nThis is really not your line of work huh?\nI suggest you rest for a while before doing more. You look tired.",
         "replies":[
             {
                 "text":"I'm not tired at all.",
@@ -2371,17 +2371,17 @@
                 "nextPhraseID":"umar_guild02_27b"
             },
             {
-                "text":"Better It'll be.",
+                "text":"Good idea.",
                 "nextPhraseID":"umar_guild02_27c"
             }
         ]
     },
     {
         "id":"umar_guild02_27a",
-        "message":"I prefer to make sure you're completely rested until talking about work.",
+        "message":"I prefer that you are completely rested before talking about work.",
         "replies":[
             {
-                "text":"Ugh...It's okay.",
+                "text":"Ugh...OK.",
                 "nextPhraseID":"umar_guild02_27c"
             },
             {
@@ -2392,24 +2392,24 @@
     },
     {
         "id":"umar_guild02_27b",
-        "message":"Don't be presumptuous.Take my advice and rest.We'll talk tomorrow.",
+        "message":"Don't be overconfident. Take my advice and rest. We'll talk tomorrow.",
         "replies":[
             {
-                "text":"Tsch.All right, sir.",
+                "text":"Tsch. All right, sir.",
                 "nextPhraseID":"umar_guild02_27c"
             }
         ]
     },
     {
         "id":"umar_guild02_27c",
-        "message":"Come back to me when you're prepared.Your next task, keep in mind that, isn't going to be as easy as those ones you did before.\nWe'll talk about that tomorrow.",
+        "message":"Come back to me when you're prepared. Bear in mind that your next task isn't going to be as easy as the ones you already did.\nWe'll talk about that tomorrow.",
         "replies":[
             {
-                "text":"I expect so.See you tomorrow then.",
+                "text":"I expected that. See you tomorrow then.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Easy? Argh they've been so difficult...Bye-bye.",
+                "text":"Easy? Argh, they've been so difficult! Good night.",
                 "nextPhraseID":"X"
             }
         ],
@@ -2603,7 +2603,7 @@
     },
     {
         "id":"umar_guild03_1",
-        "message":"I see you're better than yesterday.",
+        "message":"I see you are better than yesterday.",
         "replies":[
             {
                 "text":"Indeed I am!",
@@ -4403,21 +4403,21 @@
     },
     {
         "id":"umar_guild02_28",
-        "message":"I see renegation in your eyes, my young friend.",
+        "message":"I see guilt in your eyes, my young friend.",
         "replies":[
             {
                 "text":"I couldn't accomplish the objective, I'm sorry.",
                 "nextPhraseID":"umar_guild02_29a"
             },
             {
-                "text":"I felt sorry for that girl, and I decided to exort her and get the gold directly.",
+                "text":"I felt sorry for that woman, and I decided to extort her and get the gold directly.",
                 "nextPhraseID":"umar_guild02_29b"
             }
         ]
     },
     {
         "id":"umar_guild02_29a",
-        "message":"Don't tell me things I can see with my eyes, It is a waste of time.",
+        "message":"You don't need to tell me things I can see with my own eyes, it is a waste of time.",
         "replies":[
             {
                 "text":"N",
@@ -4454,7 +4454,7 @@
     },
     {
         "id":"umar_guild02_31",
-        "message":"What we have here? (Umar's face gets smiling while he looks the neckace)\n\n",
+        "message":"What we have here? (Umar's face gets a smile while he admires the neckace)\n",
         "replies":[
             {
                 "text":"N",
@@ -4464,10 +4464,10 @@
     },
     {
         "id":"umar_guild02_32",
-        "message":"Well. I will take it as a indemnification for your mistakes.",
+        "message":"Well. I will take it as compensation for your mistakes.",
         "replies":[
             {
-                "text":"I'm sorry again...",
+                "text":"Again, I'm sorry.",
                 "nextPhraseID":"umar_guild02_26"
             },
             {
