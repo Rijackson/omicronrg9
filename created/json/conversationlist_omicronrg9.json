@@ -2617,10 +2617,10 @@
     },
     {
         "id":"umar_guild03_2",
-        "message":"Fine.Listen me carefully.",
+        "message":"Fine. Listen to me carefully.",
         "replies":[
             {
-                "text":"Sure,tell me.",
+                "text":"Sure, tell me what you have to say.",
                 "nextPhraseID":"umar_guild03_3"
             },
             {
@@ -2631,7 +2631,7 @@
     },
     {
         "id":"umar_guild03_3",
-        "message":"Here in the guild we have veterans and apprentices,as you know.The oldest ones here are specialized in kind of different jobs.",
+        "message":"Here in the guild, as you know, members range from apprentices to veterans. The veterans are usually specialized in specific jobs.",
         "replies":[
             {
                 "text":"N",
@@ -2641,7 +2641,7 @@
     },
     {
         "id":"umar_guild03_4",
-        "message":"Troublemaker is my right hand,He's in charge of planning jobs that require some sort of complexity.",
+        "message":"Troublemaker is my right hand man. He's in charge of planning jobs that have some level of complexity.",
         "replies":[
             {
                 "text":"N",
@@ -2651,21 +2651,21 @@
     },
     {
         "id":"umar_guild03_5",
-        "message":"Pickpocket has developed his stealth skills so extremely, to the point He's able to get your equipment and you'll barely even feel it.",
+        "message":"Pickpocket has developed his stealth skills to such an extreme that he's able to take your equipment, and you'll barely even feel it.",
         "replies":[
             {
-                "text":"Woah,how that's possible!",
+                "text":"Woah, how is that possible?",
                 "nextPhraseID":"umar_guild03_6a"
             },
             {
-                "text":"I don't believe you at all.",
+                "text":"I don't believe you.",
                 "nextPhraseID":"umar_guild03_6b"
             }
         ]
     },
     {
         "id":"umar_guild03_6a",
-        "message":"Everyone has their own way to reach the top.",
+        "message":"Each person has their own way to reach the top.",
         "replies":[
             {
                 "text":"N",
@@ -2675,7 +2675,7 @@
     },
     {
         "id":"umar_guild03_6b",
-        "message":"Believe me,I'm not lying.",
+        "message":"Believe me, I'm not lying.",
         "replies":[
             {
                 "text":"N",
@@ -2685,7 +2685,7 @@
     },
     {
         "id":"umar_guild03_7",
-        "message":"Anyway,the fact is one of our veterans has betrayed us.",
+        "message":"Anyway, the fact is that one of our veterans has betrayed us.",
         "replies":[
             {
                 "text":"Betrayed...us?",
@@ -2695,10 +2695,10 @@
     },
     {
         "id":"umar_guild03_8",
-        "message":"Yes.He and their former comrades were sent to Fallhaven catacombs.",
+        "message":"Yes. He and his former comrades were sent to Fallhaven catacombs.",
         "replies":[
             {
-                "text":"I thought work there was done since I brought the key of Luthor to you.",
+                "text":"I thought the work there was done since I brought the key of Luthor to you.",
                 "nextPhraseID":"umar_guild03_9"
             },
             {
@@ -2709,10 +2709,10 @@
     },
     {
         "id":"umar_guild03_9",
-        "message":"The key is just the first part.We need to decipher the runes in the key in order to reach the crypt.",
+        "message":"The key is just the first part. We need to decipher the runes in the key in order to reach the crypt.",
         "replies":[
             {
-                "text":"What crypt? I've never heard about it.",
+                "text":"What crypt? I've never heard of it.",
                 "nextPhraseID":"umar_guild03_10a"
             },
             {
@@ -2744,7 +2744,7 @@
     },
     {
         "id":"umar_guild03_10a",
-        "message":"Let's just say that's nothing related to you at this moment.What they did is more important now.",
+        "message":"Let's just say that's not important to you at this moment. What they did is more important now.",
         "replies":[
             {
                 "text":"So, what did they do?",
