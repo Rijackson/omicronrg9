@@ -2723,10 +2723,10 @@
     },
     {
         "id":"umar_guild03_10b",
-        "message":"The team leader and other loyal fellows killed the rest of the team and escaped with the key, before entering in the church.Probably they have deciphered the code and they want to sell the information to the highest bidder.That happened three nights ago.",
+        "message":"The team leader and others loyal to him killed the rest of the team and escaped with the key, before entering the church. They have probably deciphered the code and they want to sell the information to the highest bidder. That happened three nights ago.",
         "replies":[
             {
-                "text":"Why they did so?",
+                "text":"Why did the do that?",
                 "nextPhraseID":"umar_guild03_11a"
             },
             {
@@ -2754,7 +2754,7 @@
     },
     {
         "id":"umar_guild03_11a",
-        "message":"Sincerely,I simply don't know.",
+        "message":"Honestly, I don't know for certain.",
         "replies":[
             {
                 "text":"N",
@@ -2764,7 +2764,7 @@
     },
     {
         "id":"umar_guild03_10c",
-        "message":"Sure,I'll do.",
+        "message":"Sure, I canl do that.",
         "replies":[
             {
                 "text":"N",
@@ -2774,10 +2774,10 @@
     },
     {
         "id":"umar_guild03_11b",
-        "message":"Appearently they decided the Guild wasn't the best option,so they turned greedy and betrayed us.That's more common than I would like to admit.",
+        "message":"Appearently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit.",
         "replies":[
             {
-                "text":"What a filthy and disloyal people.",
+                "text":"What filthy and disloyal people.",
                 "nextPhraseID":"umar_guild03_12"
             },
             {
@@ -2788,7 +2788,7 @@
     },
     {
         "id":"umar_guild03_12",
-        "message":"There's even more.Two days ago the main way to Duleian from here was closed as there had been a murder.Soldiers are trying to prevent the murderer escapes to the west.",
+        "message":"There's more. Two days ago the Duleian road was closed, because there was a murder. Soldiers are trying to prevent the murderer from escaping to the west.",
         "replies":[
             {
                 "text":"And you think the traitors are involved in that?",
@@ -2798,14 +2798,14 @@
     },
     {
         "id":"umar_guild03_13",
-        "message":"I'm pretty sure about it.The team leader is the one we call \"Crackshot\",as he masters murder,torture and suppression arts.He's really a dangerous man...",
+        "message":"I'm pretty sure about it. The team leader is the one we call \"Crackshot\", as he is a master of murder, torture and the subjugation arts. He's really a dangerous man...",
         "replies":[
             {
-                "text":"Then,do you have a plan?",
+                "text":"So, do you have a plan?",
                 "nextPhraseID":"umar_guild03_14"
             },
             {
-                "text":"What I'm supposed to do?",
+                "text":"What am I supposed to do?",
                 "nextPhraseID":"umar_guild03_14"
             }
         ],
@@ -2819,59 +2819,59 @@
     },
     {
         "id":"umar_guild03_14",
-        "message":"Hmm...I think we have no choice.We'll have to deal with him and his henchmen...Forever.",
+        "message":"Hmm...I think we have no choice. We'll have to deal with him and his henchmen...Forever.",
         "replies":[
             {
-                "text":"Ok,leave me this part.That's finally the work I was searching for.",
+                "text":"OK, leave this to me. That's finally the kind of work I was searching for.",
                 "nextPhraseID":"umar_guild03_15a"
             },
             {
-                "text":"I...I prefer to don't get involved into this,sorry.",
+                "text":"I...I prefer to not get involved into this. Sorry.",
                 "nextPhraseID":"umar_guild03_15b"
             }
         ]
     },
     {
         "id":"umar_guild03_15a",
-        "message":"Are you completely sure? You will be alone against trained thieves and other criminals whose unique objective is to earn more and more gold...",
+        "message":"Are you completely sure? You will be alone against trained thieves and other criminals whose sole objective is to earn more and more gold...",
         "replies":[
             {
                 "text":"I can deal with them with my bare hands!",
                 "nextPhraseID":"umar_guild03_16"
             },
             {
-                "text":"Don't worry,I'll be careful.",
+                "text":"Don't worry, I'll be careful.",
                 "nextPhraseID":"umar_guild03_16"
             }
         ]
     },
     {
         "id":"umar_guild03_15b",
-        "message":"Maybe it's not the best moment. We must bring him down...Think about it.Probably there're many lives at risk...",
+        "message":"Maybe it's not the best time. We must bring him down. Think about it. There are probably many lives at risk...",
         "replies":[
             {
-                "text":"I will, I promise you.Bye.",
+                "text":"I will, I promise. Bye.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"umar_guild03_16",
-        "message":"Whatever,I do believe you're strong.But anyway, be cautious with Crackshot, He's powerful, and his strikes can severely wound you...Am I clear?",
+        "message":"Whatever, I do believe you are capable. Regardless, be cautious with Crackshot. He's powerful, and his attacks can severely wound or kill you. Clear?",
         "replies":[
             {
-                "text":"Bah,words worth nothing now.It's going to be a nice fight.",
+                "text":"Bah, words are worth nothing now. It's going to be a nice fight.",
                 "nextPhraseID":"umar_guild03_17a"
             },
             {
-                "text":"Yes,understood!",
+                "text":"Yes, understood!",
                 "nextPhraseID":"umar_guild03_17b"
             }
         ]
     },
     {
         "id":"umar_guild03_17a",
-        "message":"If you say so...Your self-confidence is a good point of your personality.",
+        "message":"If you say so. Your self-confidence is a good aspect of your personality.",
         "replies":[
             {
                 "text":"Thank you!",
@@ -2881,24 +2881,24 @@
     },
     {
         "id":"umar_guild03_17b",
-        "message":"However,there's still a problem.We're not completely sure about the location of Crackshot's new hideout.",
+        "message":"However, there's still a problem. We're not completely sure about the location of Crackshot's new hideout.",
         "replies":[
             {
-                "text":"What? How I will find him then!?",
+                "text":"What? How I will find him then?",
                 "nextPhraseID":"umar_guild03_18a"
             },
             {
-                "text":"Bah,He will show up sooner or later...",
+                "text":"He will show up sooner or later...",
                 "nextPhraseID":"umar_guild03_18b"
             }
         ]
     },
     {
         "id":"umar_guild03_18a",
-        "message":"Probably people near Duleian road posts knows more.Try to ask them for hints.",
+        "message":"Probably people near the Duleian road guard posts know more. See if you can ask them for tips.",
         "replies":[
             {
-                "text":"Whatever...I'll find him.",
+                "text":"Whatever. I'll find him.",
                 "nextPhraseID":"umar_guild03_19c"
             },
             {
@@ -2916,14 +2916,14 @@
     },
     {
         "id":"umar_guild03_18b",
-        "message":"Maybe,but work will be faster if you question people near Duleian road post. The Duleian road is the place where we think he was last.",
+        "message":"Maybe, but it will be faster if you question people near the Duleian road guard post. The Duleian road is the place where we think he was last seen.",
         "replies":[
             {
-                "text":"Ok,I will ask people there.",
+                "text":"OK, I will ask there.",
                 "nextPhraseID":"umar_guild03_19c"
             },
             {
-                "text":"Argh,Duleian road is wide! ",
+                "text":"Argh, the Duleian road is big! ",
                 "nextPhraseID":"umar_guild03_19b"
             }
         ],
@@ -2937,14 +2937,14 @@
     },
     {
         "id":"umar_guild03_19a",
-        "message":"Sorry,I have no more information.If you need anything come back.Good luck.",
+        "message":"Sorry, I have no more information. If you need anything come back. Good luck.",
         "replies":[
             {
-                "text":"This will be interesting...Bye!",
+                "text":"This will be interesting. Bye!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Thank you.See you again.",
+                "text":"Thank you. See you again.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2961,7 +2961,7 @@
     },
     {
         "id":"umar_guild03_19c",
-        "message":"Make sure you don't talk about the Guild and his relationship with us.Don't trust in anyone.",
+        "message":"Make sure you don't talk about the Guild and his relationship with us. Don't trust anyone.",
         "replies":[
             {
                 "text":"Understood!",
@@ -4206,7 +4206,7 @@
     },
     {
         "id":"umar_guild03_31a",
-        "message":"And last but not least, I have some useful information for you: the way from here to the southeast has been finally opened as Crackshot's hideout was discovered.",
+        "message":"And last but not least, I have some useful information for you: the way from here to the southeast has been finally opened as Crackshot's corpse was discovered.",
         "replies":[
             {
                 "text":"At least I'm not going to take that detour.",
