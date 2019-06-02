@@ -2764,7 +2764,7 @@
     },
     {
         "id":"umar_guild03_10c",
-        "message":"Sure, I canl do that.",
+        "message":"Sure, I can do that.",
         "replies":[
             {
                 "text":"N",
@@ -2985,7 +2985,7 @@
     },
     {
         "id":"umar_guild03_20",
-        "message":"I remember this is an important mission.Don't forget it!",
+        "message":"Remember, this is an important mission! Don't forget it again!",
         "replies":[
             {
                 "text":"N",
@@ -2995,7 +2995,7 @@
     },
     {
         "id":"umar_guild03_21",
-        "message":"First,you must find Crackshot's hideout.",
+        "message":"First, you must find Crackshot's hideout.",
         "replies":[
             {
                 "text":"N",
@@ -3005,7 +3005,7 @@
     },
     {
         "id":"umar_guild03_22",
-        "message":"Then you will have to deal with him and his henchmen, and at last bring back the Key of Luthor to us.",
+        "message":"Then you will have to deal with him and his henchmen, and finally bring back the Key of Luthor to us.",
         "replies":[
             {
                 "text":"N",
@@ -3026,14 +3026,14 @@
                 "nextPhraseID":"umar_guild03_24a"
             },
             {
-                "text":"Can you explain me again?",
+                "text":"Can you explain it to me again?",
                 "nextPhraseID":"umar_guild03_24b"
             }
         ]
     },
     {
         "id":"umar_guild03_24a",
-        "message":"Excellent.Good luck.",
+        "message":"Excellent. Good luck.",
         "replies":[
             {
                 "text":"Thank you.",
@@ -3043,7 +3043,7 @@
     },
     {
         "id":"umar_guild03_24b",
-        "message":"Are you talking serious?!\nBah, I'll repeat it for you...",
+        "message":"Are you serious?\nBah, I'll repeat it for you...",
         "replies":[
             {
                 "text":"N",
@@ -3895,7 +3895,7 @@
         "message":"Excellent. Did he have the key with him?",
         "replies":[
             {
-                "text":"Yes... [give key]\nWhy is this key so important for us?",
+                "text":"Yes... [give key]. Why is this key so important to us?",
                 "nextPhraseID":"umar_guild03_26a",
                 "requires":[
                     {
@@ -3906,7 +3906,7 @@
                 ]
             },
             {
-                "text":"Sure, here, take it.\nAnd maybe it's time to give me some information.",
+                "text":"Sure, here, take it. And maybe it's time to give me some more information.",
                 "nextPhraseID":"umar_guild03_26b",
                 "requires":[
                     {
@@ -3950,14 +3950,14 @@
                 ]
             },
             {
-                "text":"Even if I had the key, I won't give it to you.",
+                "text":"Even if I have the key, I won't give it to you.",
                 "nextPhraseID":"umar_guild03_25_1a"
             }
         ]
     },
     {
         "id":"umar_guild03_25_3",
-        "message":"Why did it took so long? And do not look at me so curiously. I will not tell you anything about the key now.",
+        "message":"Why did it take so long? And do not look at me that way. I can not tell you anything about the key for now.",
         "replies":[
             {
                 "text":"N",
@@ -3982,14 +3982,14 @@
     },
     {
         "id":"umar_guild03_26a",
-        "message":"I'm sorry,but now this is not the priority.",
+        "message":"I'm sorry, but for now I can't say more.",
         "replies":[
             {
                 "text":"I see...",
                 "nextPhraseID":"umar_guild03_27a"
             },
             {
-                "text":"Tsch,ok.",
+                "text":"Tsch, OK.",
                 "nextPhraseID":"umar_guild03_27a"
             }
         ],
@@ -4003,10 +4003,10 @@
     },
     {
         "id":"umar_guild03_26b",
-        "message":"Be patient, my friend.Everything will come in due time.",
+        "message":"Be patient, my friend. Everything will come in due time.",
         "replies":[
             {
-                "text":"I expect my patience will be worthy.",
+                "text":"I expect my patience will be rewarded.",
                 "nextPhraseID":"umar_guild03_27b"
             },
             {
@@ -4052,7 +4052,7 @@
     },
     {
         "id":"umar_guild03_27a_1",
-        "message":"Anyway,you've done your work.My spies reported to me you had saved someone's life.",
+        "message":"Anyway, you've done your work. My spies reported to me that you saved someone's life.",
         "replies":[
             {
                 "text":"If your spies help me, tasks would be easier.",
@@ -4063,14 +4063,14 @@
                 "nextPhraseID":"umar_guild03_28c"
             },
             {
-                "text":"Yeah.He was a Feygard officer...A Sergeant I think.",
+                "text":"Yeah. He was a Feygard officer...A Sergeant I think.",
                 "nextPhraseID":"umar_guild03_28c"
             }
         ]
     },
     {
         "id":"umar_guild03_27a_2",
-        "message":"Anyway,you've done your work.My spies reported to me you had saved someone's life.",
+        "message":"Anyway, you've done your work. My spies reported to me you had saved someone's life.",
         "replies":[
             {
                 "text":"If your spies help me, tasks would be easier.",
@@ -4088,7 +4088,7 @@
     },
     {
         "id":"umar_guild03_27b",
-        "message":"Trust me,it will.",
+        "message":"Trust me, it will.",
         "replies":[
             {
                 "text":"N",
@@ -4112,21 +4112,21 @@
     },
     {
         "id":"umar_guild03_28b",
-        "message":"I mean this is not the time to tell you anything yet, sorry.",
+        "message":"I mean this is not the time to tell you what you want to know, sorry.",
         "replies":[
             {
                 "text":"Tsch, whatever.",
                 "nextPhraseID":"umar_guild03_27a"
             },
             {
-                "text":"Yes,understood.",
+                "text":"Yes, understood.",
                 "nextPhraseID":"umar_guild03_27a"
             }
         ]
     },
     {
         "id":"umar_guild03_28a",
-        "message":"Each of you have your own exclusive task.Spies must hide their identities even to their mates.",
+        "message":"Each of you have your own specific task. Spies must hide their identities, even to their allies.",
         "replies":[
             {
                 "text":"That makes sense.",
@@ -4146,7 +4146,7 @@
     },
     {
         "id":"umar_guild03_29",
-        "message":"Hm! And now to business. Here's your reward for the good work:",
+        "message":"Hmm! And now to business. Here's your reward for the good work.",
         "replies":[
             {
                 "text":"N",
@@ -4156,18 +4156,18 @@
     },
     {
         "id":"umar_guild03_30",
-        "message":"Take 4000 solid gold coins, and some bottles of my favourite mead.\nNow you deserve a good rest, my friend. You have earned the trust of the Thieves Guild.",
+        "message":"Take 4000 gold coins, and some bottles of my favourite mead.\nNow you deserve a good rest, my friend. You have earned the trust of the Thieves Guild.",
         "replies":[
             {
                 "text":"I'll be back soon.",
                 "nextPhraseID":"umar_guild03_31a"
             },
             {
-                "text":"Count with me for the next job.",
+                "text":"Count with me in for the next job.",
                 "nextPhraseID":"umar_guild03_31b"
             },
             {
-                "text":"Ok,bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"X"
             }
         ],
@@ -4196,7 +4196,7 @@
     },
     {
         "id":"umar_guild03_31b",
-        "message":"I will,no doubt about it.",
+        "message":"I will, no doubt about it.",
         "replies":[
             {
                 "text":"N",
@@ -4206,28 +4206,28 @@
     },
     {
         "id":"umar_guild03_31a",
-        "message":"And last but not least, I have some useful information for you: the way from here to the southeast has been finally opened as Crackshot's corpse was discovered.",
+        "message":"And last but not least, I have some useful information for you. The way from here to the southeast has been finally been opened, once Crackshot's hideout was discovered.",
         "replies":[
             {
-                "text":"At least I'm not going to take that detour.",
+                "text":"Good, I'm not going to have to take that detour.",
                 "nextPhraseID":"umar_guild03_32"
             },
             {
-                "text":"Thank you for the information,bye.",
+                "text":"Thank you for the information. Bye.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"umar_guild03_32",
-        "message":"Anyway,Feygard presence is still significant.Be cautious with your actions.",
+        "message":"However, the Feygard presence is still significant. Be cautious with with what you do.",
         "replies":[
             {
-                "text":"I will,thank you for the advice.",
+                "text":"I will, thank you for the advice.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"All is under control.Bye.",
+                "text":"All is under control. Bye.",
                 "nextPhraseID":"X"
             }
         ]
@@ -4252,14 +4252,14 @@
     },
     {
         "id":"umar_guild04_1b",
-        "message":"No jobs today,my young friend.Maybe some other day.",
+        "message":"No jobs today my young friend. Maybe some other day.",
         "replies":[
             {
                 "text":"I see...Bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Such a pity.More spare time for me then.",
+                "text":"That's a shame. Find more time for my skills then.",
                 "nextPhraseID":"X"
             }
         ]
