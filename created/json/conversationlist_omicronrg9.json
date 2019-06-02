@@ -1774,21 +1774,21 @@
     },
     {
         "id":"troublemaker_guild02_1",
-        "message":"So do you want to kill her silently?",
+        "message":"So do you want to kill her quietly?",
         "replies":[
             {
-                "text":"No,just I want a place less awkward to leave her until...",
+                "text":"No, just I want a suitable place to leave her until...",
                 "nextPhraseID":"troublemaker_guild02_2a"
             },
             {
-                "text":"What?! No,I just asking you for that place to this type of jobs Umar told me you knew.",
+                "text":"What? No, I am just asking you for a place for this type of job. Umar told me you knew of somewhere.",
                 "nextPhraseID":"troublemaker_guild02_2b"
             }
         ]
     },
     {
         "id":"troublemaker_guild02_2a",
-        "message":"Yeah,the ransom.I'm a veteran kid,don't forget that.",
+        "message":"Yeah, the ransom. I'm a veteran kid, don't forget that.",
         "replies":[
             {
                 "text":"N",
@@ -1798,7 +1798,7 @@
     },
     {
         "id":"troublemaker_guild02_2b",
-        "message":"Hmpf,specify more next time,I'm not a mind-reader!",
+        "message":"Hmpf, be more specific next time. I'm not a mind-reader!",
         "replies":[
             {
                 "text":"N",
@@ -1808,35 +1808,35 @@
     },
     {
         "id":"troublemaker_guild02_3",
-        "message":"Well,I understand.Yes I have a place,but there's a problem.That place is in the other end of the town...Next to the graveyard.",
+        "message":"Well, I understand. Yes I have a place, but there's a problem. That place is at the other end of the town, next to the graveyard.",
         "replies":[
             {
-                "text":"I don't think that will suppose me a major problem.",
+                "text":"I don't think that will present a major problem for me.",
                 "nextPhraseID":"troublemaker_guild02_4"
             },
             {
-                "text":"I've entered here without any problem,Why I would have problems crossing the town?",
+                "text":"I got here without any problem. Why I would have problems crossing through town?",
                 "nextPhraseID":"troublemaker_guild02_4"
             }
         ]
     },
     {
         "id":"troublemaker_guild02_4",
-        "message":"Well,anyway I'm building a way underground to reach it without be seen.It will be ready next time,I promise.",
+        "message":"Well, anyway, I'm building a way underground to reach it without being seen. It will be ready next time, I promise.",
         "replies":[
             {
-                "text":"Whatever,anything more?",
+                "text":"Whatever, anything more?",
                 "nextPhraseID":"troublemaker_guild02_5a"
             },
             {
-                "text":"Thank you.I will go there.",
+                "text":"Thank you. I will go there.",
                 "nextPhraseID":"troublemaker_guild02_5b"
             }
         ]
     },
     {
         "id":"troublemaker_guild02_5b",
-        "message":"Ok,make sure you're not seen doing suspicious things.",
+        "message":"OK. Make sure you're not seen doing suspicious things!",
         "replies":[
             {
                 "text":"N",
@@ -1846,7 +1846,7 @@
     },
     {
         "id":"troublemaker_guild02_5a",
-        "message":"Yes,what was...",
+        "message":"Yes, there is something.",
         "replies":[
             {
                 "text":"N",
@@ -1856,14 +1856,14 @@
     },
     {
         "id":"troublemaker_guild02_6",
-        "message":"Oh! I forgot it,take this key.Make sure you put it in correctly to open the hatchway.",
+        "message":"I almost forget. Take this key. Make sure you put it in correctly to open the hatchway.",
         "replies":[
             {
-                "text":"You forget many things right?",
+                "text":"You forget many things, right?",
                 "nextPhraseID":"troublemaker_guild02_7"
             },
             {
-                "text":"Hmmm,ok.I will keep that in mind.",
+                "text":"Hmm, OK. I will keep that in mind.",
                 "nextPhraseID":"X"
             }
         ],
@@ -1882,7 +1882,7 @@
     },
     {
         "id":"troublemaker_guild02_7",
-        "message":"I have better things to do than help an apprentice.Leave me,hmpf."
+        "message":"I have better things to do than help an apprentice. Leave me. Hmpf."
     },
     {
         "id":"guild02_hatchlever",
@@ -2017,7 +2017,7 @@
     },
     {
         "id":"troublemaker_guild02_8",
-        "message":"Ah,yes...That captive.Take this food and make sure she is comfortable enough. We don't want her starving right?\n(Troublemaker gives you some bread)",
+        "message":"Ah, yes...That captive. Take this food and make sure she is comfortable enough. We don't want her starving right?\n(Troublemaker gives you some bread)",
         "replies":[
             {
                 "text":"Argh. OK. What a tedious job!",
@@ -3305,11 +3305,11 @@
     },
     {
         "id":"guild03_sword_clashing",
-        "message":"ARGH!! *sword clashing*\n\nSergeant! Sergeant!!\n...*laughter*",
+        "message":"ARGH!! *sword clashing*\n\nSargent! Sargent!\n...*laughter*",
         "switchToNPC":"unknown",
         "replies":[
             {
-                "text":"I should check that.",
+                "text":"That sounds like fighting nearby. I should check into that.",
                 "nextPhraseID":"X"
             }
         ],
