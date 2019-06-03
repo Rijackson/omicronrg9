@@ -1656,7 +1656,7 @@
     },
     {
         "id":"Feygard_BG_guild02_1",
-        "message":"Halt! The way to Fallhaven is closed as recent information about a dangerous criminal who has been seen not far from here.\nThat criminal has commited a murdered hours ago.",
+        "message":"Halt! The road to Fallhaven is closed due to recent information about a dangerous criminal who has been seen not far from here.\nThat criminal commited a murder only hours ago.",
         "replies":[
             {
                 "text":"But I really need to pass!",
@@ -1666,10 +1666,10 @@
     },
     {
         "id":"Feygard_BG_guild02_2a",
-        "message":"Sorry,I'm not able to decide who passes.This barricade will be here until we catch or kill the criminal.\n\n(You take a look into your map.There seems to be another way to reach Fallhaven,heading up to the North)",
+        "message":"Sorry, I'm not able to decide who passes. This barricade will be here until we catch or kill the criminal.\n\n(You take a look into your map.There seems to be another way to reach Fallhaven,heading up to the North)",
         "replies":[
             {
-                "text":"Ok,thank you anyway.",
+                "text":"OK, thank you anyway.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1922,20 +1922,24 @@
     },
     {
         "id":"guild02_hatchlever_2b",
-        "message":"Looking around the room,you see a unusual mechanism.A crowbar with a locked chain which prevents the lever to be triggered.",
+        "message":"Looking around the room, you see an unusual mechanism. A crowbar with a locked chain that prevents a lever from beng moved.",
         "replies":[
             {
                 "text":"Try to break the chain.",
                 "nextPhraseID":"guild02_hatchlever_3b"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"guild02_hatchlever_3b",
-        "message":"You hit the chain.But everything you got is a mark in your weapon and frustration,as the chain is still intact.",
+        "message":"You hit the chain, but all you get is a mark on your weapon and frustration, as the chain is still intact.",
         "replies":[
             {
-                "text":"Hit again.",
+                "text":"Hit it again.",
                 "nextPhraseID":"guild02_hatchlever_3b"
             },
             {
@@ -1946,7 +1950,7 @@
     },
     {
         "id":"guild02_hatchlever_2a",
-        "message":"Probably this is the place Troublemaker has mentioned before.You see a crowbar with a locked chain that surrounds the whole mechanism and block it from moving.The key seems to fit into the lock.",
+        "message":"This is probably the place Troublemaker mentioned. You see a crowbar with a locked chain that surrounds the whole mechanism, stopping it from moving.The key seems to fit into the lock.",
         "replies":[
             {
                 "text":"Put the key into the lock.",
@@ -1963,7 +1967,7 @@
     },
     {
         "id":"guild02_hatchlever_3a",
-        "message":"You insert the key inside the lock.You can hear strange noises and creaks when you turn the key.You make an effort,and finally the heavy chain falls on the floor,freeing the mechanism.\n\nWhen you trigger the lever,the floor starts trembling,and eventually a hole appears in the place,or rather a hatch which leads downstairs.",
+        "message":"You insert the key in the lock. You can hear strange noises and creaks as you turn the key. You make an extra effort, and finally the heavy chain falls on the floor, freeing the mechanism.\n\nWhen you move the lever the floor starts trembling, and eventually a hatch appears that  leads downstairs.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2478,7 +2482,7 @@
     },
     {
         "id":"guild03_rest1",
-        "message":"(You take off your bag and catch the blanket.This bed is more comfortable than you thought,but that's maybe because you are really exhausted.Finally you blow out the candle in the room. You should go to the bed now.)",
+        "message":"(You should go to the bed now. You take off your bag and grab the blanket. This bed is more comfortable than you thought, but maybe that's because you are really exhausted. Finally, you blow out the candle in the room.)",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2504,11 +2508,11 @@
     },
     {
         "id":"guild03_rest2",
-        "message":"Umar spoke me clearly.Sleep,then come back.I should do what he said and go to bed."
+        "message":"Umar was clear. Sleep, then return. I should do what he said and go to bed."
     },
     {
         "id":"guild03_rest3",
-        "message":"(The night here is anything but quiet.You can hear wolves' howls,as they are more active in the night.Even people conversations come to your ears.However,you couldn't care less about that now.You finally fall asleep)",
+        "message":"(The night here is anything but quiet. You can hear wolves' howls, as they become more active during the night. Even people's conversations can be overheard. However, you couldn't care less about that right now. You finally fall asleep)",
         "replies":[
             {
                 "text":"N",
@@ -2525,7 +2529,7 @@
     },
     {
         "id":"guild03_rest4",
-        "message":"(Sun arises and you open your eyes.You feel fully rested and eager to talk with Umar.He's probably waiting for you.)",
+        "message":"(The sun rises and you open your eyes. You feel fully rested and eager to talk with Umar. He's probably waiting for you.)",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2591,15 +2595,15 @@
     },
     {
         "id":"guild03_rest0a",
-        "message":"I should not leave the city now.Father told me once monsters and beasts are more dangerous at night."
+        "message":"I should not leave the city now. Father told me once that monsters and beasts are more dangerous at night."
     },
     {
         "id":"guild03_rest0b",
-        "message":"Why I'm leading to this direction? Tavern isn't in this way!"
+        "message":"Why am I heading in this direction? The tavern isn't in this way!"
     },
     {
         "id":"guild03_rest0c",
-        "message":"It would be better to don't bother people at this hour."
+        "message":"It would be better to not bother people at this hour."
     },
     {
         "id":"umar_guild03_1",
@@ -3087,21 +3091,21 @@
         "message":"(This man seems to be inmersed in his thoughts)",
         "replies":[
             {
-                "text":"Hi.Have you heard about the murder not far from here?",
+                "text":"Hi. Have you heard about the murder not far from here?",
                 "nextPhraseID":"benbyr_guild03_2"
             }
         ]
     },
     {
         "id":"benbyr_guild03_2",
-        "message":"What? A murder?\nI don't know what you're talking about,sorry.",
+        "message":"What? A murder?\nI don't know what you're talking about, sorry.",
         "replies":[
             {
-                "text":"Civilians...You never see nothing.Bye.",
+                "text":"Civilians! You never see anything. Bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Ok,thank you anyway!",
+                "text":"OK, thank you anyway!",
                 "nextPhraseID":"X"
             }
         ],
@@ -3115,7 +3119,7 @@
     },
     {
         "id":"Feygard_BG_guild03_1",
-        "message":"Sorry,kid! I'm unable to let you pass.Orders from above!",
+        "message":"Sorry, kid! I'm unable to let you pass. Orders from above!",
         "replies":[
             {
                 "text":"Any news about the murderer?",
@@ -3130,14 +3134,14 @@
                 ]
             },
             {
-                "text":"Tsch,Bye!",
+                "text":"Tsch, Bye!",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"Feygard_BG_guild03_2",
-        "message":"Yes.He's not alone!",
+        "message":"Yes. He's not alone!",
         "replies":[
             {
                 "text":"Anything more?",
@@ -3147,7 +3151,7 @@
     },
     {
         "id":"Feygard_BG_guild03_3",
-        "message":"Yes! We have sent patrols to the north.There's a place infested by larval burrowers.",
+        "message":"Yes! We have sent patrols to the north. There's a place infested by larval burrowers.",
         "replies":[
             {
                 "text":"N",
@@ -3157,20 +3161,20 @@
     },
     {
         "id":"Feygard_BG_guild03_4",
-        "message":"He and other criminals are probably hiding there!",
+        "message":"He and the other criminals are probably hiding there!",
         "replies":[
             {
-                "text":"Anything more?",
+                "text":"Anything else?",
                 "nextPhraseID":"Feygard_BG_guild03_5"
             }
         ]
     },
     {
         "id":"Feygard_BG_guild03_5",
-        "message":"Yes! Those crimin...\nWait,You don't have to know this information! Forget all I've said!",
+        "message":"Yes! Those crimin...\nWait, you don't have to know this information! Forget everything I've said!",
         "replies":[
             {
-                "text":"I will,bye!",
+                "text":"I will, bye!",
                 "nextPhraseID":"X"
             },
             {
@@ -3211,10 +3215,10 @@
     },
     {
         "id":"Feygard_BG_guild03_0",
-        "message":"Halt! The way to Fallhaven is closed due to a murder commited three days ago.",
+        "message":"Halt! The road to Fallhaven is closed due to a murder commited three days ago.",
         "replies":[
             {
-                "text":"Hey! I live in Crossglen,how do you expect I'll reach there?",
+                "text":"Hey! I live in Crossglen. How do you expect me to get there?",
                 "nextPhraseID":"Feygard_BG_guild03_1"
             }
         ]
@@ -3240,7 +3244,7 @@
     },
     {
         "id":"guild03_blood_1a",
-        "message":"(You look at the floor.The blood isn't coagulated yet.It seems there has been a fight between two or more people recently)",
+        "message":"(You look at the floor. The blood hasn't coagulated yet. It seems there has been a recent fight between two or more people.)",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3251,7 +3255,7 @@
     },
     {
         "id":"guild03_blood_1b",
-        "message":"(The same blood stains.They are coagulating more and more.Soon they will be just another mark in the floor)"
+        "message":"(The same blood stains. They are coagulating more and more. Soon they will be just another mark on the floor.)"
     },
     {
         "id":"guild03_blood_2_select",
@@ -3274,7 +3278,7 @@
     },
     {
         "id":"guild03_blood_2a",
-        "message":"(More blood.There's no doubt,there has been a fight here.)",
+        "message":"(More blood. There's no doubt, there has been a fight here.)",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3285,7 +3289,7 @@
     },
     {
         "id":"guild03_blood_2b",
-        "message":"(Looking again the same blood marks won't give you anything but wasting time.)"
+        "message":"(Looking again at the same blood marks won't achieve anything except wasted time.)"
     },
     {
         "id":"guild03_blood_3_select",
@@ -3323,14 +3327,14 @@
     },
     {
         "id":"guild03_deadpatrol_1_1",
-        "message":"(You see, horrified, how this man is bleeding out rapidly.He has countless cuts and his face is mutilated.You can almost hear his gasps.)",
+        "message":"(You see, horrified, how this man is bleeding out rapidly. He has countless cuts and his face is mutilated. You can almost hear his gasps.)",
         "replies":[
             {
-                "text":"Shadow,embrace him.",
+                "text":"Shadow, embrace him.",
                 "nextPhraseID":"R"
             },
             {
-                "text":"For the glory of Feygard,you will be avenged!",
+                "text":"For the glory of Feygard, you will be avenged!",
                 "nextPhraseID":"R"
             }
         ],
@@ -3349,7 +3353,7 @@
     },
     {
         "id":"guild03_deadpatrol_2_1",
-        "message":"Ser...geant. *gasps*.",
+        "message":"Sar...gent. *gasps*.",
         "replies":[
             {
                 "text":"N",
@@ -3359,7 +3363,7 @@
     },
     {
         "id":"guild03_deadpatrol_2_2",
-        "message":"Y...you kid...Argh! *spits up blood*.\nThat guy is not...Agh.",
+        "message":"Y...you kid...Argh! *spits up blood*.\nThat guy is not...Argh.",
         "replies":[
             {
                 "text":"What guy?",
@@ -3388,14 +3392,14 @@
     },
     {
         "id":"guild03_deadpatrol_2_3",
-        "message":"No...He's not...Agggh!\n[He has stopped breathing...I'm cannot do anything.Better to move on.]",
+        "message":"No...He's not...Agggh!\n[He has stopped breathing. I cannot do anything for him. Better to move on.]",
         "replies":[
             {
-                "text":"Shadow,embrace him...",
+                "text":"Shadow, embrace him...",
                 "nextPhraseID":"R"
             },
             {
-                "text":"I'll save your sergeant!",
+                "text":"I'll save your sargent!",
                 "nextPhraseID":"R"
             }
         ],
@@ -3414,11 +3418,11 @@
     },
     {
         "id":"guild03_doorlock_2",
-        "message":"(The horrid blood smell here is unbearable.However I should check whether those men are alive.)"
+        "message":"(The terrible smell of blood here is unbearable. However, I should check whether those men are alive.)"
     },
     {
         "id":"guild03_doorlock_3",
-        "message":"No way.There are countless cobwebs.I should go through the door."
+        "message":"No way. There are countless cobwebs. I should go through the door."
     },
     {
         "id":"guild03_doorlock_1",
@@ -3426,10 +3430,10 @@
     },
     {
         "id":"rebthief_guild03_1",
-        "message":"Another idiot trying to pass through here,eh?\nYour life ends here!",
+        "message":"Another idiot trying to pass through here, eh?\nYour life ends here!",
         "replies":[
             {
-                "text":"People you've killed will be avenged.",
+                "text":"The people you've killed will be avenged.",
                 "nextPhraseID":"F"
             }
         ],
@@ -3443,7 +3447,7 @@
     },
     {
         "id":"FeygardSerg_guild03_1",
-        "message":"(Looks surprised at you).How...?\nWho are you kid?",
+        "message":"(Gives you a surprised look). How...?\nWho are you kid?",
         "switchToNPC":"g03_sergeant",
         "replies":[
             {
@@ -3458,14 +3462,14 @@
     },
     {
         "id":"FeygardSerg_guild03_2",
-        "message":"Wait! That's not actually important.\nLeave this dangerous place,right now!",
+        "message":"Wait! That's not actually important.\nLeave this dangerous place, right now!",
         "replies":[
             {
-                "text":"You are right. It will be better to leave.",
+                "text":"You are right. It would be better to leave.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Hah! No way,I won't give up.",
+                "text":"Hah! No way, I won't give up.",
                 "nextPhraseID":"FeygardSerg_guild03_3"
             },
             {
@@ -3483,31 +3487,31 @@
     },
     {
         "id":"FeygardSerg_guild03_3",
-        "message":"My whole patrol has died! Why do you think you have any possibility?",
+        "message":"My whole patrol is dead! Why do you think you have any chance of success?",
         "replies":[
             {
-                "text":"I managed to reach this place...Is not enough for you?",
+                "text":"I managed to reach this place. Is that not enough for you?",
                 "nextPhraseID":"FeygardSerg_guild03_4a"
             },
             {
-                "text":"I'm not here to discuss with you.",
+                "text":"I'm not here to discuss that with you.",
                 "nextPhraseID":"FeygardSerg_guild03_4b"
             }
         ]
     },
     {
         "id":"FeygardSerg_guild03_4a",
-        "message":"You know? That's your life,do whatever you want.",
+        "message":"It's your life, do whatever you want.",
         "replies":[
             {
-                "text":"Please tell me what do you know about the situation.",
+                "text":"Please tell me what do you know about the current situation.",
                 "nextPhraseID":"FeygardSerg_guild03_5"
             }
         ]
     },
     {
         "id":"FeygardSerg_guild03_4b",
-        "message":"Ineed I don't know why are you here yet!",
+        "message":"Indeed, I don't know why are you here!",
         "replies":[
             {
                 "text":"N",
@@ -3517,17 +3521,17 @@
     },
     {
         "id":"FeygardSerg_guild03_5",
-        "message":"Eh? No,I don't know anything.Just me and my patrol were sent here to arrest a murderer.But then,things became strange.",
+        "message":"I don't know much. Only that me and my patrol were sent here to arrest a murderer. But what we found was unexpected.",
         "replies":[
             {
-                "text":"Strange?",
+                "text":"Unexpected?",
                 "nextPhraseID":"FeygardSerg_guild03_6"
             }
         ]
     },
     {
         "id":"FeygardSerg_guild03_6",
-        "message":"We reached this passages from a forest cavern and went through the beasts without major problem.Suddenly,the suspect appeared with a group of men,probably his allies or subordinates...",
+        "message":"We reached these passages via a forest cavern, and went through the beasts without any major problem. Suddenly,the suspect appeared with a group of men, probably his allies or subordinates...",
         "replies":[
             {
                 "text":"N",
@@ -3537,7 +3541,7 @@
     },
     {
         "id":"FeygardSerg_guild03_7",
-        "message":"Those people were fast,very fast and very risky.They killed them! My fellows,all of them defeated.",
+        "message":"Those people were fast. Very fast and very dangerous. They killed them! My fellows, all of them defeated!",
         "replies":[
             {
                 "text":"N",
@@ -3547,7 +3551,7 @@
     },
     {
         "id":"FeygardSerg_guild03_8",
-        "message":"I managed to get rid of most of them,but I'm severely wounded and unable to continue...",
+        "message":"I managed to get rid of most of them, but I'm severely wounded and unable to continue...",
         "replies":[
             {
                 "text":"N",
@@ -3557,14 +3561,14 @@
     },
     {
         "id":"FeygardSerg_guild03_9a",
-        "message":"Don't you understand? You must leave this place before you can't.\n\nHe's playing with us!!",
+        "message":"Don't you understand? You must leave this place before you can't.\n\nHe's playing with us!",
         "replies":[
             {
                 "text":"You are right. I will leave.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Take this supplies and leave,I'll avenge your mates.",
+                "text":"Take these supplies and leave. I'll avenge your mates.",
                 "nextPhraseID":"FeygardSerg_guild03_10",
                 "requires":[
                     {
@@ -3575,7 +3579,7 @@
                 ]
             },
             {
-                "text":"Don't worry.Report this until It becomes too late.I'll go there instead of you.",
+                "text":"Don't worry. You must report this before it is too late. I'll go there instead of you.",
                 "nextPhraseID":"FeygardSerg_guild03_10"
             }
         ],
@@ -3589,14 +3593,14 @@
     },
     {
         "id":"FeygardSerg_guild03_10",
-        "message":"Agh,thank you.You're valiant,kid.I hope to see you out of here,you're invited to drink with me!",
+        "message":"Agh, thank you. You are valiant, kid. I hope to see you when we are both out of here. I'll invite you for a drink!",
         "replies":[
             {
-                "text":"Ok,thank you.Now I have to run.",
+                "text":"OK, thank you. Now I have to run.",
                 "nextPhraseID":"R"
             },
             {
-                "text":"Yeah,sounds good.For the glory of Feygard I'll avenge your teammates!",
+                "text":"Yeah, sounds good. For the glory of Feygard I'll avenge your mates!",
                 "nextPhraseID":"R"
             }
         ],
@@ -3615,7 +3619,7 @@
     },
     {
         "id":"guild03_Hentrance_1",
-        "message":"(You see a hole going to a cave.Maybe this is a good place to start searching.)",
+        "message":"(You see a hole leading to a cave. Maybe this is a good place to start searching.)",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3682,14 +3686,14 @@
     },
     {
         "id":"FeygardSerg_guild03_9b",
-        "message":"Kid, why are you still here?! Leave me,I'm just resting a bit.",
+        "message":"Kid, why are you still here? Leave me, I'm just resting a bit.",
         "replies":[
             {
-                "text":"Don't be rude! I'm here to help you. Please leave to a safer place.",
+                "text":"Don't be rude! I'm here to help you. Please leave and go to a safer place.",
                 "nextPhraseID":"FeygardSerg_guild03_10"
             },
             {
-                "text":"Calm down.Take this supplies and call backup! (1 Cooked Meat)",
+                "text":"Calm down. Take these supplies and call backup!",
                 "nextPhraseID":"FeygardSerg_guild03_10",
                 "requires":[
                     {
@@ -3703,7 +3707,7 @@
     },
     {
         "id":"rebthief2_g03_1",
-        "message":"You couldn't be in a worse place to play hide and seek,kid.Die!",
+        "message":"You couldn't be in a worse place to play hide and seek, kid. Die!",
         "switchToNPC":"g03_thief_2",
         "replies":[
             {
@@ -3744,7 +3748,7 @@
     },
     {
         "id":"guild03_crackshot_2a",
-        "message":"Haven't you noticed yet? Your life is not going to be much longer.",
+        "message":"Haven't you realized yet? Your life is not going to be much longer.",
         "replies":[
             {
                 "text":"Hah! Let's see if you're as strong as Umar has said.",
@@ -3765,7 +3769,7 @@
     },
     {
         "id":"guild03_crackshot_2b",
-        "message":"*laugh* Are you talking seriously?!",
+        "message":"*laugh* Are you serious?",
         "replies":[
             {
                 "text":"N",
@@ -3775,7 +3779,7 @@
     },
     {
         "id":"guild03_crackshot_3",
-        "message":"Do you really believe this words worth anything here?",
+        "message":"Do you really believe such words are worth anything here?",
         "replies":[
             {
                 "text":"N",
@@ -3785,14 +3789,14 @@
     },
     {
         "id":"guild03_crackshot_4",
-        "message":"Let's check if you can arrest me when I finish you!",
+        "message":"Let's see if you can arrest me after I have finished with you!",
         "replies":[
             {
-                "text":"Feygard soldiers will be avenged!",
+                "text":"The Feygard soldiers will be avenged!",
                 "nextPhraseID":"F"
             },
             {
-                "text":"Your head will be enough proof!",
+                "text":"Your head will serve as proof!",
                 "nextPhraseID":"F"
             }
         ],
@@ -4650,7 +4654,7 @@
     },
     {
         "id":"guild03_hideout3_lockmessage",
-        "message":"A mysterious force doesn't let you to unlock the door."
+        "message":"A mysterious force prevents you from unlocking the door."
     },
     {
         "id":"guild03_hideout3_lock3",
