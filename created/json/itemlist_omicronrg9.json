@@ -33,15 +33,17 @@
                 "min":2,
                 "max":5
             },
-            "increaseAttackChance":19,
+            "increaseReequipCost":0,
+            "increaseAttackCost":4,
+            "increaseAttackChance":15,
             "increaseCriticalSkill":10,
-            "increaseBlockChance":6,
+            "increaseBlockChance":2,
             "setCriticalMultiplier":2.5
         },
         "killEffect":{
             "increaseCurrentHP":{
-                "min":1,
-                "max":1
+                "min":0,
+                "max":0
             }
         }
     },
@@ -50,6 +52,7 @@
         "iconID":"items_misc:53",
         "name":"Bandage",
         "displaytype":"quest",
+        "baseMarketCost":256,
         "category":"healing",
         "useEffect":{
             "increaseCurrentHP":{
@@ -80,7 +83,7 @@
         "hasManualPrice":1,
         "baseMarketCost":0,
         "category":"food",
-        "description":"Even fly larvae have died because of this.",
+        "description":"Even fly larvae have died eating this.",
         "useEffect":{
             "increaseCurrentHP":{
                 "min":-10,
@@ -102,7 +105,7 @@
         "name":"Suspicious package",
         "displaytype":"quest",
         "category":"other",
-        "description":"This box has a mark which you don't understand.Better to don't open it."
+        "description":"This box has a mark that you don't understand. Better not to open it."
     },
     {
         "id":"sword_g03_crackshot",
@@ -114,7 +117,7 @@
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":4,
-                "max":8
+                "max":12
             },
             "increaseMaxHP":0,
             "increaseAttackCost":5,
@@ -131,7 +134,7 @@
         "name":"Key of Luthor",
         "displaytype":"quest",
         "category":"other",
-        "description":"The ancient key now has a bluish glow."
+        "description":"The ancient key has a bluish glow."
     },
     {
         "id":"g03_luthor2",
@@ -139,7 +142,7 @@
         "name":"Blessed key of luthor",
         "displaytype":"quest",
         "category":"other",
-        "description":"The curse has dissapeared."
+        "description":"The curse has disappeared."
     },
     {
         "id":"g02_ambelie",
@@ -149,7 +152,7 @@
         "hasManualPrice":1,
         "baseMarketCost":5000,
         "category":"neck",
-        "description":"The gemstone that Ambelie gave me in exchange for her life.",
+        "description":"The jewelry that Ambelie gave me in exchange for her life.",
         "equipEffect":{
             "increaseMaxHP":5
         }
