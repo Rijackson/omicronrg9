@@ -365,7 +365,7 @@
     },
     {
         "id":"feygard_scout_1",
-        "message":"Halt! You have bee caught!",
+        "message":"Halt! You have been caught!",
         "switchToNPC":"feygard_scout",
         "replies":[
             {
@@ -711,14 +711,14 @@
     },
     {
         "id":"thoronir_guild_1",
-        "message":"What's the matter,my child?",
+        "message":"What's the matter, my child?",
         "replies":[
             {
-                "text":"Ehm...My father has cut himself with an axe,and we don't have any bandages!",
+                "text":"Ehm...My father has cut himself with an axe, and we don't have any bandages!",
                 "nextPhraseID":"thoronir_guild_2a"
             },
             {
-                "text":"Fanamor,one member of Thieves' Guild,is severely wounded.I beg you a bandage for her!",
+                "text":"Fanamor, a member of Thieves' Guild, is severely wounded. Please give me a bandage for her!",
                 "nextPhraseID":"thoronir_guild_2"
             }
         ]
@@ -750,14 +750,14 @@
     },
     {
         "id":"thoronir_guild_3",
-        "message":"That's what I have,take this.I expect this would be useful.",
+        "message":"This is what I have, take it. I expect this will be useful.",
         "replies":[
             {
-                "text":"Shadow walk with you,my friend.",
+                "text":"May the Shadow walk with you, my friend.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Thank you,I won`t forget this!",
+                "text":"Thank you, I won't forget this!",
                 "nextPhraseID":"X"
             }
         ],
