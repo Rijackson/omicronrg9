@@ -2410,11 +2410,11 @@
         "replies":[
             {
                 "text":"I expected that. See you tomorrow then.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"umar_guild02_27d"
             },
             {
                 "text":"Easy? Argh, they've been so difficult! Good night.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"umar_guild02_27d"
             }
         ],
         "rewards":[
@@ -2730,7 +2730,7 @@
         "message":"The team leader and others loyal to him killed the rest of the team and escaped with the key, before entering the church. They have probably deciphered the code and they want to sell the information to the highest bidder. That happened three nights ago.",
         "replies":[
             {
-                "text":"Why did the do that?",
+                "text":"Why did they do that?",
                 "nextPhraseID":"umar_guild03_11a"
             },
             {
@@ -2792,7 +2792,7 @@
     },
     {
         "id":"umar_guild03_12",
-        "message":"There's more. Two days ago the Duleian road was closed, because there was a murder. Soldiers are trying to prevent the murderer from escaping to the west.",
+        "message":"There's more. Two days ago the southern route from here to the Duleian road was closed, because there was a murder. Soldiers are trying to prevent the murderer from escaping to the west.",
         "replies":[
             {
                 "text":"And you think the traitors are involved in that?",
@@ -2899,7 +2899,7 @@
     },
     {
         "id":"umar_guild03_18a",
-        "message":"Probably people near the Duleian road guard posts know more. See if you can ask them for tips.",
+        "message":"Probably people near the Duleian road guard tower know more. See if you can ask them for tips.",
         "replies":[
             {
                 "text":"Whatever. I'll find him.",
@@ -2920,7 +2920,7 @@
     },
     {
         "id":"umar_guild03_18b",
-        "message":"Maybe, but it will be faster if you question people near the Duleian road guard post. The Duleian road is the place where we think he was last seen.",
+        "message":"Maybe, but it will be faster if you question people near the Duleian road guard tower. The Duleian road is the place where we think he was last seen.",
         "replies":[
             {
                 "text":"OK, I will ask there.",
@@ -3842,14 +3842,14 @@
         "switchToNPC":"g03_crackshot_dying",
         "replies":[
             {
-                "text":"What?!",
+                "text":"What?",
                 "nextPhraseID":"guild03_hideout3_exit_2"
             }
         ]
     },
     {
         "id":"guild03_hideout3_exit_2",
-        "message":"(The dying Crackshot is agonizing.He looks to you despairingly)\nIt is curs...sed.",
+        "message":"(The dying Crackshot is in agony. He looks at you despairingly)\nIt is curs...sed.",
         "replies":[
             {
                 "text":"What are you talking about?",
@@ -3859,10 +3859,10 @@
     },
     {
         "id":"guild03_hideout3_exit_3",
-        "message":"The key is cursed...She...I am... (Crackshot finally dies, emmiting a soft bluish breath)\n",
+        "message":"The key is cursed...She...I am... (Crackshot finally dies, emitting a soft bluish breath)\n",
         "replies":[
             {
-                "text":"Bah...Too much questions.I need to come back.",
+                "text":"Bah...Too many questions. I need to come back.",
                 "nextPhraseID":"X"
             }
         ],
@@ -4167,7 +4167,7 @@
                 "nextPhraseID":"umar_guild03_31a"
             },
             {
-                "text":"Count with me in for the next job.",
+                "text":"Count me in for the next job.",
                 "nextPhraseID":"umar_guild03_31b"
             },
             {
@@ -4654,7 +4654,7 @@
     },
     {
         "id":"guild03_hideout3_lockmessage",
-        "message":"A mysterious force prevents you from unlocking the door."
+        "message":"Something prevents the key from turning, so you cannot unlock the door."
     },
     {
         "id":"guild03_hideout3_lock3",
@@ -4713,6 +4713,20 @@
                 "rewardType":"activateMapObjectGroup",
                 "rewardID":"Keys2",
                 "mapName":"crackshot_hideout3"
+            }
+        ]
+    },
+    {
+        "id":"umar_guild02_27d",
+        "message":"I'm afraid all the beds at the guild are taken for the night. We have arrangements at the inn in town though. If you tell tham Umar sent you then you will not have to pay for a bed.",
+        "replies":[
+            {
+                "text":"OK. Thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll do that.",
+                "nextPhraseID":"X"
             }
         ]
     }

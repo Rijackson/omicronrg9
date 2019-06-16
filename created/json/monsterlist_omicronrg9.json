@@ -157,7 +157,7 @@
     },
     {
         "id":"g03_crackshot",
-        "name":"Abducted Crackshot",
+        "name":"Crackshot",
         "iconID":"monsters_ld1:80",
         "maxHP":133,
         "maxAP":10,
