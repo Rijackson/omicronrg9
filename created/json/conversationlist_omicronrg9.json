@@ -1666,7 +1666,7 @@
     },
     {
         "id":"Feygard_BG_guild02_2a",
-        "message":"Sorry, I'm not able to decide who passes. This barricade will be here until we catch or kill the criminal.\n\n(You take a look into your map.There seems to be another way to reach Fallhaven,heading up to the North)",
+        "message":"Sorry, I'm not able to decide who passes. This barricade will be here until we catch or kill the criminal.\n\n(You take a look into your map. There seems to be another way to reach Fallhaven, heading up to the North)",
         "replies":[
             {
                 "text":"OK, thank you anyway.",
@@ -2092,7 +2092,7 @@
     },
     {
         "id":"ambelie_guild02_7b",
-        "message":"(Ambelie seems to be resting,dead to the world.The entire room is quiet.You really don't like this cold place)",
+        "message":"(Ambelie seems to be resting, dead to the world. The entire room is quiet. You really don't like this cold place)",
         "replies":[
             {
                 "text":"Leave.",
@@ -2102,7 +2102,7 @@
     },
     {
         "id":"ambelie_guild02_7a",
-        "message":"(You take a look at the cell.Ambelie has awakened.When she looks at you,her face turns pale)",
+        "message":"(You take a look at the cell. Ambelie has awakened. When she looks at you, her face turns pale)",
         "switchToNPC":"ambelie",
         "replies":[
             {
@@ -2110,45 +2110,45 @@
                 "nextPhraseID":"ambelie_guild02_8"
             },
             {
-                "text":"Hey,you! Take your food quickly,I have not time to waste!",
+                "text":"Hey, you! Take this food quickly, I have no time to waste!",
                 "nextPhraseID":"ambelie_guild02_8"
             }
         ]
     },
     {
         "id":"ambelie_guild02_8",
-        "message":"Wh...What do you want?! What you have done to me?! Where in the world am I?! Answer me!!",
+        "message":"Wh...What do you want? What you have done to me? Where in the world am I? Answer me!",
         "replies":[
             {
                 "text":"That does not concern you.Take this food please.",
                 "nextPhraseID":"ambelie_guild02_9a"
             },
             {
-                "text":"Look,if you don't shut up I will silence you by my own way,ok?",
+                "text":"Look, if you don't shut up I will silence you my own way, OK?",
                 "nextPhraseID":"ambelie_guild02_9b"
             }
         ]
     },
     {
         "id":"ambelie_guild02_9b",
-        "message":"Don't hurt me please!! I will be quiet.",
+        "message":"Don't hurt me please! I will be quiet.",
         "replies":[
             {
-                "text":"Now take this food...WIthout complaint!",
+                "text":"Now take this food... Without complaining!",
                 "nextPhraseID":"ambelie_guild02_9a"
             }
         ]
     },
     {
         "id":"ambelie_guild02_9a",
-        "message":"Food you say? ",
+        "message":"Food, you say? ",
         "replies":[
             {
-                "text":"Yes,that's what I said.",
+                "text":"Yes, that's what I said.",
                 "nextPhraseID":"ambelie_guild02_10"
             },
             {
-                "text":"Are you deaf or something? Take this bread and stop bothering!",
+                "text":"Are you deaf or something? Take this bread and stop bothering me!",
                 "nextPhraseID":"ambelie_guild02_11"
             }
         ]
@@ -2186,7 +2186,7 @@
     },
     {
         "id":"ambelie_guild02_12",
-        "message":"Th..thanks.Now. please tell me,Where am I?",
+        "message":"Th..thanks. Now, please tell me, where am I?",
         "replies":[
             {
                 "text":"Sorry, but I cannot reveal that to you right now. Bye.",
@@ -2211,7 +2211,7 @@
     },
     {
         "id":"ambelie_guild02_14",
-        "message":"(You look again through the bars.Ambelie is still there,alive and gnawing on the bread you've given her before.)"
+        "message":"(You look again through the bars. Ambelie is still there, alive, and gnawing on the bread you gave her earlier.)"
     },
     {
         "id":"troublemaker_guild02_9",
